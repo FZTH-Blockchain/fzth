@@ -6,7 +6,7 @@ language: 'zh-tw'
 words_per_minute: 200
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /fzth/
+baseurl: /
 
 # Website info
 title: FromZeroToHero-Blockchain # 官網標題
