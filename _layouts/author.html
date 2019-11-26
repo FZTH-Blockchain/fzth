@@ -27,15 +27,15 @@ logo: 'assets/images/fzth.png'
                     <h2 class="author-bio">{{ author[1].bio }}</h2>
                 {% endif %}
                 <div class="author-meta">
-                    {% if author[1].location %}
+                    <!-- {% if author[1].location %}
                         <div class="author-location">{{ author[1].location }} <span class="bull">&bull;</span></div>
-                    {% endif %}
+                    {% endif %} -->
                     <div class="author-stats">
                         {% if paginator.total_posts == 0 %}No posts{% elsif paginator.total_posts == 1 %}1 post{% else %}{{ paginator.total_posts }} posts{% endif %} <span class="bull">&bull;</span>
                     </div>
-                    {% if author[1].url %}
+                    <!-- {% if author[1].url %}
                         <a class="social-link social-link-wb" href="{{ author[1].url_full }}" target="_blank" rel="noopener">{% include website.html %}</a>
-                    {% endif %}
+                    {% endif %} -->
                     {% if author[1].twitter %}
                         <a class="social-link social-link-tw" href="https://twitter.com/{{ author[1].twitter }}" target="_blank" rel="noopener">{% include twitter.html %}</a>
                     {% endif %}
