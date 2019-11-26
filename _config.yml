@@ -13,8 +13,8 @@ title: FromZeroToHero-Blockchain # 官網標題
 description: 面對於一項不專業的項目，從零開始都是十分的不容易的。<br>From Zero To Hero 將會帶各位「從零開始直到成為英雄」。
 cover: assets/images/blog-cover.jpg
 logo: assets/images/fzth.png
-logo_dark: assets/images/favicon.png
-favicon: assets/images/favicon.png
+logo_dark: assets/images/fzth.png
+favicon: assets/images/fzth.png
 production_url: https://fzth-blockchain.github.io/fzth/
 source_url: https://fzth-blockchain.github.io/fzth/
 CNAME: #add cname for website to be created
