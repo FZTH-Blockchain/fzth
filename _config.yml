@@ -9,10 +9,10 @@ words_per_minute: 200
 baseurl: /fzth/
 
 # Website info
-title: FromZeroToHero-Blockchain
-description: The professional publishing platform
+title: FromZeroToHero-Blockchain # 官網標題
+description: 面對於一項不專業的項目，從零開始都是十分的不容易的。<br>From Zero To Hero 將會帶各位「從零開始直到成為英雄」。
 cover: assets/images/blog-cover.jpg
-logo: assets/images/blog-icon.png
+logo: assets/images/fzth.png
 logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
 production_url: https://fzth-blockchain.github.io/fzth/
@@ -71,7 +71,7 @@ safe: False
 lsi: False
 username: fzth
 repo: fzth
-branch: master
+branch: master # 分支
 relative_source: ../fzth/
 destination: ../fzth-pages/
 production_url:  https://fzth-blockchain.github.io/fzth/
