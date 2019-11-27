@@ -6,7 +6,7 @@ language: 'zh-tw'
 words_per_minute: 200
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /
+baseurl: /fzth/
 
 # Website info
 title: FromZeroToHero-Blockchain # 官網標題
@@ -75,7 +75,7 @@ branch: master # 分支
 relative_source: ../fzth/ 
 destination: ../fzth-pages/
 production_url:  https://fzth-blockchain.github.io/fzth/
-source_url:  https://fzth-blockchain.github.io/fzth/
+source_url:  https://github.com/FZTH-Blockchain/fzth/
 
 exclude:
   - assets/css
