@@ -10,4 +10,10 @@ FromZeroToHero 將會帶各位「從零開始直到成為英雄」。
 
 [如何貢獻-第一次加入FZTH就上手](https://fzth-blockchain.github.io/fzth/%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%8A%A0%E5%85%A5fzth%E5%B0%B1%E4%B8%8A%E6%89%8B)
 
-## 
+## 聯絡
+
+- Panda : pandap.d819@gmail.com
+
+## Q&A
+
+There are no QA now ! 
