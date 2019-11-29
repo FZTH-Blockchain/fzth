@@ -1,28 +1,27 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.name | xml_escape }} - Articles</title>
-    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
+    <title> - Articles</title>
+    <description>面對於一項不專業的項目，從零開始都是十分的不容易的。&lt;br&gt;From Zero To Hero 將會帶各位「從零開始直到成為英雄」。</description>
     <link>
-    {{ site.url }}</link>
-    {% for post in site.posts %}
-      {% unless post.link %}
+    </link>
+    
+      
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        {% if post.excerpt %}
-          <description>{{ post.excerpt | xml_escape }}</description>
-        {% else %}
-          <description>{{ post.content | xml_escape }}</description>
-        {% endif %}
-        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <title>第一次加入FZTH就上手</title>
+        
+          <description>&lt;blockquote&gt;
+  &lt;p&gt;此篇為範例導覽，若有任何問題請至&lt;a href=&quot;https://www.facebook.com/fzthblockchain/&quot;&gt;粉絲專頁&lt;/a&gt;亦或是 &lt;a href=&quot;https://github.com/FZTH-Blockchain/fzth&quot;&gt;Github&lt;/a&gt; 上提 Issue。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+        
+        <pubDate>Tue, 26 Nov 2019 00:00:00 +0000</pubDate>
         <link>
-        {{ site.url }}{{ post.url }}</link>
-        <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+        /%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%8A%A0%E5%85%A5fzth%E5%B0%B1%E4%B8%8A%E6%89%8B</link>
+        <guid isPermaLink="true">/%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%8A%A0%E5%85%A5fzth%E5%B0%B1%E4%B8%8A%E6%89%8B</guid>
       </item>
-      {% endunless %}
-    {% endfor %}
+      
+    
   </channel>
 </rss>

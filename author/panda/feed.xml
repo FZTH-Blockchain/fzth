@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
+  <link href="/fzth/author/panda/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/fzth/" rel="alternate" type="text/html" />
+  <updated>2019-11-29T07:54:43+00:00</updated>
+  <id>/fzth/author/panda/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">FromZeroToHero-Blockchain | </title>
+  
+
+  
+    <subtitle>面對於一項不專業的項目，從零開始都是十分的不容易的。&lt;br&gt;From Zero To Hero 將會帶各位「從零開始直到成為英雄」。</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">第一次加入FZTH就上手</title>
+      <link href="/fzth/%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%8A%A0%E5%85%A5fzth%E5%B0%B1%E4%B8%8A%E6%89%8B" rel="alternate" type="text/html" title="第一次加入FZTH就上手" />
+      <published>2019-11-26T00:00:00+00:00</published>
+      <updated>2019-11-26T00:00:00+00:00</updated>
+      <id>/fzth/%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%8A%A0%E5%85%A5fzth%E5%B0%B1%E4%B8%8A%E6%89%8B</id>
+      <content type="html" xml:base="/fzth/%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%8A%A0%E5%85%A5fzth%E5%B0%B1%E4%B8%8A%E6%89%8B">&lt;blockquote&gt;
+  &lt;p&gt;此篇為範例導覽，若有任何問題請至&lt;a href=&quot;https://www.facebook.com/fzthblockchain/&quot;&gt;粉絲專頁&lt;/a&gt;亦或是 &lt;a href=&quot;https://github.com/FZTH-Blockchain/fzth&quot;&gt;Github&lt;/a&gt; 上提 Issue。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;./assets/images/panda-2.png&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;center&gt;&lt;strong&gt;圖1 FZTH Github&lt;/strong&gt;&lt;/center&gt;
+
+&lt;h2 id=&quot;如何和社群互動&quot;&gt;如何和社群互動&lt;/h2&gt;
+
+&lt;p&gt;關於社群互動這部分，FromZeroToHero 將會是一個新人成為英雄的一個過程，而這個過程不僅是你/妳們成長的過程、也是更多人成長的過程，我們希望大家都能為了更多的新人、更多得不到資訊的人，貢獻自己的心力。&lt;/p&gt;
+
+&lt;p&gt;具體來說，我們會在官方網站以及 Facebook 粉絲專頁上發佈&lt;strong&gt;最新的文章&lt;/strong&gt;並給予 &lt;strong&gt;Tags（分類）&lt;/strong&gt;，讓每位互動者/讀者都能更好的找自己想要的分類，也歡迎在 Facebook 給予我們反饋。&lt;/p&gt;
+
+&lt;p&gt;現階段，我們將以 Pull Request(PR) 為目前更新文章之主要方式，那接下來我將手把手帶領各位進入 FZTH !&lt;/p&gt;
+
+&lt;h2 id=&quot;pr-教學&quot;&gt;PR 教學&lt;/h2&gt;
+
+&lt;p&gt;PR 即為 Pull Request，在 Github 上必須先複製（Fork）一份原作的專案到你自己的 GitHub 帳號底下。&lt;/p&gt;
+
+&lt;p&gt;那自己的 Fork 專案想怎麼玩就怎麼玩，之後你就可以推上自己的 Fork 文件上，發個通知給 FZTH，讓團隊人員來審視這次的 PR 是否 ok，若是 ok 則會將您發起的 PR 合併進團隊文章裡，若不 ok 將會在底下描述為何沒通過的理由。&lt;/p&gt;
+
+&lt;h3 id=&quot;step1---點擊-fork-將專案複製至自己的遠端儲存庫&quot;&gt;Step1 - 點擊 Fork 將專案複製至自己的遠端儲存庫&lt;/h3&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;./assets/images/panda-3.png&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;center&gt;&lt;strong&gt;圖2 Fork 專案至自己的遠端儲存庫&lt;/strong&gt;&lt;/center&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;./assets/images/panda-4.png&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;center&gt;&lt;strong&gt;圖3 即可在自己的遠端資源庫中看到 fzth 的專案&lt;/strong&gt;&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;
+以我為例 就會看到 &lt;em&gt;panda850819 forked from fzth&lt;/em&gt; …&lt;/p&gt;
+
+&lt;h3 id=&quot;step2---clone-專案下載專案&quot;&gt;Step2 - Clone 專案/下載專案&lt;/h3&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;./assets/images/panda-5.png&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;center&gt;&lt;strong&gt;圖4 在自己的專案中按下 Clone 到自己的資料夾&lt;/strong&gt;&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;可以透過 Download ZIP 至你想要的位置解壓縮它&lt;/li&gt;
+  &lt;li&gt;可以透過終端機指令，請先開啟終端機並且輸入底下指令&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ cd desktop &amp;amp;&amp;amp; mkdir fzth &amp;amp;&amp;amp; cd fzth
+// 先將位置移動至桌面並且創立 fzth 資料夾
+
+$ git clone https://github.com/{你的github名稱}/fzth.git
+// 將專案下載至 fzth 資料夾
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;step3---同步-fzth-專案&quot;&gt;Step3 - 同步 Fzth 專案&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;同步遠端專案&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ git remote -v
+// origin https://github.com/panda850819/fzth.git (fetch)
+// origin https://github.com/panda850819/fzth.git (push)
+
+$ git remote add upstream https://github.com/FZTH-Blockchain/fzth.git
+// 新增 upstream 做為新的遠端儲存庫 
+
+$ git remote -v 
+// origin	https://github.com/panda850819/fzth.git (fetch)
+// origin	https://github.com/panda850819/fzth.git (push)
+// upstream	https://github.com/FZTH-Blockchain/fzth.git (fetch)
+// upstream	https://github.com/FZTH-Blockchain/fzth.git (push)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;同步遠端 Fork&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ git fetch upstream
+$ git checkout master 
+$ git merge upstream/master
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;step4---提交-pr-至-fzth&quot;&gt;Step4 - 提交 PR 至 FZTH&lt;/h3&gt;
+
+&lt;p&gt;當我們完成修改之後，我們先將修改後的專案推（&lt;code class=&quot;highlighter-rouge&quot;&gt;push&lt;/code&gt;）到自己的專案中，接下來就是將修改的部分告知 Fzth Team，那就要來提交 PR 拉！&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;記得要先將自己 fork 的專案推上去，才能提交 PR 喔！&lt;/code&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;提交 PR&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;./assets/images/panda-6.png&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;center&gt;&lt;strong&gt;圖5 提交 Pull Request&lt;/strong&gt;&lt;/center&gt;
+
+&lt;p&gt;然後可以在上面輸入摘要跟主題，接下來就等著團隊給予回覆囉！&lt;/p&gt;
+
+&lt;h2 id=&quot;小結&quot;&gt;小結&lt;/h2&gt;
+&lt;p&gt;透過幾個小小步驟，我們將了解如何 Fork 專案以及 Clone 專案，並且繳交自己的 Pull Request 給 Fzth Team。&lt;/p&gt;
+
+&lt;p&gt;希望大家能一起為這個社群做貢獻，若有任何想要瞭解的也可以至官方網站、Facebook 觀看我們的文章和我們一起討論，最後 Fzth－Blockchain 從零開始學區塊鏈為區塊鏈之學習新遊樂場，透過整理過往資源、翻譯原文文章 ..等，打算將區塊鏈之學習地圖透過我們的雙手慢慢地畫出。主題圍繞在區塊鏈（Blockchain）、Crypto（加密）.. 等，若大家對我們有興趣也請不吝嗇的提交 PR 給我們和意見給我們!&lt;/p&gt;
+
+&lt;h2 id=&quot;參考文獻&quot;&gt;參考文獻&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gitbook.tw/chapters/github/pull-request.html&quot;&gt;為你自己學Git&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.itread01.com/content/1544771540.html?fbclid=IwAR2s4ATwibiiKRS3DYBnNsaNVuQeedOovTKZyGY9iaVqUukTDZppXzGu35w&quot;&gt;git如何同步fork專案&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Panda</name>
+        
+        
+      </author>
+
+      
+
+      
+
+      
+        <summary type="html">此篇為範例導覽，若有任何問題請至粉絲專頁亦或是 Github 上提 Issue。</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
