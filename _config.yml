@@ -69,7 +69,7 @@ feed:
 # or "master" otherwise
 safe: False
 lsi: False
-username: fzth
+username: FZTH-Blockchain
 repo: fzth
 branch: master # 分支
 relative_source: ../fzth/ 
