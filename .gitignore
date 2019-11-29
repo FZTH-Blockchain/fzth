@@ -17,7 +17,6 @@
 *.rbc
 .bundle
 .config
-.travis.yml
 coverage
 InstalledFiles
 lib/bundler/man
