@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="/fzth/tag/blockchain/feed.xml" rel="self" type="application/atom+xml" />
   <link href="/fzth/" rel="alternate" type="text/html" />
-  <updated>2019-12-02T08:51:17+00:00</updated>
+  <updated>2019-12-02T15:42:51+00:00</updated>
   <id>/fzth/tag/blockchain/feed.xml</id>
 
   
@@ -30,6 +30,206 @@
   
   
 
+  
+    <entry>
+      <title type="html">區塊鏈 3.0 應用起飛</title>
+      <link href="/fzth/%E5%8D%80%E5%A1%8A%E9%8F%88-3.0-%E6%87%89%E7%94%A8%E8%B5%B7%E9%A3%9B" rel="alternate" type="text/html" title="區塊鏈 3.0 應用起飛" />
+      <published>2019-12-02T00:00:00+00:00</published>
+      <updated>2019-12-02T00:00:00+00:00</updated>
+      <id>/fzth/%E5%8D%80%E5%A1%8A%E9%8F%88%203.0%20%E6%87%89%E7%94%A8%E8%B5%B7%E9%A3%9B%3F</id>
+      <content type="html" xml:base="/fzth/%E5%8D%80%E5%A1%8A%E9%8F%88-3.0-%E6%87%89%E7%94%A8%E8%B5%B7%E9%A3%9B">&lt;blockquote&gt;
+  &lt;p&gt;你們可能會覺得很奇怪，為什麼一開始要講區塊鏈 3.0 呢？
+是不是還有區塊鏈 1.0 和 2.0 呢？經過昨天我們已經知道區塊鏈是怎麼組成的&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;./assets/images/panda-14.png&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;center&gt;&lt;strong&gt;圖1 區塊鏈組成。&lt;/strong&gt;&lt;/center&gt;
+
+&lt;h2 id=&quot;那今天就來聊聊大家都想聽的區塊鏈應用&quot;&gt;那今天就來聊聊大家都想聽的區塊鏈應用。&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;目錄&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;區塊鏈 3.0&lt;/li&gt;
+    &lt;li&gt;小結&lt;/li&gt;
+    &lt;li&gt;參考資料&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;區塊鏈-30&quot;&gt;區塊鏈 3.0&lt;/h2&gt;
+&lt;p&gt;你們可能會覺得很奇怪，為什麼一開始要講區塊鏈 3.0 呢？
+是不是還有區塊鏈 1.0 和 2.0 呢？
+沒錯 XD 那本篇會先講目前既有之應用，區塊鏈的背景故事留在下篇介紹。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;./assets/images/panda-15.png&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;center&gt;&lt;strong&gt;圖2 區塊鏈應用時代。&lt;/strong&gt;&lt;/center&gt;
+
+&lt;p&gt;在去年 &lt;a href=&quot;https://www.iota.org/&quot;&gt;IOTA&lt;/a&gt; 剛出世的時候，大家都說區塊鏈 3.0 一定是 IOTA，認為IOTA技術可以解決現有區塊鏈的問題 ..&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;./assets/images/panda-16.png&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;center&gt;&lt;strong&gt;圖3 區塊鏈不可能三角。&lt;/strong&gt;&lt;/center&gt;
+
+&lt;p&gt;但這不是我們今天的主軸，我們 3.0 最主要就是要聊能夠深耕世界的應用，我們也稱這種應用叫做 Dapp 。&lt;/p&gt;
+
+&lt;h3 id=&quot;dapp&quot;&gt;Dapp&lt;/h3&gt;
+
+&lt;p&gt;有著智能合約和區塊鏈之應用誕生，區塊鏈的應用發展突然十分的廣泛。
+那我會介紹一些現在的應用，且講一下優缺點。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;食安區塊鏈&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;利用區塊鏈來做紀錄，將產銷履歷之紀錄透明化。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;優點：食品的生產履歷透明化，可以讓消費者更好了解自己購買的食品過程，且不被竄改。&lt;/li&gt;
+  &lt;li&gt;缺點：每一筆記錄之手續費過高;若第一筆紀錄的內容本身就有誤，那此紀錄就是無用紀錄。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;./assets/images/panda-17.png&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;center&gt;&lt;strong&gt;圖4 食安區塊鏈。&lt;/strong&gt;&lt;/center&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;證書上鏈&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.facebook.com/TuringCerts-%E5%9C%96%E9%9D%88%E8%AD%89%E6%9B%B8-101585707884659/&quot;&gt;圖靈證書&lt;/a&gt;由台灣團隊 &lt;a href=&quot;https://turingchain.tech/&quot;&gt;Turing Chain&lt;/a&gt; 開發，將證書上鏈打擊假履歷和學歷。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;優點：公開紀錄履歷、學歷不可被竄改，透過區塊鏈特性可以在特定條件再提供自己的履歷/學歷。&lt;/li&gt;
+  &lt;li&gt;缺點：一樣是源頭問題，當源頭有錯誤所有的內容都會被審視。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;./assets/images/panda-18.png&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;center&gt;&lt;strong&gt;圖5 圖靈鏈證書 0x1&lt;/strong&gt;&lt;/center&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;區塊鏈卡牌遊戲&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;有著區塊鏈爐石戰記之稱的 &lt;a href=&quot;https://godsunchained.info/&quot;&gt;Gods Unchained&lt;/a&gt;，透過將卡牌上鏈且採用 ERC721 標準賦予卡牌全新的價值，且可以交換。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;優點：算是一種區塊鏈和現實遊戲中的虛實整合，讓虛擬中的卡牌有了定位和價值。&lt;/li&gt;
+  &lt;li&gt;缺點：除了卡片為 ERC721 購買卡牌及交易可以用以太幣以外，不清楚哪裡用了區塊鏈。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;./assets/images/panda-19.png&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;center&gt;&lt;strong&gt;圖6 Gods Unchained&lt;/strong&gt;&lt;/center&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;區塊鏈打擊假新聞&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;台灣團隊 &lt;a href=&quot;https://www.facebook.com/profile.php?id=2397871380492872&quot;&gt;ASMOND&lt;/a&gt; 以打擊假新聞為發想之POC - &lt;a href=&quot;https://medium.com/asmond/%E7%B4%90%E7%B4%84%E6%99%82%E5%A0%B1%E6%8E%A1%E7%94%A8%E5%8D%80%E5%A1%8A%E9%8F%88%E6%89%93%E6%93%8A%E5%81%87%E6%96%B0%E8%81%9E-7870ae7a7bad&quot;&gt;White Box&lt;/a&gt;。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;優點：透過人工智能之驗證及判斷結合區塊鏈之不可篡改特性，使得每篇新聞之信效度將會大幅提升。&lt;/li&gt;
+  &lt;li&gt;缺點：仍然有許多人不覺得假新聞是假新聞;區塊鏈之成本過高;人工智能之數據量需要充足且符合預期。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;./assets/images/panda-20.png&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;center&gt;&lt;strong&gt;圖7 WhiteBox&lt;/strong&gt;&lt;/center&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;博弈遊戲
+已博弈遊戲著名的 Dapp 那就是我們風靡一時的 Fomo3d。
+現在 Fomo3d 的函式庫和內容，都有人 Release 出來，有興趣的朋友可以自行前去觀賞。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;優缺點 ：資金盤採用區塊鏈，很潮。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;./assets/images/panda-21.png&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;center&gt;&lt;strong&gt;圖8 fomo3d&lt;/strong&gt;&lt;/center&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;鏈上公益計劃&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;阿里巴巴則希望借著「鏈上公益計劃」打造出最純粹、透明的公益。區塊鏈技術具有去中心化、透明度高、信息不可篡改等特性，可以說是完美滿足了公益領域的需求。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;./assets/images/panda-22.png&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;center&gt;&lt;strong&gt;圖9 鏈上公益計劃&lt;/strong&gt;&lt;/center&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;小結&quot;&gt;小結&lt;/h2&gt;
+
+&lt;p&gt;根據上述的許多創意和想法，大多皆採用了區塊鏈的幾大特性（不可篡改性、去中心化、匿名性），而筆者認為區塊鏈最原始之架構即為一個點對點式之分散式資料庫應用，起初比特幣系統即是用來支付若解決了支付上的大多問題。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;做產品的人和信任區塊鏈的人，請不要為了區塊鏈而去做區塊鏈，這樣會導致初心不同，內容很和質量就會變得很差。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;若文章有任何的問題或要討論的部分，歡迎在底下留言。
+歡迎透過 &lt;code class=&quot;highlighter-rouge&quot;&gt;Email: pandap.d819@gamil.com&lt;/code&gt; 聯絡我&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;參考資料&quot;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.samsonhoi.com/629/blockchain-impossible-triangle&quot;&gt;區塊鏈不可能三角&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.iota.org/&quot;&gt;IOTA&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://turingchain.tech/&quot;&gt;Turing Chain&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://godsunchained.info/&quot;&gt;GodsUnchained&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.facebook.com/asmondtw/&quot;&gt;ASMOND&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Panda</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="blockchain" />
+      
+
+      
+        <summary type="html">你們可能會覺得很奇怪，為什麼一開始要講區塊鏈 3.0 呢？ 是不是還有區塊鏈 1.0 和 2.0 呢？經過昨天我們已經知道區塊鏈是怎麼組成的</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">從零開始的區塊鏈</title>
