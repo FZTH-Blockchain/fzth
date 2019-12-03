@@ -1,7 +1,82 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="/fzth/feed.xml" rel="self" type="application/atom+xml" /><link href="/fzth/" rel="alternate" type="text/html" /><updated>2019-12-03T06:48:10+00:00</updated><id>/fzth/</id><title type="html">FromZeroToHero-Blockchain</title><subtitle>面對於一項不專業的項目，從零開始都是十分的不容易的。&lt;br&gt;From Zero To Hero 將會帶各位「從零開始直到成為英雄」。</subtitle><entry><title type="html">區塊鏈 3.0 應用起飛</title><link href="/fzth/%E5%8D%80%E5%A1%8A%E9%8F%88-3.0-%E6%87%89%E7%94%A8%E8%B5%B7%E9%A3%9B" rel="alternate" type="text/html" title="區塊鏈 3.0 應用起飛" /><published>2019-12-02T00:00:00+00:00</published><updated>2019-12-02T00:00:00+00:00</updated><id>/fzth/%E5%8D%80%E5%A1%8A%E9%8F%88%203.0%20%E6%87%89%E7%94%A8%E8%B5%B7%E9%A3%9B%3F</id><content type="html" xml:base="/fzth/%E5%8D%80%E5%A1%8A%E9%8F%88-3.0-%E6%87%89%E7%94%A8%E8%B5%B7%E9%A3%9B">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="/fzth/feed.xml" rel="self" type="application/atom+xml" /><link href="/fzth/" rel="alternate" type="text/html" /><updated>2019-12-03T17:02:12+00:00</updated><id>/fzth/</id><title type="html">FromZeroToHero-Blockchain</title><subtitle>面對於一項不專業的項目，從零開始都是十分的不容易的。&lt;br&gt;From Zero To Hero 將會帶各位「從零開始直到成為英雄」。</subtitle><entry><title type="html">區塊鏈的演進？讓我們一探究竟</title><link href="/fzth/%E5%8D%80%E5%A1%8A%E9%8F%88%E7%9A%84%E6%BC%94%E9%80%B2%E8%AE%93%E6%88%91%E5%80%91%E4%B8%80%E6%8E%A2%E7%A9%B6%E7%AB%9F" rel="alternate" type="text/html" title="區塊鏈的演進？讓我們一探究竟" /><published>2019-12-03T00:00:00+00:00</published><updated>2019-12-03T00:00:00+00:00</updated><id>/fzth/%E5%8D%80%E5%A1%8A%E9%8F%88%E7%9A%84%E6%BC%94%E9%80%B2%E8%AE%93%E6%88%91%E5%80%91%E4%B8%80%E6%8E%A2%E7%A9%B6%E7%AB%9F</id><content type="html" xml:base="/fzth/%E5%8D%80%E5%A1%8A%E9%8F%88%E7%9A%84%E6%BC%94%E9%80%B2%E8%AE%93%E6%88%91%E5%80%91%E4%B8%80%E6%8E%A2%E7%A9%B6%E7%AB%9F">&lt;blockquote&gt;
+  &lt;p&gt;上一篇聊到了區塊鏈 3.0 是在做應用，那該不會 3.0 之前都在打哈哈吧？ 讓我們一探區塊鏈之全貌吧！
+&lt;a href=&quot;https://fzth-blockchain.github.io/fzth/%E5%8D%80%E5%A1%8A%E9%8F%88-3.0-%E6%87%89%E7%94%A8%E8%B5%B7%E9%A3%9B&quot;&gt;區塊鏈 3.0 應用起飛&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;前言&quot;&gt;前言&lt;/h2&gt;
+
+&lt;p&gt;我們主要會將區塊鏈分成區塊鏈 1.0 、 2.0 、 3.0 來介紹，區塊鏈這個概念起初是由中本聰發起之 Bitcoin 白皮書，這也是我們常說的區塊鏈 1.0。之後有了以太坊的誕生我們稱它為區塊鏈 2.0。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;./assets/images/panda-23.png&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;center&gt;&lt;strong&gt;圖1 區塊鏈演進。&lt;/strong&gt;&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;貼心提醒&quot;&gt;貼心提醒&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;在中本聰論文中，並未提及 &lt;code class=&quot;highlighter-rouge&quot;&gt;blockchain&lt;/code&gt;，只聊到&lt;code class=&quot;highlighter-rouge&quot;&gt;去中心化&lt;/code&gt;及&lt;code class=&quot;highlighter-rouge&quot;&gt;分散式帳本&lt;/code&gt;概念。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;區塊鏈-10&quot;&gt;區塊鏈 1.0&lt;/h2&gt;
+
+&lt;p&gt;我們都知道中本聰當初是為了想要把中心化極權變成去中心化才採用了點對點（P2P）的方式介紹了這個去中心化分散式帳本系統，而在當初大家開始嘗試了挖礦、支付（當時第一筆交易支付是用了 10,000 Bitcoin 兌換了一塊 pizza，換算成美金大約是 1億美金約台幣30億 XD），我們也會說當初最象徵性的比特幣支付為比特幣 1.0 之代稱。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;./assets/images/panda-24.png&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;center&gt;&lt;strong&gt;圖2 區塊鏈 1.0。&lt;/strong&gt;&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;區塊鏈-20&quot;&gt;區塊鏈 2.0&lt;/h2&gt;
+
+&lt;p&gt;在當時有一個小男孩叫做 Vitalik（後人稱之為 V 神），在大學期間花超過兩年時間研究比特幣，期間也包括共同創辦了密碼貨幣社群廣為人知的比特幣雜誌 Bitcoin Magazine，主要提供任何與比特幣相關的資訊，由於太過熱衷於參與社群，還因此輟學開始全職在該領域工作。&lt;/p&gt;
+
+&lt;p&gt;從那時開始他更了解了區塊鏈技術不應該只是用來支付，而以太坊（Ethereum）也在當時的討論中誕生了。&lt;/p&gt;
+
+&lt;p&gt;以太坊採用了一項新的技術名為智能合約（Smart Contract），讓區塊鏈上的事情都公開透明讓代碼（Code）可以自動去運行，簡化掉許多不必要之過程，並且一切都公開透明。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;智能合約&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;我們可以把智能合約想像成「自動販賣機」，這樣比較容易理解它的功用及運作方式。&lt;/p&gt;
+
+&lt;p&gt;你投入了一枚以太幣，合約去幫你執行購買飲料之合約，並會幫你檢查有沒有不符合合約之條件，若符合即會實現購買飲料此事件。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;./assets/images/panda-25.png&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;center&gt;&lt;strong&gt;圖3 區塊鏈 2.0。&lt;/strong&gt;&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;小結&quot;&gt;小結&lt;/h2&gt;
+
+&lt;p&gt;今天稍微聊了昨天的區塊鏈 3.0 以及 1.0 和 2.0 之過往經歷，希望這篇可以讓更多的朋友了解到區塊鏈過程中的歷史，雖說是歷史但比特幣和以太坊仍十分活躍（幣價維持第一及第二名 XD）。&lt;/p&gt;
+
+&lt;p&gt;有著比特幣的支付功能，加上以太坊智能合約之透明公開概念，讓許多的應用可以更好地去打造、去實現，我想這是以太坊當初想要達到目的之一 ~&lt;/p&gt;
+
+&lt;p&gt;若文章有任何的問題或要討論的部分，歡迎在底下留言。
+歡迎透過 &lt;code class=&quot;highlighter-rouge&quot;&gt;Email: pandap.d819@gamil.com&lt;/code&gt; 聯絡我。&lt;/p&gt;
+
+&lt;h2 id=&quot;參考資料&quot;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E6%AF%94%E7%89%B9%E5%B8%81&quot;&gt;比特幣&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ethereum.org/&quot;&gt;以太坊&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/taipei-ethereum-meetup/%E5%B7%A5%E7%A8%8B%E5%B8%AB%E8%A6%96%E8%A7%92-%E4%BB%80%E9%BA%BC%E6%98%AF%E5%8D%80%E5%A1%8A%E9%8F%88%E7%9A%84-smart-contract-d488308f461d&quot;&gt;智能合約&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Panda</name></author><category term="blockchain" /><summary type="html">上一篇聊到了區塊鏈 3.0 是在做應用，那該不會 3.0 之前都在打哈哈吧？ 讓我們一探區塊鏈之全貌吧！ 區塊鏈 3.0 應用起飛</summary></entry><entry><title type="html">區塊鏈 3.0 應用起飛</title><link href="/fzth/%E5%8D%80%E5%A1%8A%E9%8F%88-3.0-%E6%87%89%E7%94%A8%E8%B5%B7%E9%A3%9B" rel="alternate" type="text/html" title="區塊鏈 3.0 應用起飛" /><published>2019-12-02T00:00:00+00:00</published><updated>2019-12-02T00:00:00+00:00</updated><id>/fzth/%E5%8D%80%E5%A1%8A%E9%8F%88%203.0%20%E6%87%89%E7%94%A8%E8%B5%B7%E9%A3%9B%3F</id><content type="html" xml:base="/fzth/%E5%8D%80%E5%A1%8A%E9%8F%88-3.0-%E6%87%89%E7%94%A8%E8%B5%B7%E9%A3%9B">&lt;blockquote&gt;
   &lt;p&gt;你們可能會覺得很奇怪，為什麼一開始要講區塊鏈 3.0 呢？
 是不是還有區塊鏈 1.0 和 2.0 呢？經過昨天我們已經知道區塊鏈是怎麼組成的&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://fzth-blockchain.github.io/fzth/%E5%BE%9E%E9%9B%B6%E9%96%8B%E5%A7%8B%E7%9A%84%E5%8D%80%E5%A1%8A%E9%8F%88&quot;&gt;從零開始的區塊鏈&lt;/a&gt;&lt;/p&gt;
 
 &lt;div align=&quot;center&quot;&gt;
     &lt;img src=&quot;./assets/images/panda-14.png&quot; style=&quot;width:100%&quot; /&gt;
