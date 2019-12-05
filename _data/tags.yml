@@ -14,3 +14,11 @@ blockchain:
   name: blockchain
   description: False
   cover: False
+tech:
+  name: tech
+  description: False
+  cover: False
+industry:
+  name: industry
+  description: False
+  cover: False
