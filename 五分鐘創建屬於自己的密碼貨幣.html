@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Document Settings -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Base Meta -->
+    <!-- dynamically fixing the title for tag/author pages -->
+
+
+
+    <title>五分鐘創建屬於自己的密碼貨幣</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Styles'n'Scripts -->
+    <link rel="stylesheet" type="text/css" href="/fzth/assets/built/screen.css" />
+    <link rel="stylesheet" type="text/css" href="/fzth/assets/built/screen.edited.css" />
+    <link rel="stylesheet" type="text/css" href="/fzth/assets/built/syntax.css" />
+    <!-- highlight.js -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+    <style>.hljs { background: none; }</style>
+
+    <!--[if IE]>
+        <style>
+            p, ol, ul{
+                width: 100%;
+            }
+            blockquote{
+                width: 100%;
+            }
+        </style>
+    <![endif]-->
+    
+    <!-- This tag outputs SEO meta+structured data and other important settings -->
+    <meta name="description" content="面對於一項不專業的項目，從零開始都是十分的不容易的。<br>From Zero To Hero 將會帶各位「從零開始直到成為英雄」。" />
+    <link rel="shortcut icon" href="/fzth/assets/images/fzth.png" type="image/png" />
+    <link rel="canonical" href="/fzth/%E4%BA%94%E5%88%86%E9%90%98%E5%89%B5%E5%BB%BA%E5%B1%AC%E6%96%BC%E8%87%AA%E5%B7%B1%E7%9A%84%E5%AF%86%E7%A2%BC%E8%B2%A8%E5%B9%A3" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+
+     <!--title below is coming from _includes/dynamic_title-->
+    <meta property="og:site_name" content="FromZeroToHero-Blockchain" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="五分鐘創建屬於自己的密碼貨幣" />
+    <meta property="og:description" content="2017 年至 2018 年吵得轟轟烈烈的 ICO（Initial Coin Offering），那他們募資的虛擬貨幣是如何創造的呢？很困難嗎？你說昨天教的錢包會用得上?! 那就跟著我們的腳步，一起看下去吧！ 若想要部署自己的虛擬貨幣至主網上，請點選右上角的 Networks — 選擇 Main Ethereum Network ! 圖1 Ropsten Test Network。 此篇的教學會採用 Ethereum Ropsten Test Network，若順利測試成功再進行部署至主網（Main Ethereum Network）會比較安全且省錢喔！ Step 0 必備條件 - MetaMask 錢包 + 足夠的 ETH - Chrome 或是 可以安裝錢包的瀏覽器 密碼貨幣規格(Crypto Currency Spec) - 名稱(Name): NkustCoin - 符號(Symbol): NKC -" />
+    <meta property="og:url" content="/fzth/%E4%BA%94%E5%88%86%E9%90%98%E5%89%B5%E5%BB%BA%E5%B1%AC%E6%96%BC%E8%87%AA%E5%B7%B1%E7%9A%84%E5%AF%86%E7%A2%BC%E8%B2%A8%E5%B9%A3" />
+    <meta property="og:image" content="/fzth/assets/images/panda-37.png" />
+    <meta property="article:publisher" content="https://www.facebook.com/" />
+    <meta property="article:author" content="https://www.facebook.com/" />
+    <meta property="article:published_time" content="2019-12-07T00:00:00+00:00" />
+    <meta property="article:modified_time" content="2019-12-07T00:00:00+00:00" />
+    <meta property="article:tag" content="Blockchain" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="五分鐘創建屬於自己的密碼貨幣" />
+    <meta name="twitter:description" content="2017 年至 2018 年吵得轟轟烈烈的 ICO（Initial Coin Offering），那他們募資的虛擬貨幣是如何創造的呢？很困難嗎？你說昨天教的錢包會用得上?! 那就跟著我們的腳步，一起看下去吧！ 若想要部署自己的虛擬貨幣至主網上，請點選右上角的 Networks — 選擇 Main Ethereum Network ! 圖1 Ropsten Test Network。 此篇的教學會採用 Ethereum Ropsten Test Network，若順利測試成功再進行部署至主網（Main Ethereum Network）會比較安全且省錢喔！ Step 0 必備條件 - MetaMask 錢包 + 足夠的 ETH - Chrome 或是 可以安裝錢包的瀏覽器 密碼貨幣規格(Crypto Currency Spec) - 名稱(Name): NkustCoin - 符號(Symbol): NKC -" />
+    <meta name="twitter:url" content="/fzth/" />
+    <meta name="twitter:image" content="/fzth/assets/images/panda-37.png" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="FromZeroToHero-Blockchain" />
+    <meta name="twitter:label2" content="Filed under" />
+    <meta name="twitter:data2" content="Blockchain" />
+    <meta name="twitter:site" content="@" />
+    <meta name="twitter:creator" content="@" />
+    <meta property="og:image:width" content="1400" />
+    <meta property="og:image:height" content="933" />
+
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Website",
+    "publisher": {
+        "@type": "Organization",
+        "name": "FromZeroToHero-Blockchain",
+        "logo": "/fzth/assets/images/fzth.png"
+    },
+    "url": "/fzth/%E4%BA%94%E5%88%86%E9%90%98%E5%89%B5%E5%BB%BA%E5%B1%AC%E6%96%BC%E8%87%AA%E5%B7%B1%E7%9A%84%E5%AF%86%E7%A2%BC%E8%B2%A8%E5%B9%A3",
+    "image": {
+        "@type": "ImageObject",
+        "url": "/fzth/assets/images/panda-37.png",
+        "width": 2000,
+        "height": 666
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "/fzth/%E4%BA%94%E5%88%86%E9%90%98%E5%89%B5%E5%BB%BA%E5%B1%AC%E6%96%BC%E8%87%AA%E5%B7%B1%E7%9A%84%E5%AF%86%E7%A2%BC%E8%B2%A8%E5%B9%A3"
+    },
+    "description": "2017 年至 2018 年吵得轟轟烈烈的 ICO（Initial Coin Offering），那他們募資的虛擬貨幣是如何創造的呢？很困難嗎？你說昨天教的錢包會用得上?! 那就跟著我們的腳步，一起看下去吧！ 若想要部署自己的虛擬貨幣至主網上，請點選右上角的 Networks — 選擇 Main Ethereum Network ! 圖1 Ropsten Test Network。 此篇的教學會採用 Ethereum Ropsten Test Network，若順利測試成功再進行部署至主網（Main Ethereum Network）會比較安全且省錢喔！ Step 0 必備條件 - MetaMask 錢包 + 足夠的 ETH - Chrome 或是 可以安裝錢包的瀏覽器 密碼貨幣規格(Crypto Currency Spec) - 名稱(Name): NkustCoin - 符號(Symbol): NKC -"
+}
+    </script>
+
+    <!-- <script type="text/javascript" src="https://demo.ghost.io/public/ghost-sdk.min.js?v=724281a32e"></script>
+    <script type="text/javascript">
+    ghost.init({
+    	clientId: "ghost-frontend",
+    	clientSecret: "f84a07a72b17"
+    });
+    </script> -->
+
+    <meta name="generator" content="Jekyll 3.6.2" />
+    <link rel="alternate" type="application/rss+xml" title="五分鐘創建屬於自己的密碼貨幣" href="/fzth/feed.xml" />
+
+
+</head>
+<body class="post-template">
+
+    <div class="site-wrapper">
+        <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
+        <!-- default -->
+
+<!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template -->
+
+<header class="site-header outer">
+    <div class="inner">
+        <nav class="site-nav">
+    <div class="site-nav-left">
+        
+            
+                <a class="site-nav-logo" href="/fzth/"><img src="/fzth/assets/images/fzth.png" alt="FromZeroToHero-Blockchain" /></a>
+            
+        
+        
+            <ul class="nav" role="menu">
+    <li class="nav-home" role="menuitem"><a href="/fzth/">Home</a></li>
+    <li class="nav-about" role="menuitem"><a href="/fzth/about/">About FZTH</a></li>
+    <li class="nav-blockchain" role="menuitem"><a href="/fzth/tag/blockchain/">blockchain</a></li>
+    <li class="nav-tech" role="menuitem"><a href="/fzth/tag/tech/">tech</a></li>
+    <li class="nav-industry" role="menuitem"><a href="/fzth/tag/industry/">industry</a></li>
+    <li class="nav-github" role="menuitem"><a href="https://github.com/FZTH-Blockchain">Github</a></li>
+</ul>
+
+        
+    </div>
+    <div class="site-nav-right">
+        <div class="social-links">
+            
+            
+        </div>
+        
+    </div>
+</nav>
+
+    </div>
+</header>
+
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
+
+<main id="site-main" class="site-main outer" role="main">
+    <div class="inner">
+
+        <article class="post-full post ">
+
+            <header class="post-full-header">
+                <section class="post-full-meta">
+                    <time class="post-full-meta-date" datetime=" 7 December 2019"> 7 December 2019</time>
+                    
+                        <span class="date-divider">/</span>
+                        
+                            
+                               <a href='/fzth/tag/blockchain/'>BLOCKCHAIN</a>,
+                            
+                        
+                            
+                               <a href='/fzth/tag/tech/'>TECH</a>
+                            
+                        
+                    
+                </section>
+                <h1 class="post-full-title">五分鐘創建屬於自己的密碼貨幣</h1>
+            </header>
+
+            
+            <figure class="post-full-image" style="background-image: url(/fzth/assets/images/panda-37.png)">
+            </figure>
+            
+
+            <section class="post-full-content">
+                <div class="kg-card-markdown">
+                    <blockquote>
+  <p>2017 年至 2018 年吵得轟轟烈烈的 ICO（Initial Coin Offering），那他們募資的虛擬貨幣是如何創造的呢？很困難嗎？你說昨天教的錢包會用得上?! 
+那就跟著我們的腳步，一起看下去吧！</p>
+</blockquote>
+
+<blockquote>
+  <p>若想要部署自己的虛擬貨幣至<strong>主網</strong>上，請點選右上角的 Networks — 選擇 Main Ethereum Network !</p>
+</blockquote>
+
+<div align="center">
+    <img src="./assets/images/panda-38.png" style="width:100%" />
+</div>
+
+<center><strong>圖1 Ropsten Test Network。</strong></center>
+
+<p><br /></p>
+
+<p><code class="highlighter-rouge">此篇的教學會採用 Ethereum Ropsten Test Network，若順利測試成功再進行部署至主網（Main Ethereum Network）會比較安全且省錢喔！</code></p>
+
+<h2 id="step-0-必備條件">Step 0 必備條件</h2>
+<pre><code class="language-必備條件">- MetaMask 錢包 + 足夠的 ETH
+- Chrome 或是 可以安裝錢包的瀏覽器
+
+密碼貨幣規格(Crypto Currency Spec)
+- 名稱(Name): NkustCoin
+- 符號(Symbol): NKC
+- 小數點(Decimal Point): 0
+- 代幣總數(Token Amount): 1000
+</code></pre>
+
+<h2 id="step-1-複製貼上大法">Step 1 複製貼上大法</h2>
+<p>請先將 MetaMask 的 NetWork 切換到 Ropsten Test Network，並且到這裡<a href="https://faucet.metamask.io/">領取免費ETH</a>。 
+複製「<a href="https://gist.github.com/panda850819/4300543031b341b58921aa1b009166ce">程式碼(Code)</a>然後將這個貼在「<a href="https://remix.ethereum.org/">智能合約編輯器(Smart Contract Online Editor)</a>」</p>
+
+<div align="center">
+    <img src="./assets/images/panda-39.gif" style="width:100%" />
+</div>
+
+<center><strong>圖2 將程式碼貼至智能合約編輯器。</strong></center>
+
+<p><br /></p>
+
+<h2 id="step2-修改參數">Step2 修改參數</h2>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>修改三個參數（Modify three parameters）
+姓名（Name） / 符號（Symbol） / 小數點（Decimal）
+</code></pre></div></div>
+
+<div align="center">
+    <img src="./assets/images/panda-40.gif" style="width:100%" />
+</div>
+
+<center><strong>圖3 修改合約參數。</strong></center>
+
+<p><br /></p>
+
+<h2 id="step3-部署合約">Step3 部署合約</h2>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>設定代幣總數到 1000(設定多少取決於自己喔！）,然後部署合約到 Etheruem 測試網路。 
+注意：
+1000 with decimal of 2 --&gt; 10.00
+每一個單位為 0.01 共有 1000 個 --&gt; 10.00
+</code></pre></div></div>
+
+<div align="center">
+    <img src="./assets/images/panda-41.gif" style="width:100%" />
+</div>
+
+<center><strong>圖4 部署 ERC-20 智能合約在 Remix IDE。</strong></center>
+
+<p><br /></p>
+
+<h2 id="step4-加入貨幣">Step4 加入貨幣</h2>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1. 複製 Remix 合約地址
+2. 打開 Metamask 錢包
+3. 新增代幣（Add tokens）中貼上合約地址
+我們將會看到剛剛創建的貨幣 :)
+</code></pre></div></div>
+
+<div align="center">
+    <img src="./assets/images/panda-42.gif" style="width:100%" />
+</div>
+
+<center><strong>圖5 將 ERC-20 貨幣加入至錢包中。</strong></center>
+
+<p><br /></p>
+
+<h2 id="小結">小結</h2>
+<p>在短短的五分鐘內，我們就完成發幣的動作，需要歸功於 ERC-20 標準，這個標準為 ERC-20 tokens 定義了一個通用的規則。</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Functions 
+1. 總供應量(totalSupply)
+2. 代幣餘額(balanceOf)
+3. 傳送方(transfer)
+4. 從哪傳送來(transferFrom)
+5. 指定付款方(approve)
+6. 檢查token使用者的代幣數量(allowance)兩個事件
+</code></pre></div></div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Events
+1. 傳送(transfer)
+2. 指定付款方並記錄(Approval)
+</code></pre></div></div>
+<p>讓我們可以快速地使用 Remix 在 Etheruem… 等主網發布自己的虛擬貨幣！
+若想從其他地方查看自己的合約或是貨幣狀況，則需要切換網路（Network），請點選下圖紅框來切換網路！</p>
+<ul>
+  <li>Ethereum 主網：https://etherscan.io/</li>
+  <li>Ropsten 測試網：https://ropsten.etherscan.io/</li>
+</ul>
+
+                </div>
+            </section>
+
+            <!-- Email subscribe form at the bottom of the page -->
+            
+
+            <footer class="post-full-footer">
+                <!-- Everything inside the #author tags pulls data from the author -->
+                <!-- #author-->
+                
+                    
+                        <section class="author-card">
+                            
+                                <img class="author-profile-image" src="/fzth/assets/images/panda.png" alt="panda" />
+                            
+                            <section class="author-card-content">
+                                <h4 class="author-card-name"><a href="/fzth/author/panda">Panda</a></h4>
+                                
+                                    <p>Hi I’m Panda，目前為高科大區塊鏈研究社擔任創社社長、台灣區塊鏈大學聯盟擔任教學副執行長且擅長分享區塊鏈知識與網頁相關技術，未來朝向讓不懂相關技術的人又可以簡易入門的文章。</p>
+                                
+                            </section>
+                        </section>
+                        <div class="post-full-footer-right">
+                            <a class="author-card-button" href="/fzth/author/panda">Read More</a>
+                        </div>
+                    
+                
+                <!-- /author  -->
+            </footer>
+
+            <!-- If you use Disqus comments, just uncomment this block.
+            The only thing you need to change is "test-apkdzgmqhj" - which
+            should be replaced with your own Disqus site-id. -->
+            
+
+        </article>
+
+    </div>
+</main>
+
+<!-- Links to Previous/Next posts -->
+<aside class="read-next outer">
+    <div class="inner">
+        <div class="read-next-feed">
+            
+                
+                
+                
+                
+                    <article class="read-next-card"
+                        
+                            style="background-image: url(/fzth/assets/images/blog-cover.jpg)"
+                        
+                    >
+                        <header class="read-next-card-header">
+                            <small class="read-next-card-header-sitetitle">&mdash; FromZeroToHero-Blockchain &mdash;</small>
+                            
+                                <h3 class="read-next-card-header-title"><a href="/fzth/tag/blockchain/">Blockchain</a></h3>
+                            
+                        </header>
+                        <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg>
+</div>
+                        <div class="read-next-card-content">
+                            <ul>
+                                
+                                
+                                  
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/fzth/%E9%80%B2%E5%85%A5%E5%8D%80%E5%A1%8A%E9%8F%88%E7%9A%84%E8%B5%B7%E6%89%8B%E5%BC%8F-%E9%8C%A2%E5%8C%85%E7%AF%87">進入區塊鏈的起手式-錢包篇</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/fzth/%E5%8D%80%E5%A1%8A%E9%8F%88%E7%9A%84%E6%BC%94%E9%80%B2%E8%AE%93%E6%88%91%E5%80%91%E4%B8%80%E6%8E%A2%E7%A9%B6%E7%AB%9F-copy">區塊鏈的演進？讓我們一探究竟</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/fzth/%E5%8D%80%E5%A1%8A%E9%8F%88-3.0-%E6%87%89%E7%94%A8%E8%B5%B7%E9%A3%9B">區塊鏈 3.0 應用起飛</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                            </ul>
+                        </div>
+                        <footer class="read-next-card-footer">
+                            <a href="/fzth/tag/blockchain/">
+                                
+                                    See all 5 posts  →
+                                
+                            </a>
+                        </footer>
+                    </article>
+                
+            
+
+            <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
+            
+
+            <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
+            
+                
+
+    <article class="post-card post-template">
+        
+            <a class="post-card-image-link" href="/fzth/%E9%80%B2%E5%85%A5%E5%8D%80%E5%A1%8A%E9%8F%88%E7%9A%84%E8%B5%B7%E6%89%8B%E5%BC%8F-%E9%8C%A2%E5%8C%85%E7%AF%87">
+                <div class="post-card-image" style="background-image: url(/fzth/assets/images/panda-36.png)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/fzth/%E9%80%B2%E5%85%A5%E5%8D%80%E5%A1%8A%E9%8F%88%E7%9A%84%E8%B5%B7%E6%89%8B%E5%BC%8F-%E9%8C%A2%E5%8C%85%E7%AF%87">
+                <header class="post-card-header">
+                    
+                        
+                            
+                                <span class="post-card-tags">Blockchain</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">進入區塊鏈的起手式-錢包篇</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p></p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/fzth/assets/images/panda.png" alt="Panda" />
+                        
+                        <span class="post-card-author">
+                            <a href="/fzth/author/panda/">Panda</a>
+                        </span>
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      1 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
+            
+
+        </div>
+    </div>
+</aside>
+
+<!-- Floating header which appears on-scroll, included from includes/floating-header.hbs -->
+<div class="floating-header">
+    <div class="floating-header-logo">
+        <a href="/fzth/">
+            
+                <img src="/fzth/assets/images/fzth.png" alt="FromZeroToHero-Blockchain icon" />
+            
+            <span>FromZeroToHero-Blockchain</span>
+        </a>
+    </div>
+    <span class="floating-header-divider">&mdash;</span>
+    <div class="floating-header-title">五分鐘創建屬於自己的密碼貨幣</div>
+    <div class="floating-header-share">
+        <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
+</svg>
+</div>
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=%E4%BA%94%E5%88%86%E9%90%98%E5%89%B5%E5%BB%BA%E5%B1%AC%E6%96%BC%E8%87%AA%E5%B7%B1%E7%9A%84%E5%AF%86%E7%A2%BC%E8%B2%A8%E5%B9%A3&amp;url=https://fzth-blockchain.github.io/fzth/%E4%BA%94%E5%88%86%E9%90%98%E5%89%B5%E5%BB%BA%E5%B1%AC%E6%96%BC%E8%87%AA%E5%B7%B1%E7%9A%84%E5%AF%86%E7%A2%BC%E8%B2%A8%E5%B9%A3"
+            onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+
+        </a>
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://fzth-blockchain.github.io/fzth/%E4%BA%94%E5%88%86%E9%90%98%E5%89%B5%E5%BB%BA%E5%B1%AC%E6%96%BC%E8%87%AA%E5%B7%B1%E7%9A%84%E5%AF%86%E7%A2%BC%E8%B2%A8%E5%B9%A3"
+            onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
+
+        </a>
+    </div>
+    <progress class="progress" value="0">
+        <div class="progress-container">
+            <span class="progress-bar"></span>
+        </div>
+    </progress>
+</div>
+
+
+<!-- /post -->
+
+<!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs -->
+
+
+        <!-- Previous/next page links - displayed on every page -->
+        
+
+        <!-- The footer at the very bottom of the screen -->
+        <footer class="site-footer outer">
+            <div class="site-footer-content inner">
+                <section class="copyright"><a href="/fzth/">FromZeroToHero-Blockchain</a> &copy; 2019</section>
+                <section class="poweredby">Proudly published with <a href="https://fzth-blockchain.github.io/fzth/">FromZeroToHero</a> &
+                    <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> using
+                    <a href="https://github.com/jekyller/jasper2" target="_blank" rel="noopener">Jasper2</a></section>
+                <nav class="site-footer-nav">
+                    <a href="/fzth/">Latest Posts</a>
+                    
+                    
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- The big email subscribe modal content -->
+    
+
+    <!-- highlight.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
+    <script>$(document).ready(function() {
+      $('pre code').each(function(i, block) {
+        hljs.highlightBlock(block);
+      });
+    });</script>
+
+    <!-- jQuery + Fitvids, which makes all video embeds responsive -->
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="/fzth/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="https://demo.ghost.io/assets/js/jquery.fitvids.js?v=724281a32e"></script>
+
+
+    <!-- Paginator increased to "infinit" in _config.yml -->
+    <!-- if paginator.posts  -->
+    <!-- <script>
+        var maxPages = parseInt('');
+    </script>
+    <script src="/fzth/assets/js/infinitescroll.js"></script> -->
+    <!-- /endif -->
+
+    
+
+
+    <!-- Add Google Analytics  -->
+    <!-- Google Analytics Tracking code -->
+<!--  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'G-CPY0VEK0YS', 'auto');
+  ga('send', 'pageview');
+
+ </script> -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CPY0VEK0YS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CPY0VEK0YS');
+</script>
+
+
+    <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
+    
+        <script>
+
+// NOTE: Scroll performance is poor in Safari
+// - this appears to be due to the events firing much more slowly in Safari.
+//   Dropping the scroll event and using only a raf loop results in smoother
+//   scrolling but continuous processing even when not scrolling
+$(document).ready(function () {
+    // Start fitVids
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+    // End fitVids
+
+    var progressBar = document.querySelector('progress');
+    var header = document.querySelector('.floating-header');
+    var title = document.querySelector('.post-full-title');
+
+    var lastScrollY = window.scrollY;
+    var lastWindowHeight = window.innerHeight;
+    var lastDocumentHeight = $(document).height();
+    var ticking = false;
+
+    function onScroll() {
+        lastScrollY = window.scrollY;
+        requestTick();
+    }
+
+    function onResize() {
+        lastWindowHeight = window.innerHeight;
+        lastDocumentHeight = $(document).height();
+        requestTick();
+    }
+
+    function requestTick() {
+        if (!ticking) {
+            requestAnimationFrame(update);
+        }
+        ticking = true;
+    }
+
+    function update() {
+        var trigger = title.getBoundingClientRect().top + window.scrollY;
+        var triggerOffset = title.offsetHeight + 35;
+        var progressMax = lastDocumentHeight - lastWindowHeight;
+
+        // show/hide floating header
+        if (lastScrollY >= trigger + triggerOffset) {
+            header.classList.add('floating-active');
+        } else {
+            header.classList.remove('floating-active');
+        }
+
+        progressBar.setAttribute('max', progressMax);
+        progressBar.setAttribute('value', lastScrollY);
+
+        ticking = false;
+    }
+
+    window.addEventListener('scroll', onScroll, {passive: true});
+    window.addEventListener('resize', onResize, false);
+
+    update();
+});
+</script>
+
+    
+
+    <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
+    <!-- ghost_foot -->
+
+</body>
+</html>
