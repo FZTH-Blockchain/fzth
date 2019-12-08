@@ -9,7 +9,8 @@ FromZeroToHero 將會帶各位「從零開始直到成為英雄」。
 ### 簡單規範
 
 > 請在每篇上方加上這些
----
+```
+--
 layout: post 
 current: post
 cover: assets/images/"封面照片".png #封面圖片
@@ -21,14 +22,16 @@ class: post-template
 subclass: 'post' 
 author: "作者名稱"  #作者
 ---
+```
 
 > 圖片格式
-
+```
 <div align="center">
     <img src="./assets/images/panda-27.png" style="width:100%">
 </div>
 
 <center><strong>圖1 錢包。</strong></center>
+```
 
 ### PR 提交教學
 
