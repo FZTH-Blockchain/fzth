@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="/fzth/tag/industry/feed.xml" rel="self" type="application/atom+xml" />
   <link href="/fzth/" rel="alternate" type="text/html" />
-  <updated>2019-12-07T05:04:59+00:00</updated>
+  <updated>2019-12-08T07:52:35+00:00</updated>
   <id>/fzth/tag/industry/feed.xml</id>
 
   
@@ -30,6 +30,121 @@
   
   
 
+  
+    <entry>
+      <title type="html">進入區塊鏈的起手式 - 交易所</title>
+      <link href="/fzth/%E9%80%B2%E5%85%A5%E5%8D%80%E5%A1%8A%E9%8F%88%E7%9A%84%E8%B5%B7%E6%89%8B%E5%BC%8F-%E4%BA%A4%E6%98%93%E6%89%80" rel="alternate" type="text/html" title="進入區塊鏈的起手式 - 交易所" />
+      <published>2019-12-08T00:00:00+00:00</published>
+      <updated>2019-12-08T00:00:00+00:00</updated>
+      <id>/fzth/%E9%80%B2%E5%85%A5%E5%8D%80%E5%A1%8A%E9%8F%88%E7%9A%84%E8%B5%B7%E6%89%8B%E5%BC%8F%20-%20%E4%BA%A4%E6%98%93%E6%89%80</id>
+      <content type="html" xml:base="/fzth/%E9%80%B2%E5%85%A5%E5%8D%80%E5%A1%8A%E9%8F%88%E7%9A%84%E8%B5%B7%E6%89%8B%E5%BC%8F-%E4%BA%A4%E6%98%93%E6%89%80">&lt;blockquote&gt;
+  &lt;p&gt;在上一篇，&lt;a href=&quot;https://fzth-blockchain.github.io/fzth/五分鐘創建屬於自己的密碼貨幣&quot;&gt;進入區塊鏈的起手式篇 - 錢包篇&lt;/a&gt;，我們知道了區塊鏈錢包的應用，那我們這些錢包的錢該從哪裡來呢？&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;挖礦 （透過耗費電腦之算力來完成）&lt;/li&gt;
+  &lt;li&gt;場外交易（透過私底下的會面或聯絡來完成的交易做法，我們俗稱 OTC ）&lt;/li&gt;
+  &lt;li&gt;交易所（透過一個平台方來完成法幣出入金的做法，購買後再轉帳至自己的錢包）&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;那我們今天就來聊聊這個交易所吧！&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;交易所&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;中心化交易所&lt;/li&gt;
+    &lt;li&gt;去中心化交易所&lt;/li&gt;
+    &lt;li&gt;混合式交易所&lt;/li&gt;
+    &lt;li&gt;小結&lt;/li&gt;
+    &lt;li&gt;參考資料&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;中心化交易所&quot;&gt;中心化交易所&lt;/h2&gt;
+
+&lt;p&gt;我們一般可能會說密碼貨幣交易所一定會把數據在鏈上，但是中心化交易所將放在鏈上這件事情捨棄掉。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;優點：交易速度快、使用者體驗好、能夠尋求客服…等服務&lt;/li&gt;
+  &lt;li&gt;缺點：數據在Server上，如果有駭客攻擊交易所的安全性就會有疑慮!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;./assets/images/panda-43.png&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;center&gt;&lt;strong&gt;圖1 中心化交易所 - Binance 幣安&lt;/strong&gt;&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;去中心化交易所&quot;&gt;去中心化交易所&lt;/h2&gt;
+
+&lt;p&gt;真正運作在區塊鏈上的交易所，所有的執行規則都採用智能合約來完成。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;優點：合約完全公開透明、不容易被攻擊&lt;/li&gt;
+  &lt;li&gt;缺點：速度慢、難搓合、使用者體驗差、出問題找不到人問&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;./assets/images/panda-44.png&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;center&gt;&lt;strong&gt;圖2 去中心化交易所 - DEX&lt;/strong&gt;&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;混合式去中心化交易所&quot;&gt;混合式去中心化交易所&lt;/h2&gt;
+
+&lt;p&gt;透過搓合方式，交易是利用智能合約來做執行。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;優點：有使用者體驗、合約公開透明&lt;/li&gt;
+  &lt;li&gt;缺點：速度慢、系統仍然有可能被攻擊&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;./assets/images/panda-45.png&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;center&gt;&lt;strong&gt;圖3 混合去中心化交易所 - Joyso&lt;/strong&gt;&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;小結&quot;&gt;小結&lt;/h2&gt;
+
+&lt;p&gt;今天介紹了很多的交易所！
+基本上都會有一些限制，跟交易費用差異跟交易檢查速度差異！&lt;/p&gt;
+
+&lt;p&gt;若文章有任何的問題或要討論的部分，歡迎在底下留言。
+歡迎透過 Email: pandap.d819@gamil.com 聯絡我。&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Panda</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="blockchain" />
+      
+        <category term="industry" />
+      
+
+      
+        <summary type="html">在上一篇，進入區塊鏈的起手式篇 - 錢包篇，我們知道了區塊鏈錢包的應用，那我們這些錢包的錢該從哪裡來呢？</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">區塊鏈 3.0 應用起飛</title>
