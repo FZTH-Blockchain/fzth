@@ -40,7 +40,7 @@ author: "作者名稱"  #作者
 ### 表單提交教學
 
 若不會使用 Github PR，可以透過 Hackmd 將內容網址透過表單
-- [提交表單](https://pse.is/NJCPV)
+- [提交表單](https://pse.is/MSBZ8)
 
 ## 聯絡
 
