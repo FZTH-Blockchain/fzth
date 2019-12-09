@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="/fzth/tag/blockchain/feed.xml" rel="self" type="application/atom+xml" />
   <link href="/fzth/" rel="alternate" type="text/html" />
-  <updated>2019-12-08T08:28:46+00:00</updated>
+  <updated>2019-12-09T00:31:58+00:00</updated>
   <id>/fzth/tag/blockchain/feed.xml</id>
 
   
@@ -30,6 +30,139 @@
   
   
 
+  
+    <entry>
+      <title type="html">區塊鏈打擊假新聞可行嗎</title>
+      <link href="/fzth/%E5%8D%80%E5%A1%8A%E9%8F%88%E6%89%93%E6%93%8A%E5%81%87%E6%96%B0%E8%81%9E%E5%8F%AF%E8%A1%8C%E5%97%8E" rel="alternate" type="text/html" title="區塊鏈打擊假新聞可行嗎" />
+      <published>2019-12-09T00:00:00+00:00</published>
+      <updated>2019-12-09T00:00:00+00:00</updated>
+      <id>/fzth/%E5%8D%80%E5%A1%8A%E9%8F%88%E6%89%93%E6%93%8A%E5%81%87%E6%96%B0%E8%81%9E%E5%8F%AF%E8%A1%8C%E5%97%8E</id>
+      <content type="html" xml:base="/fzth/%E5%8D%80%E5%A1%8A%E9%8F%88%E6%89%93%E6%93%8A%E5%81%87%E6%96%B0%E8%81%9E%E5%8F%AF%E8%A1%8C%E5%97%8E">&lt;blockquote&gt;
+  &lt;p&gt;日前紐約時報推出一個以區塊鏈為核心打擊假新聞的 POC（Proof Of Concept），紐約時報想利用區塊鏈的機制，在不同的實體共享資訊，以建立並維護數位檔案的出處，這個區塊鏈會記錄圖片或是影像的元資料，由於在鏈上的資料是不可篡改的，且資料庫副本可由不同的組織持有，因此任何人都能追溯這些訊息最原始的版本。
+更多的資料來源和內容可以看看 &lt;a href=&quot;https://www.blocktempo.com/new-york-times-confirms-its-using-blockchain-to-combat-fake-news/&quot;&gt;BlockTempo動區&lt;/a&gt; 的文章、 &lt;a href=&quot;https://www.ithome.com.tw/news/132065&quot;&gt;Ithome 的文章&lt;/a&gt;以及&lt;a href=&quot;https://www.ptt.cc/bbs/DigiCurrency/M.1557234858.A.EB2.html?fbclid=IwAR2afLO--JlBKa_-qgedYJhO5jFiKlw7QxslVzYeqpWomJV-lAwdJpAhGko&quot;&gt;黑鴨大在 PTT 上聊關於區塊鏈對抗假新聞&lt;/a&gt;。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;看完上述之後，那麼可以來探討以下幾個問題～
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;區塊鏈真的能打擊假新聞嗎&quot;&gt;區塊鏈真的能打擊假新聞嗎？&lt;/h2&gt;
+
+&lt;p&gt;以技術的觀點，單純靠區塊鏈是無法解決假新聞的。區塊鏈說白了就是一個分散式的資料庫，將內容上傳至區塊鏈之後是不可篡改的，人們便能以此為證據去證明其他人的內容是否真偽。但是…：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;會不會有一開始上傳的就是假新聞的疑慮呢？&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;答案是會有的，區塊鏈保障的是你的資料不會被竄改，但他並不會去檢查你的內容到底是真是假，所以你說區塊鏈能夠打擊假新聞，筆者認為這是不可能達成的，簡單來說，如果一開始上傳的就是假新聞，區塊鏈並不會自動地幫你驗證訊息的真偽，而是如常記錄在鏈上。區塊鏈只是資料庫並不是解決問題的神器。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;補充：區塊鏈是如何達到不可篡改的？&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;假設區塊鏈網路中大部分的人都各懷鬼胎，只做對自己最有利的決策。
+其中一個區塊鏈礦工，只關心經濟獎勵，他才不關心如何做好人去維護區塊鏈的安全，如果做壞人記假帳能獲得獎勵，他肯定記假帳啊。
+正是這種思維，在區塊鏈上形成了一種「降維信任」，礦工只是為了賺錢，與維護網路無關，但是在無形中維護了網路安全，造就了不可篡改。
+區塊鏈不需要信任參與的任何一個人，但是仍然能產生整體性的信任，這正是區塊鏈最鮮明的特色之一 - 拜占庭容錯（Byzantine Fault Tolerance）。&lt;/p&gt;
+
+&lt;h2 id=&quot;區塊鏈中要如何證明影片檔的真偽性及完整性&quot;&gt;區塊鏈中要如何證明影片檔的真偽性及完整性？&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;真偽性&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;將原始影片透過 LSB 內（ LSB 為數位浮水印的一種作法，當然仍有許多種更好的替代方案，在此我們以 LSB 為例。）嵌入浮水印，往後若有其他仿造的影片，可以解析影片的浮水印查證是否正確。
+儘管用 IPFS 解析回來，都應該能看見原始的浮水印。
+以現在的技術可行性來說， LSB 是較為傳統的做法，現在有更好、更可靠的做法，之後再陸續向大家介紹。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://netadmin.com.tw/article_print.aspx?sn=1403050001&amp;amp;source=post_page-----7870ae7a7bad----------------------&quot;&gt;破解影像資料偽裝&lt;/a&gt;。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;完整性&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;目前區塊鏈上傳影片大多使用 IPFS（詳細的原理介紹參考 本文章 ）。IPFS 是將文件（例如圖檔、影片檔…etc）拆分成許多等份分開儲存，例如有一份原始檔案上傳被拆分成 1000 等份來儲存，只要少了一等份，原始檔案就完全打不開！也就是說，只要有一份缺失即不會有完整性。&lt;/p&gt;
+
+&lt;h2 id=&quot;該如何採用區塊鏈來打擊假新聞&quot;&gt;該如何採用區塊鏈來打擊假新聞？&lt;/h2&gt;
+
+&lt;p&gt;根據紐約時報 QA 中的回覆，選擇區塊鏈的主要目的在不可篡改以及分散式資料庫副本能夠多方保存，若想要採用區塊鏈內的資料來驗證「消息／新聞」之真偽，黑鴨大文章中也有提到 DeepFake 能夠採用 A.I. 達到讓人們肉眼無法判別真偽的造假消息或影片，在區塊鏈上僅能去判別是否有其他則新聞、文章採用相同的內容或手法去修改，而無法真正的從源頭來解決假新聞的問題。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.hk01.com/%E5%91%A8%E5%A0%B1/268011/%E7%A7%91%E6%8A%80-%E6%9C%AA%E4%BE%86-deepfake%E5%81%87%E5%BE%97%E8%BF%AB%E7%9C%9F-%E6%B7%B1%E5%BA%A6%E9%80%A0%E5%81%87%E6%A8%A1%E7%B3%8A%E7%9C%9F%E7%9B%B8%E4%BB%80%E9%BA%BC%E6%89%8D%E5%8F%AF%E4%BF%A1?source=post_page-----7870ae7a7bad----------------------&quot;&gt;Deep Fake&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;上述也提到 A.I. 能夠造假新聞，那 A.I. 是否能驗證假新聞？&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;舉幾個大家比較常見的例子來看，像是 LineBot 美玉姨以及真的假的，目前真的假的採用共同協作的方式，「只要主動查證謠言訊息，把你查到的回應加入資料庫，就能進而幫助更多人。」，以這個想法為基礎下做的 LineBot 會透過文章之間的關聯度，去驗證一件事情屬於謠言或者事實。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;目前這兩者還是有一些缺點，例如：
+1. 只能用在 Line 聊天室（範圍過於侷限）
+2. 若資料庫當中沒有相關資訊即不會回傳訊息（資料庫被動建立）
+3. 採用 Open Source - 真的假的，並不能判別一件事情是否為真實事件
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;AI +區塊鏈？&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;當初看到假新聞這議題， ASMOND 團隊也提出了一個 POC —— WhiteBox，透過訓練完成的人工智慧模型，用來驗證一則新聞的信效度，並且將之上鏈，而這部分最重要的環節就在於如何判別新聞是否為真或假。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;./assets/images/panda-48.png&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;center&gt;&lt;strong&gt;圖1 ASMOND - WhiteBox &lt;/strong&gt;&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;**語意分析**
+
+透過 A.I. 、機器學習，在平台正式上線以前，我們將使用網頁爬蟲（Web Crawler）技術，蒐集大量國內已被驗證為假新聞的新聞稿，資料前處理後進行機器學習、深度學習，建立出一個高度正確判斷（假新聞）率的 A.I. 預測模型，並且在所有判斷「該則報導是否為假新聞」的驗證指標當中，給予該 A.I. 預測模型所預測的結果（信效度）一個固定的權重，成為平台的假新聞驗證依據，於閱聽人閱讀新聞的同時顯示其信效度分數。
+
+**群眾智慧**
+
+現實中很少絕對公正的資訊，大部分都是帶有特定意象或政治立場的消息，然而一則消息過度偏離事實（e.g. 脫離常態分佈的信賴區間）群眾當中會有部分人是可以意識到這則消息「不具參考價值」的，這些人可以透過投下「無效（Downvote）」來協助驗證此消息無效，使用者也可以透過這樣的行為獲得獎勵。同樣，新聞的傳播形式也是評判依據之一，真新聞的傳播主要是靠用戶從單個可靠消息源的直接分享，而假新聞的傳播則主要依託用戶間分散式的分享。
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;小結&quot;&gt;小結&lt;/h2&gt;
+&lt;p&gt;區塊鏈目前尚未有許多殺手級的應用，筆者認為區塊鏈僅為分散式帳本應用的一種，並非所有的產業都非區塊鏈不可。然而以目前來看，落地於現實中的商業應用較少，更常見的是密碼貨幣炒作與詐騙，若想要更多實質上的區塊鏈應用（Dapp），仍需要更多了解區塊鏈知識背景的人一同努力與合作。&lt;/p&gt;
+
+&lt;p&gt;若文章有任何的問題或要討論的部分，歡迎在底下留言。
+歡迎透過 Email: &lt;code class=&quot;highlighter-rouge&quot;&gt;pandap.d819@gmail.com&lt;/code&gt; 聯絡我。&lt;/p&gt;
+
+&lt;h2 id=&quot;參考資料&quot;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/asmond/紐約時報採用區塊鏈打擊假新聞-7870ae7a7bad&quot;&gt;紐約時報真的打擊假新聞？&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.hk01.com/%E5%91%A8%E5%A0%B1/268011/%E7%A7%91%E6%8A%80-%E6%9C%AA%E4%BE%86-deepfake%E5%81%87%E5%BE%97%E8%BF%AB%E7%9C%9F-%E6%B7%B1%E5%BA%A6%E9%80%A0%E5%81%87%E6%A8%A1%E7%B3%8A%E7%9C%9F%E7%9B%B8%E4%BB%80%E9%BA%BC%E6%89%8D%E5%8F%AF%E4%BF%A1?source=post_page-----7870ae7a7bad----------------------&quot;&gt;Deep Fake&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ptt.cc/bbs/DigiCurrency/M.1557234858.A.EB2.html?fbclid=IwAR3cM3toZdMmBrud2ft7IUboCSjqr2uPHlVADeGeMqOIc47JsWkTUgzU_Gc&amp;amp;source=post_page-----7870ae7a7bad----------------------&quot;&gt;如何用區塊鏈打擊假新聞&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Panda</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="blockchain" />
+      
+        <category term="industry" />
+      
+
+      
+        <summary type="html">日前紐約時報推出一個以區塊鏈為核心打擊假新聞的 POC（Proof Of Concept），紐約時報想利用區塊鏈的機制，在不同的實體共享資訊，以建立並維護數位檔案的出處，這個區塊鏈會記錄圖片或是影像的元資料，由於在鏈上的資料是不可篡改的，且資料庫副本可由不同的組織持有，因此任何人都能追溯這些訊息最原始的版本。 更多的資料來源和內容可以看看 BlockTempo動區 的文章、 Ithome 的文章以及黑鴨大在 PTT 上聊關於區塊鏈對抗假新聞。</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">進入區塊鏈的起手式 - 交易所</title>

@@ -11,7 +11,7 @@
 
 
 
-    <title>五分鐘創建屬於自己的密碼貨幣</title>
+    <title>區塊鏈打擊假新聞可行嗎</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Styles'n'Scripts -->
@@ -36,26 +36,26 @@
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="面對於一項不專業的項目，從零開始都是十分的不容易的。<br>From Zero To Hero 將會帶各位「從零開始直到成為英雄」。" />
     <link rel="shortcut icon" href="/fzth/assets/images/fzth.png" type="image/png" />
-    <link rel="canonical" href="/fzth/%E4%BA%94%E5%88%86%E9%90%98%E5%89%B5%E5%BB%BA%E5%B1%AC%E6%96%BC%E8%87%AA%E5%B7%B1%E7%9A%84%E5%AF%86%E7%A2%BC%E8%B2%A8%E5%B9%A3" />
+    <link rel="canonical" href="/fzth/%E5%8D%80%E5%A1%8A%E9%8F%88%E6%89%93%E6%93%8A%E5%81%87%E6%96%B0%E8%81%9E%E5%8F%AF%E8%A1%8C%E5%97%8E" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="FromZeroToHero-Blockchain" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="五分鐘創建屬於自己的密碼貨幣" />
-    <meta property="og:description" content="2017 年至 2018 年吵得轟轟烈烈的 ICO（Initial Coin Offering），那他們募資的虛擬貨幣是如何創造的呢？很困難嗎？你說昨天教的錢包會用得上?! 那就跟著我們的腳步，一起看下去吧！ 若想要部署自己的虛擬貨幣至主網上，請點選右上角的 Networks — 選擇 Main Ethereum Network ! 圖1 Ropsten Test Network。 此篇的教學會採用 Ethereum Ropsten Test Network，若順利測試成功再進行部署至主網（Main Ethereum Network）會比較安全且省錢喔！ Step 0 必備條件 - MetaMask 錢包 + 足夠的 ETH - Chrome 或是 可以安裝錢包的瀏覽器 密碼貨幣規格(Crypto Currency Spec) - 名稱(Name): NkustCoin - 符號(Symbol): NKC -" />
-    <meta property="og:url" content="/fzth/%E4%BA%94%E5%88%86%E9%90%98%E5%89%B5%E5%BB%BA%E5%B1%AC%E6%96%BC%E8%87%AA%E5%B7%B1%E7%9A%84%E5%AF%86%E7%A2%BC%E8%B2%A8%E5%B9%A3" />
-    <meta property="og:image" content="/fzth/assets/images/panda-37.png" />
+    <meta property="og:title" content="區塊鏈打擊假新聞可行嗎" />
+    <meta property="og:description" content="日前紐約時報推出一個以區塊鏈為核心打擊假新聞的 POC（Proof Of Concept），紐約時報想利用區塊鏈的機制，在不同的實體共享資訊，以建立並維護數位檔案的出處，這個區塊鏈會記錄圖片或是影像的元資料，由於在鏈上的資料是不可篡改的，且資料庫副本可由不同的組織持有，因此任何人都能追溯這些訊息最原始的版本。 更多的資料來源和內容可以看看 BlockTempo動區 的文章、 Ithome 的文章以及黑鴨大在 PTT 上聊關於區塊鏈對抗假新聞。 看完上述之後，那麼可以來探討以下幾個問題～ 區塊鏈真的能打擊假新聞嗎？ 以技術的觀點，單純靠區塊鏈是無法解決假新聞的。區塊鏈說白了就是一個分散式的資料庫，將內容上傳至區塊鏈之後是不可篡改的，人們便能以此為證據去證明其他人的內容是否真偽。但是…： 會不會有一開始上傳的就是假新聞的疑慮呢？ 答案是會有的，區塊鏈保障的是你的資料不會被竄改，但他並不會去檢查你的內容到底是真是假，所以你說區塊鏈能夠打擊假新聞，筆者認為這是不可能達成的，簡單來說，如果一開始上傳的就是假新聞，區塊鏈並不會自動地幫你驗證訊息的真偽，而是如常記錄在鏈上。區塊鏈只是資料庫並不是解決問題的神器。 補充：區塊鏈是如何達到不可篡改的？ 假設區塊鏈網路中大部分的人都各懷鬼胎，只做對自己最有利的決策。 其中一個區塊鏈礦工，只關心經濟獎勵，他才不關心如何做好人去維護區塊鏈的安全，如果做壞人記假帳能獲得獎勵，他肯定記假帳啊。 正是這種思維，在區塊鏈上形成了一種「降維信任」，礦工只是為了賺錢，與維護網路無關，但是在無形中維護了網路安全，造就了不可篡改。 區塊鏈不需要信任參與的任何一個人，但是仍然能產生整體性的信任，這正是區塊鏈最鮮明的特色之一 - 拜占庭容錯（Byzantine Fault Tolerance）。 區塊鏈中要如何證明影片檔的真偽性及完整性？ 真偽性 將原始影片透過 LSB 內（ LSB 為數位浮水印的一種作法，當然仍有許多種更好的替代方案，在此我們以 LSB 為例。）嵌入浮水印，往後若有其他仿造的影片，可以解析影片的浮水印查證是否正確。 儘管用 IPFS 解析回來，都應該能看見原始的浮水印。 以現在的技術可行性來說， LSB 是較為傳統的做法，現在有更好、更可靠的做法，之後再陸續向大家介紹。 破解影像資料偽裝。 完整性 目前區塊鏈上傳影片大多使用 IPFS（詳細的原理介紹參考 本文章 ）。IPFS 是將文件（例如圖檔、影片檔…etc）拆分成許多等份分開儲存，例如有一份原始檔案上傳被拆分成 1000 等份來儲存，只要少了一等份，原始檔案就完全打不開！也就是說，只要有一份缺失即不會有完整性。 該如何採用區塊鏈來打擊假新聞？" />
+    <meta property="og:url" content="/fzth/%E5%8D%80%E5%A1%8A%E9%8F%88%E6%89%93%E6%93%8A%E5%81%87%E6%96%B0%E8%81%9E%E5%8F%AF%E8%A1%8C%E5%97%8E" />
+    <meta property="og:image" content="/fzth/assets/images/panda-47.png" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
     <meta property="article:author" content="https://www.facebook.com/" />
-    <meta property="article:published_time" content="2019-12-07T00:00:00+00:00" />
-    <meta property="article:modified_time" content="2019-12-07T00:00:00+00:00" />
+    <meta property="article:published_time" content="2019-12-09T00:00:00+00:00" />
+    <meta property="article:modified_time" content="2019-12-09T00:00:00+00:00" />
     <meta property="article:tag" content="Blockchain" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="五分鐘創建屬於自己的密碼貨幣" />
-    <meta name="twitter:description" content="2017 年至 2018 年吵得轟轟烈烈的 ICO（Initial Coin Offering），那他們募資的虛擬貨幣是如何創造的呢？很困難嗎？你說昨天教的錢包會用得上?! 那就跟著我們的腳步，一起看下去吧！ 若想要部署自己的虛擬貨幣至主網上，請點選右上角的 Networks — 選擇 Main Ethereum Network ! 圖1 Ropsten Test Network。 此篇的教學會採用 Ethereum Ropsten Test Network，若順利測試成功再進行部署至主網（Main Ethereum Network）會比較安全且省錢喔！ Step 0 必備條件 - MetaMask 錢包 + 足夠的 ETH - Chrome 或是 可以安裝錢包的瀏覽器 密碼貨幣規格(Crypto Currency Spec) - 名稱(Name): NkustCoin - 符號(Symbol): NKC -" />
+    <meta name="twitter:title" content="區塊鏈打擊假新聞可行嗎" />
+    <meta name="twitter:description" content="日前紐約時報推出一個以區塊鏈為核心打擊假新聞的 POC（Proof Of Concept），紐約時報想利用區塊鏈的機制，在不同的實體共享資訊，以建立並維護數位檔案的出處，這個區塊鏈會記錄圖片或是影像的元資料，由於在鏈上的資料是不可篡改的，且資料庫副本可由不同的組織持有，因此任何人都能追溯這些訊息最原始的版本。 更多的資料來源和內容可以看看 BlockTempo動區 的文章、 Ithome 的文章以及黑鴨大在 PTT 上聊關於區塊鏈對抗假新聞。 看完上述之後，那麼可以來探討以下幾個問題～ 區塊鏈真的能打擊假新聞嗎？ 以技術的觀點，單純靠區塊鏈是無法解決假新聞的。區塊鏈說白了就是一個分散式的資料庫，將內容上傳至區塊鏈之後是不可篡改的，人們便能以此為證據去證明其他人的內容是否真偽。但是…： 會不會有一開始上傳的就是假新聞的疑慮呢？ 答案是會有的，區塊鏈保障的是你的資料不會被竄改，但他並不會去檢查你的內容到底是真是假，所以你說區塊鏈能夠打擊假新聞，筆者認為這是不可能達成的，簡單來說，如果一開始上傳的就是假新聞，區塊鏈並不會自動地幫你驗證訊息的真偽，而是如常記錄在鏈上。區塊鏈只是資料庫並不是解決問題的神器。 補充：區塊鏈是如何達到不可篡改的？ 假設區塊鏈網路中大部分的人都各懷鬼胎，只做對自己最有利的決策。 其中一個區塊鏈礦工，只關心經濟獎勵，他才不關心如何做好人去維護區塊鏈的安全，如果做壞人記假帳能獲得獎勵，他肯定記假帳啊。 正是這種思維，在區塊鏈上形成了一種「降維信任」，礦工只是為了賺錢，與維護網路無關，但是在無形中維護了網路安全，造就了不可篡改。 區塊鏈不需要信任參與的任何一個人，但是仍然能產生整體性的信任，這正是區塊鏈最鮮明的特色之一 - 拜占庭容錯（Byzantine Fault Tolerance）。 區塊鏈中要如何證明影片檔的真偽性及完整性？ 真偽性 將原始影片透過 LSB 內（ LSB 為數位浮水印的一種作法，當然仍有許多種更好的替代方案，在此我們以 LSB 為例。）嵌入浮水印，往後若有其他仿造的影片，可以解析影片的浮水印查證是否正確。 儘管用 IPFS 解析回來，都應該能看見原始的浮水印。 以現在的技術可行性來說， LSB 是較為傳統的做法，現在有更好、更可靠的做法，之後再陸續向大家介紹。 破解影像資料偽裝。 完整性 目前區塊鏈上傳影片大多使用 IPFS（詳細的原理介紹參考 本文章 ）。IPFS 是將文件（例如圖檔、影片檔…etc）拆分成許多等份分開儲存，例如有一份原始檔案上傳被拆分成 1000 等份來儲存，只要少了一等份，原始檔案就完全打不開！也就是說，只要有一份缺失即不會有完整性。 該如何採用區塊鏈來打擊假新聞？" />
     <meta name="twitter:url" content="/fzth/" />
-    <meta name="twitter:image" content="/fzth/assets/images/panda-37.png" />
+    <meta name="twitter:image" content="/fzth/assets/images/panda-47.png" />
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="FromZeroToHero-Blockchain" />
     <meta name="twitter:label2" content="Filed under" />
@@ -74,18 +74,18 @@
         "name": "FromZeroToHero-Blockchain",
         "logo": "/fzth/assets/images/fzth.png"
     },
-    "url": "/fzth/%E4%BA%94%E5%88%86%E9%90%98%E5%89%B5%E5%BB%BA%E5%B1%AC%E6%96%BC%E8%87%AA%E5%B7%B1%E7%9A%84%E5%AF%86%E7%A2%BC%E8%B2%A8%E5%B9%A3",
+    "url": "/fzth/%E5%8D%80%E5%A1%8A%E9%8F%88%E6%89%93%E6%93%8A%E5%81%87%E6%96%B0%E8%81%9E%E5%8F%AF%E8%A1%8C%E5%97%8E",
     "image": {
         "@type": "ImageObject",
-        "url": "/fzth/assets/images/panda-37.png",
+        "url": "/fzth/assets/images/panda-47.png",
         "width": 2000,
         "height": 666
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "/fzth/%E4%BA%94%E5%88%86%E9%90%98%E5%89%B5%E5%BB%BA%E5%B1%AC%E6%96%BC%E8%87%AA%E5%B7%B1%E7%9A%84%E5%AF%86%E7%A2%BC%E8%B2%A8%E5%B9%A3"
+        "@id": "/fzth/%E5%8D%80%E5%A1%8A%E9%8F%88%E6%89%93%E6%93%8A%E5%81%87%E6%96%B0%E8%81%9E%E5%8F%AF%E8%A1%8C%E5%97%8E"
     },
-    "description": "2017 年至 2018 年吵得轟轟烈烈的 ICO（Initial Coin Offering），那他們募資的虛擬貨幣是如何創造的呢？很困難嗎？你說昨天教的錢包會用得上?! 那就跟著我們的腳步，一起看下去吧！ 若想要部署自己的虛擬貨幣至主網上，請點選右上角的 Networks — 選擇 Main Ethereum Network ! 圖1 Ropsten Test Network。 此篇的教學會採用 Ethereum Ropsten Test Network，若順利測試成功再進行部署至主網（Main Ethereum Network）會比較安全且省錢喔！ Step 0 必備條件 - MetaMask 錢包 + 足夠的 ETH - Chrome 或是 可以安裝錢包的瀏覽器 密碼貨幣規格(Crypto Currency Spec) - 名稱(Name): NkustCoin - 符號(Symbol): NKC -"
+    "description": "日前紐約時報推出一個以區塊鏈為核心打擊假新聞的 POC（Proof Of Concept），紐約時報想利用區塊鏈的機制，在不同的實體共享資訊，以建立並維護數位檔案的出處，這個區塊鏈會記錄圖片或是影像的元資料，由於在鏈上的資料是不可篡改的，且資料庫副本可由不同的組織持有，因此任何人都能追溯這些訊息最原始的版本。 更多的資料來源和內容可以看看 BlockTempo動區 的文章、 Ithome 的文章以及黑鴨大在 PTT 上聊關於區塊鏈對抗假新聞。 看完上述之後，那麼可以來探討以下幾個問題～ 區塊鏈真的能打擊假新聞嗎？ 以技術的觀點，單純靠區塊鏈是無法解決假新聞的。區塊鏈說白了就是一個分散式的資料庫，將內容上傳至區塊鏈之後是不可篡改的，人們便能以此為證據去證明其他人的內容是否真偽。但是…： 會不會有一開始上傳的就是假新聞的疑慮呢？ 答案是會有的，區塊鏈保障的是你的資料不會被竄改，但他並不會去檢查你的內容到底是真是假，所以你說區塊鏈能夠打擊假新聞，筆者認為這是不可能達成的，簡單來說，如果一開始上傳的就是假新聞，區塊鏈並不會自動地幫你驗證訊息的真偽，而是如常記錄在鏈上。區塊鏈只是資料庫並不是解決問題的神器。 補充：區塊鏈是如何達到不可篡改的？ 假設區塊鏈網路中大部分的人都各懷鬼胎，只做對自己最有利的決策。 其中一個區塊鏈礦工，只關心經濟獎勵，他才不關心如何做好人去維護區塊鏈的安全，如果做壞人記假帳能獲得獎勵，他肯定記假帳啊。 正是這種思維，在區塊鏈上形成了一種「降維信任」，礦工只是為了賺錢，與維護網路無關，但是在無形中維護了網路安全，造就了不可篡改。 區塊鏈不需要信任參與的任何一個人，但是仍然能產生整體性的信任，這正是區塊鏈最鮮明的特色之一 - 拜占庭容錯（Byzantine Fault Tolerance）。 區塊鏈中要如何證明影片檔的真偽性及完整性？ 真偽性 將原始影片透過 LSB 內（ LSB 為數位浮水印的一種作法，當然仍有許多種更好的替代方案，在此我們以 LSB 為例。）嵌入浮水印，往後若有其他仿造的影片，可以解析影片的浮水印查證是否正確。 儘管用 IPFS 解析回來，都應該能看見原始的浮水印。 以現在的技術可行性來說， LSB 是較為傳統的做法，現在有更好、更可靠的做法，之後再陸續向大家介紹。 破解影像資料偽裝。 完整性 目前區塊鏈上傳影片大多使用 IPFS（詳細的原理介紹參考 本文章 ）。IPFS 是將文件（例如圖檔、影片檔…etc）拆分成許多等份分開儲存，例如有一份原始檔案上傳被拆分成 1000 等份來儲存，只要少了一等份，原始檔案就完全打不開！也就是說，只要有一份缺失即不會有完整性。 該如何採用區塊鏈來打擊假新聞？"
 }
     </script>
 
@@ -98,7 +98,7 @@
     </script> -->
 
     <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="五分鐘創建屬於自己的密碼貨幣" href="/fzth/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="區塊鏈打擊假新聞可行嗎" href="/fzth/feed.xml" />
 
 
 </head>
@@ -156,7 +156,7 @@ into the {body} of the default.hbs template -->
 
             <header class="post-full-header">
                 <section class="post-full-meta">
-                    <time class="post-full-meta-date" datetime=" 7 December 2019"> 7 December 2019</time>
+                    <time class="post-full-meta-date" datetime=" 9 December 2019"> 9 December 2019</time>
                     
                         <span class="date-divider">/</span>
                         
@@ -165,126 +165,118 @@ into the {body} of the default.hbs template -->
                             
                         
                             
-                               <a href='/fzth/tag/tech/'>TECH</a>
+                               <a href='/fzth/tag/industry/'>INDUSTRY</a>
                             
                         
                     
                 </section>
-                <h1 class="post-full-title">五分鐘創建屬於自己的密碼貨幣</h1>
+                <h1 class="post-full-title">區塊鏈打擊假新聞可行嗎</h1>
             </header>
 
             
-            <figure class="post-full-image" style="background-image: url(/fzth/assets/images/panda-37.png)">
+            <figure class="post-full-image" style="background-image: url(/fzth/assets/images/panda-47.png)">
             </figure>
             
 
             <section class="post-full-content">
                 <div class="kg-card-markdown">
                     <blockquote>
-  <p>2017 年至 2018 年吵得轟轟烈烈的 ICO（Initial Coin Offering），那他們募資的虛擬貨幣是如何創造的呢？很困難嗎？你說昨天教的錢包會用得上?! 
-那就跟著我們的腳步，一起看下去吧！</p>
+  <p>日前紐約時報推出一個以區塊鏈為核心打擊假新聞的 POC（Proof Of Concept），紐約時報想利用區塊鏈的機制，在不同的實體共享資訊，以建立並維護數位檔案的出處，這個區塊鏈會記錄圖片或是影像的元資料，由於在鏈上的資料是不可篡改的，且資料庫副本可由不同的組織持有，因此任何人都能追溯這些訊息最原始的版本。
+更多的資料來源和內容可以看看 <a href="https://www.blocktempo.com/new-york-times-confirms-its-using-blockchain-to-combat-fake-news/">BlockTempo動區</a> 的文章、 <a href="https://www.ithome.com.tw/news/132065">Ithome 的文章</a>以及<a href="https://www.ptt.cc/bbs/DigiCurrency/M.1557234858.A.EB2.html?fbclid=IwAR2afLO--JlBKa_-qgedYJhO5jFiKlw7QxslVzYeqpWomJV-lAwdJpAhGko">黑鴨大在 PTT 上聊關於區塊鏈對抗假新聞</a>。</p>
 </blockquote>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>看完上述之後，那麼可以來探討以下幾個問題～
+</code></pre></div></div>
+
+<h2 id="區塊鏈真的能打擊假新聞嗎">區塊鏈真的能打擊假新聞嗎？</h2>
+
+<p>以技術的觀點，單純靠區塊鏈是無法解決假新聞的。區塊鏈說白了就是一個分散式的資料庫，將內容上傳至區塊鏈之後是不可篡改的，人們便能以此為證據去證明其他人的內容是否真偽。但是…：</p>
 
 <blockquote>
-  <p>若想要部署自己的虛擬貨幣至<strong>主網</strong>上，請點選右上角的 Networks — 選擇 Main Ethereum Network !</p>
+  <p>會不會有一開始上傳的就是假新聞的疑慮呢？</p>
 </blockquote>
 
-<div align="center">
-    <img src="./assets/images/panda-38.png" style="width:100%" />
-</div>
+<p>答案是會有的，區塊鏈保障的是你的資料不會被竄改，但他並不會去檢查你的內容到底是真是假，所以你說區塊鏈能夠打擊假新聞，筆者認為這是不可能達成的，簡單來說，如果一開始上傳的就是假新聞，區塊鏈並不會自動地幫你驗證訊息的真偽，而是如常記錄在鏈上。區塊鏈只是資料庫並不是解決問題的神器。</p>
 
-<center><strong>圖1 Ropsten Test Network。</strong></center>
+<blockquote>
+  <p>補充：區塊鏈是如何達到不可篡改的？</p>
+</blockquote>
 
-<p><br /></p>
+<p>假設區塊鏈網路中大部分的人都各懷鬼胎，只做對自己最有利的決策。
+其中一個區塊鏈礦工，只關心經濟獎勵，他才不關心如何做好人去維護區塊鏈的安全，如果做壞人記假帳能獲得獎勵，他肯定記假帳啊。
+正是這種思維，在區塊鏈上形成了一種「降維信任」，礦工只是為了賺錢，與維護網路無關，但是在無形中維護了網路安全，造就了不可篡改。
+區塊鏈不需要信任參與的任何一個人，但是仍然能產生整體性的信任，這正是區塊鏈最鮮明的特色之一 - 拜占庭容錯（Byzantine Fault Tolerance）。</p>
 
-<p><code class="highlighter-rouge">此篇的教學會採用 Ethereum Ropsten Test Network，若順利測試成功再進行部署至主網（Main Ethereum Network）會比較安全且省錢喔！</code></p>
+<h2 id="區塊鏈中要如何證明影片檔的真偽性及完整性">區塊鏈中要如何證明影片檔的真偽性及完整性？</h2>
 
-<h2 id="step-0-必備條件">Step 0 必備條件</h2>
-<pre><code class="language-必備條件">- MetaMask 錢包 + 足夠的 ETH
-- Chrome 或是 可以安裝錢包的瀏覽器
+<blockquote>
+  <p>真偽性</p>
+</blockquote>
 
-密碼貨幣規格(Crypto Currency Spec)
-- 名稱(Name): NkustCoin
-- 符號(Symbol): NKC
-- 小數點(Decimal Point): 0
-- 代幣總數(Token Amount): 1000
-</code></pre>
+<p>將原始影片透過 LSB 內（ LSB 為數位浮水印的一種作法，當然仍有許多種更好的替代方案，在此我們以 LSB 為例。）嵌入浮水印，往後若有其他仿造的影片，可以解析影片的浮水印查證是否正確。
+儘管用 IPFS 解析回來，都應該能看見原始的浮水印。
+以現在的技術可行性來說， LSB 是較為傳統的做法，現在有更好、更可靠的做法，之後再陸續向大家介紹。</p>
 
-<h2 id="step-1-複製貼上大法">Step 1 複製貼上大法</h2>
-<p>請先將 MetaMask 的 NetWork 切換到 Ropsten Test Network，並且到這裡<a href="https://faucet.metamask.io/">領取免費ETH</a>。 
-複製「<a href="https://gist.github.com/panda850819/4300543031b341b58921aa1b009166ce">程式碼(Code)</a>然後將這個貼在「<a href="https://remix.ethereum.org/">智能合約編輯器(Smart Contract Online Editor)</a>」</p>
+<p><a href="https://netadmin.com.tw/article_print.aspx?sn=1403050001&amp;source=post_page-----7870ae7a7bad----------------------">破解影像資料偽裝</a>。</p>
 
-<div align="center">
-    <img src="./assets/images/panda-39.gif" style="width:100%" />
-</div>
+<blockquote>
+  <p>完整性</p>
+</blockquote>
 
-<center><strong>圖2 將程式碼貼至智能合約編輯器。</strong></center>
+<p>目前區塊鏈上傳影片大多使用 IPFS（詳細的原理介紹參考 本文章 ）。IPFS 是將文件（例如圖檔、影片檔…etc）拆分成許多等份分開儲存，例如有一份原始檔案上傳被拆分成 1000 等份來儲存，只要少了一等份，原始檔案就完全打不開！也就是說，只要有一份缺失即不會有完整性。</p>
 
-<p><br /></p>
+<h2 id="該如何採用區塊鏈來打擊假新聞">該如何採用區塊鏈來打擊假新聞？</h2>
 
-<h2 id="step2-修改參數">Step2 修改參數</h2>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>修改三個參數（Modify three parameters）
-姓名（Name） / 符號（Symbol） / 小數點（Decimal）
+<p>根據紐約時報 QA 中的回覆，選擇區塊鏈的主要目的在不可篡改以及分散式資料庫副本能夠多方保存，若想要採用區塊鏈內的資料來驗證「消息／新聞」之真偽，黑鴨大文章中也有提到 DeepFake 能夠採用 A.I. 達到讓人們肉眼無法判別真偽的造假消息或影片，在區塊鏈上僅能去判別是否有其他則新聞、文章採用相同的內容或手法去修改，而無法真正的從源頭來解決假新聞的問題。</p>
+
+<p><a href="https://www.hk01.com/%E5%91%A8%E5%A0%B1/268011/%E7%A7%91%E6%8A%80-%E6%9C%AA%E4%BE%86-deepfake%E5%81%87%E5%BE%97%E8%BF%AB%E7%9C%9F-%E6%B7%B1%E5%BA%A6%E9%80%A0%E5%81%87%E6%A8%A1%E7%B3%8A%E7%9C%9F%E7%9B%B8%E4%BB%80%E9%BA%BC%E6%89%8D%E5%8F%AF%E4%BF%A1?source=post_page-----7870ae7a7bad----------------------">Deep Fake</a></p>
+
+<blockquote>
+  <p>上述也提到 A.I. 能夠造假新聞，那 A.I. 是否能驗證假新聞？</p>
+</blockquote>
+
+<p>舉幾個大家比較常見的例子來看，像是 LineBot 美玉姨以及真的假的，目前真的假的採用共同協作的方式，「只要主動查證謠言訊息，把你查到的回應加入資料庫，就能進而幫助更多人。」，以這個想法為基礎下做的 LineBot 會透過文章之間的關聯度，去驗證一件事情屬於謠言或者事實。</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>目前這兩者還是有一些缺點，例如：
+1. 只能用在 Line 聊天室（範圍過於侷限）
+2. 若資料庫當中沒有相關資訊即不會回傳訊息（資料庫被動建立）
+3. 採用 Open Source - 真的假的，並不能判別一件事情是否為真實事件
 </code></pre></div></div>
 
+<blockquote>
+  <p>AI +區塊鏈？</p>
+</blockquote>
+
+<p>當初看到假新聞這議題， ASMOND 團隊也提出了一個 POC —— WhiteBox，透過訓練完成的人工智慧模型，用來驗證一則新聞的信效度，並且將之上鏈，而這部分最重要的環節就在於如何判別新聞是否為真或假。</p>
+
 <div align="center">
-    <img src="./assets/images/panda-40.gif" style="width:100%" />
+    <img src="./assets/images/panda-48.png" style="width:100%" />
 </div>
 
-<center><strong>圖3 修改合約參數。</strong></center>
+<center><strong>圖1 ASMOND - WhiteBox </strong></center>
 
 <p><br /></p>
 
-<h2 id="step3-部署合約">Step3 部署合約</h2>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>設定代幣總數到 1000(設定多少取決於自己喔！）,然後部署合約到 Etheruem 測試網路。 
-注意：
-1000 with decimal of 2 --&gt; 10.00
-每一個單位為 0.01 共有 1000 個 --&gt; 10.00
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>**語意分析**
+
+透過 A.I. 、機器學習，在平台正式上線以前，我們將使用網頁爬蟲（Web Crawler）技術，蒐集大量國內已被驗證為假新聞的新聞稿，資料前處理後進行機器學習、深度學習，建立出一個高度正確判斷（假新聞）率的 A.I. 預測模型，並且在所有判斷「該則報導是否為假新聞」的驗證指標當中，給予該 A.I. 預測模型所預測的結果（信效度）一個固定的權重，成為平台的假新聞驗證依據，於閱聽人閱讀新聞的同時顯示其信效度分數。
+
+**群眾智慧**
+
+現實中很少絕對公正的資訊，大部分都是帶有特定意象或政治立場的消息，然而一則消息過度偏離事實（e.g. 脫離常態分佈的信賴區間）群眾當中會有部分人是可以意識到這則消息「不具參考價值」的，這些人可以透過投下「無效（Downvote）」來協助驗證此消息無效，使用者也可以透過這樣的行為獲得獎勵。同樣，新聞的傳播形式也是評判依據之一，真新聞的傳播主要是靠用戶從單個可靠消息源的直接分享，而假新聞的傳播則主要依託用戶間分散式的分享。
 </code></pre></div></div>
-
-<div align="center">
-    <img src="./assets/images/panda-41.gif" style="width:100%" />
-</div>
-
-<center><strong>圖4 部署 ERC-20 智能合約在 Remix IDE。</strong></center>
-
-<p><br /></p>
-
-<h2 id="step4-加入貨幣">Step4 加入貨幣</h2>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1. 複製 Remix 合約地址
-2. 打開 Metamask 錢包
-3. 新增代幣（Add tokens）中貼上合約地址
-我們將會看到剛剛創建的貨幣 :)
-</code></pre></div></div>
-
-<div align="center">
-    <img src="./assets/images/panda-42.gif" style="width:100%" />
-</div>
-
-<center><strong>圖5 將 ERC-20 貨幣加入至錢包中。</strong></center>
-
-<p><br /></p>
 
 <h2 id="小結">小結</h2>
-<p>在短短的五分鐘內，我們就完成發幣的動作，需要歸功於 ERC-20 標準，這個標準為 ERC-20 tokens 定義了一個通用的規則。</p>
+<p>區塊鏈目前尚未有許多殺手級的應用，筆者認為區塊鏈僅為分散式帳本應用的一種，並非所有的產業都非區塊鏈不可。然而以目前來看，落地於現實中的商業應用較少，更常見的是密碼貨幣炒作與詐騙，若想要更多實質上的區塊鏈應用（Dapp），仍需要更多了解區塊鏈知識背景的人一同努力與合作。</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Functions 
-1. 總供應量(totalSupply)
-2. 代幣餘額(balanceOf)
-3. 傳送方(transfer)
-4. 從哪傳送來(transferFrom)
-5. 指定付款方(approve)
-6. 檢查token使用者的代幣數量(allowance)兩個事件
-</code></pre></div></div>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Events
-1. 傳送(transfer)
-2. 指定付款方並記錄(Approval)
-</code></pre></div></div>
-<p>讓我們可以快速地使用 Remix 在 Etheruem… 等主網發布自己的虛擬貨幣！
-若想從其他地方查看自己的合約或是貨幣狀況，則需要切換網路（Network），請點選下圖紅框來切換網路！</p>
+<p>若文章有任何的問題或要討論的部分，歡迎在底下留言。
+歡迎透過 Email: <code class="highlighter-rouge">pandap.d819@gmail.com</code> 聯絡我。</p>
+
+<h2 id="參考資料">參考資料</h2>
 <ul>
-  <li>Ethereum 主網：https://etherscan.io/</li>
-  <li>Ropsten 測試網：https://ropsten.etherscan.io/</li>
+  <li><a href="https://medium.com/asmond/紐約時報採用區塊鏈打擊假新聞-7870ae7a7bad">紐約時報真的打擊假新聞？</a></li>
+  <li><a href="https://www.hk01.com/%E5%91%A8%E5%A0%B1/268011/%E7%A7%91%E6%8A%80-%E6%9C%AA%E4%BE%86-deepfake%E5%81%87%E5%BE%97%E8%BF%AB%E7%9C%9F-%E6%B7%B1%E5%BA%A6%E9%80%A0%E5%81%87%E6%A8%A1%E7%B3%8A%E7%9C%9F%E7%9B%B8%E4%BB%80%E9%BA%BC%E6%89%8D%E5%8F%AF%E4%BF%A1?source=post_page-----7870ae7a7bad----------------------">Deep Fake</a></li>
+  <li><a href="https://www.ptt.cc/bbs/DigiCurrency/M.1557234858.A.EB2.html?fbclid=IwAR3cM3toZdMmBrud2ft7IUboCSjqr2uPHlVADeGeMqOIc47JsWkTUgzU_Gc&amp;source=post_page-----7870ae7a7bad----------------------">如何用區塊鏈打擊假新聞</a></li>
 </ul>
 
                 </div>
@@ -355,11 +347,6 @@ into the {body} of the default.hbs template -->
                                 
                                   
                                     
-                                        
-                                        
-                                            <li><a href="/fzth/%E5%8D%80%E5%A1%8A%E9%8F%88%E6%89%93%E6%93%8A%E5%81%87%E6%96%B0%E8%81%9E%E5%8F%AF%E8%A1%8C%E5%97%8E">區塊鏈打擊假新聞可行嗎</a></li>
-                                        
-                                    
                                   
                                 
                                   
@@ -372,6 +359,11 @@ into the {body} of the default.hbs template -->
                                   
                                 
                                   
+                                    
+                                        
+                                        
+                                            <li><a href="/fzth/%E4%BA%94%E5%88%86%E9%90%98%E5%89%B5%E5%BB%BA%E5%B1%AC%E6%96%BC%E8%87%AA%E5%B7%B1%E7%9A%84%E5%AF%86%E7%A2%BC%E8%B2%A8%E5%B9%A3">五分鐘創建屬於自己的密碼貨幣</a></li>
+                                        
                                     
                                   
                                 
@@ -427,6 +419,9 @@ into the {body} of the default.hbs template -->
 
             <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
             
+
+            <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
+            
                 
 
     <article class="post-card post-template">
@@ -481,58 +476,6 @@ into the {body} of the default.hbs template -->
 
             
 
-            <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
-            
-                
-
-    <article class="post-card post-template">
-        
-            <a class="post-card-image-link" href="/fzth/%E9%80%B2%E5%85%A5%E5%8D%80%E5%A1%8A%E9%8F%88%E7%9A%84%E8%B5%B7%E6%89%8B%E5%BC%8F-%E9%8C%A2%E5%8C%85%E7%AF%87">
-                <div class="post-card-image" style="background-image: url(/fzth/assets/images/panda-36.png)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/fzth/%E9%80%B2%E5%85%A5%E5%8D%80%E5%A1%8A%E9%8F%88%E7%9A%84%E8%B5%B7%E6%89%8B%E5%BC%8F-%E9%8C%A2%E5%8C%85%E7%AF%87">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Blockchain</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">進入區塊鏈的起手式-錢包篇</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p></p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/fzth/assets/images/panda.png" alt="Panda" />
-                        
-                        <span class="post-card-author">
-                            <a href="/fzth/author/panda/">Panda</a>
-                        </span>
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-            
-
         </div>
     </div>
 </aside>
@@ -548,18 +491,18 @@ into the {body} of the default.hbs template -->
         </a>
     </div>
     <span class="floating-header-divider">&mdash;</span>
-    <div class="floating-header-title">五分鐘創建屬於自己的密碼貨幣</div>
+    <div class="floating-header-title">區塊鏈打擊假新聞可行嗎</div>
     <div class="floating-header-share">
         <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
     <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
 </svg>
 </div>
-        <a class="floating-header-share-tw" href="https://twitter.com/share?text=%E4%BA%94%E5%88%86%E9%90%98%E5%89%B5%E5%BB%BA%E5%B1%AC%E6%96%BC%E8%87%AA%E5%B7%B1%E7%9A%84%E5%AF%86%E7%A2%BC%E8%B2%A8%E5%B9%A3&amp;url=https://fzth-blockchain.github.io/fzth/%E4%BA%94%E5%88%86%E9%90%98%E5%89%B5%E5%BB%BA%E5%B1%AC%E6%96%BC%E8%87%AA%E5%B7%B1%E7%9A%84%E5%AF%86%E7%A2%BC%E8%B2%A8%E5%B9%A3"
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=%E5%8D%80%E5%A1%8A%E9%8F%88%E6%89%93%E6%93%8A%E5%81%87%E6%96%B0%E8%81%9E%E5%8F%AF%E8%A1%8C%E5%97%8E&amp;url=https://fzth-blockchain.github.io/fzth/%E5%8D%80%E5%A1%8A%E9%8F%88%E6%89%93%E6%93%8A%E5%81%87%E6%96%B0%E8%81%9E%E5%8F%AF%E8%A1%8C%E5%97%8E"
             onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
 
         </a>
-        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://fzth-blockchain.github.io/fzth/%E4%BA%94%E5%88%86%E9%90%98%E5%89%B5%E5%BB%BA%E5%B1%AC%E6%96%BC%E8%87%AA%E5%B7%B1%E7%9A%84%E5%AF%86%E7%A2%BC%E8%B2%A8%E5%B9%A3"
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://fzth-blockchain.github.io/fzth/%E5%8D%80%E5%A1%8A%E9%8F%88%E6%89%93%E6%93%8A%E5%81%87%E6%96%B0%E8%81%9E%E5%8F%AF%E8%A1%8C%E5%97%8E"
             onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
 
