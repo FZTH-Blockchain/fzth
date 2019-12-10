@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="/fzth/author/panda/feed.xml" rel="self" type="application/atom+xml" />
   <link href="/fzth/" rel="alternate" type="text/html" />
-  <updated>2019-12-09T14:45:22+00:00</updated>
+  <updated>2019-12-10T15:01:18+00:00</updated>
   <id>/fzth/author/panda/feed.xml</id>
 
   
@@ -157,6 +157,177 @@
 
       
         <summary type="html">日前紐約時報推出一個以區塊鏈為核心打擊假新聞的 POC（Proof Of Concept），紐約時報想利用區塊鏈的機制，在不同的實體共享資訊，以建立並維護數位檔案的出處，這個區塊鏈會記錄圖片或是影像的元資料，由於在鏈上的資料是不可篡改的，且資料庫副本可由不同的組織持有，因此任何人都能追溯這些訊息最原始的版本。 更多的資料來源和內容可以看看 BlockTempo動區 的文章、 Ithome 的文章以及黑鴨大在 PTT 上聊關於區塊鏈對抗假新聞。</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">雜湊加密傻傻分不清楚</title>
+      <link href="/fzth/%E7%A0%B8%E6%B9%8A%E5%8A%A0%E5%AF%86%E5%82%BB%E5%82%BB%E5%88%86%E4%B8%8D%E6%B8%85%E6%A5%9A" rel="alternate" type="text/html" title="雜湊加密傻傻分不清楚" />
+      <published>2019-12-09T00:00:00+00:00</published>
+      <updated>2019-12-09T00:00:00+00:00</updated>
+      <id>/fzth/%E7%A0%B8%E6%B9%8A%E5%8A%A0%E5%AF%86%E5%82%BB%E5%82%BB%E5%88%86%E4%B8%8D%E6%B8%85%E6%A5%9A</id>
+      <content type="html" xml:base="/fzth/%E7%A0%B8%E6%B9%8A%E5%8A%A0%E5%AF%86%E5%82%BB%E5%82%BB%E5%88%86%E4%B8%8D%E6%B8%85%E6%A5%9A">&lt;blockquote&gt;
+  &lt;p&gt;大家都說加密貨幣？貨幣真的有加密嗎？&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;加密-encryption-&quot;&gt;加密（ Encryption ）&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;加密是什麼呢？&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;加密是種用來將資料加以編碼的數學演算法，只有預期的對象可以加以讀取。
+這樣講感覺有點太 HardCore … XD
+假如說：國王要把他的遺產鎖在王宮的寶箱裡面，那麼那個「鎖」等同於加密動作，「鑰匙」等同於解密動作。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;./assets/images/panda-49.png&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;那我們通常加密會分成兩種&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;對稱式金鑰加密
+如名，加密和解密金鑰是相同的。通訊方必須具有相同的金鑰才能實現安全通訊。
+缺點：如果遇到中間人攻擊，那麼所有加密的內容都容易被破解，內容會十分的危險。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;非對稱式金鑰加密
+如名，加密和解密金鑰是不相同的。
+下圖，（BP1 = Bob Public Key ， BP2 = Bob Private Key ， AP1 = Alice Public Key ， Alice Private Key ）&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;訊息加密
+假設 Alice 要傳送一則訊息給 Bob 卻不想給人看到，那他就可以透過非對稱金鑰加密去達成。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;./assets/images/panda-50.png&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;./assets/images/panda-51.png&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;數位簽章
+假設 Bob 收到一份 Alice 寄來的文件，他要確認這份文件是否是 Alice 寄來的。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;./assets/images/panda-52.png&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;./assets/images/panda-53.png&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;雜湊-hash-&quot;&gt;雜湊（ Hash ）&lt;/h2&gt;
+&lt;p&gt;我們在區塊鏈的世界中，很常聽到雜湊，但你真的認識他嗎？&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;我們的認知雜湊是什麼？&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Sha 系列 ： Sha0 、 Sha1 、Sha256 … 等&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;MD 系列 ： MD2 、 MD4 、MD5 … 等&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;那雜湊到底在做什麼呢&quot;&gt;那雜湊到底在做什麼呢？&lt;/h3&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;主要是將不定長度訊息的輸入，演算成固定長度雜湊值的輸出，且所計算出來的雜湊值必須符合兩個主要條件&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;雜湊值是無法還原成原來的訊息&lt;/li&gt;
+  &lt;li&gt;雜湊會隨著明文改變而改變&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;那假如說真的算出兩個一樣的結果呢？
+那這種情況我們稱之為碰撞（Collision），而這機率會是超級小。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;./assets/images/panda-54.png&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;若想嘗試雜湊可以來玩，&lt;a href=&quot;https://emn178.github.io/online-tools/sha256.html&quot;&gt;SHA256 online&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;那雜湊我們用在哪裡呢&quot;&gt;那雜湊我們用在哪裡呢？&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;驗證密碼
+大多數的程式像是 PHP 框架Laravel 的內建會員系統（他的存儲密碼方式就是使用雜湊），
+因為雜湊只能出不能返回，很適合用作儲存密碼，使用者只有輸入正確的密碼才能解開。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;區塊鏈系統驗證是否遭竄改
+區塊鏈的系統中，一個區塊和一個區塊即是用雜湊來做串連，當內部有筆交易有問題則區塊的雜湊值即會改變，我們也能知道系統是否遭到竄改。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://anders.com/blockchain/blockchain&quot;&gt;Blockchain Demo&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;小記&quot;&gt;小記&lt;/h2&gt;
+&lt;p&gt;經過這篇想必大家也了解，加密和雜湊的不同了！
+簡單複習一下：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;以非對稱加密為例，金鑰的作用可以進行簽章和加密訊息。&lt;/li&gt;
+  &lt;li&gt;雜湊就像是一個果汁機，你丟什麼水果進去這個果汁機，他就會給你什麼果汁。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;希望大家不要再說錯囉 XD&lt;/p&gt;
+
+&lt;p&gt;若文章有任何的問題或要討論的部分，歡迎在底下留言。
+歡迎透過 Email: &lt;code class=&quot;highlighter-rouge&quot;&gt;pandap.d819@gamil.com&lt;/code&gt; 聯絡我。&lt;/p&gt;
+
+&lt;h2 id=&quot;資料來源&quot;&gt;資料來源&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blog.trendmicro.com.tw/?p=17075&quot;&gt;加密&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E6%95%A3%E5%88%97&quot;&gt;雜湊&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://anders.com/blockchain/blockchain&quot;&gt;Blockchain Demo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://emn178.github.io/online-tools/sha256.html&quot;&gt;SHA256 online&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Panda</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="blockchain" />
+      
+        <category term="industry" />
+      
+
+      
+        <summary type="html">大家都說加密貨幣？貨幣真的有加密嗎？</summary>
       
 
       
