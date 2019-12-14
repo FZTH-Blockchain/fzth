@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="/fzth/author/panda/feed.xml" rel="self" type="application/atom+xml" />
   <link href="/fzth/" rel="alternate" type="text/html" />
-  <updated>2019-12-10T15:12:28+00:00</updated>
+  <updated>2019-12-14T10:35:29+00:00</updated>
   <id>/fzth/author/panda/feed.xml</id>
 
   
@@ -30,6 +30,113 @@
   
   
 
+  
+    <entry>
+      <title type="html">9-幣和代幣真的不一樣嗎？</title>
+      <link href="/fzth/%E5%B9%A3%E5%92%8C%E4%BB%A3%E5%B9%A3%E7%9C%9F%E7%9A%84%E4%B8%8D%E4%B8%80%E6%A8%A3%E5%97%8E" rel="alternate" type="text/html" title="9-幣和代幣真的不一樣嗎？" />
+      <published>2019-12-14T00:00:00+00:00</published>
+      <updated>2019-12-14T00:00:00+00:00</updated>
+      <id>/fzth/%E5%B9%A3%E5%92%8C%E4%BB%A3%E5%B9%A3%E7%9C%9F%E7%9A%84%E4%B8%8D%E4%B8%80%E6%A8%A3%E5%97%8E%3F</id>
+      <content type="html" xml:base="/fzth/%E5%B9%A3%E5%92%8C%E4%BB%A3%E5%B9%A3%E7%9C%9F%E7%9A%84%E4%B8%8D%E4%B8%80%E6%A8%A3%E5%97%8E">&lt;blockquote&gt;
+  &lt;p&gt;我們很常在外面聽到加密貨幣啊、虛擬貨幣、數位貨幣 … 等，這些東西真的不一樣嗎？我們直覺聽到幣，可能會想到我們手中的法幣（台幣、美金..等…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;幣-coin-&quot;&gt;幣（ Coin ）&lt;/h2&gt;
+
+&lt;p&gt;我們直覺聽到幣，可能會想到我們手中的法幣（台幣、美金..等），在區塊鏈內中也有大家都很熟悉的比特幣（Bitcoin）那麼這個比特幣又是歸屬在哪呢？&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;比特幣的最主要功能是用做支付（但他的第一筆支付是 10000 比特幣兌換一個 Pizza）。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;那我們來介紹一下貨幣的幾大特性：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;交易媒介&lt;/strong&gt;：像是古時候用貝殼或以物易物的方式做交易，而現今使用「貨幣」而能有效降低交易成本，提高交易收益，進而推動人類社會的進步。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;計價單位&lt;/strong&gt;：又稱價值標準，指價值的衡量標準，貨幣的使用，可讓不同財貨的價值，以共同標準來衡量，即為「價格」。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;價值儲存&lt;/strong&gt;：由於貨幣具有「購買力」，因此儲存貨幣即為儲存價值，使得個人不用當期將所有收入消費完，可將部分價值儲蓄供未來消費。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;遞延給付的工具&lt;/strong&gt;：又稱「債務標準」，任何債權與債務的計算，皆可共同使用貨幣作為標準。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;那麼以比特幣而言，他符合那幾項特性呢？
+主要為「交易媒介」以及「計價單位」，比特幣因有稀少性且能在小眾族群能夠交易，所以他其實蠻符合前兩項特性的。
+而價值儲存這件事情，因為他並非法定貨幣，國家不能管治所以也有可能一夕之間歸零等情況發生（希望不會 QAQ ）!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;回歸正題coin-在區塊鏈到底是要怎麼用&quot;&gt;回歸正題，Coin 在區塊鏈到底是要怎麼用？&lt;/h3&gt;
+
+&lt;p&gt;Coin（包括山寨幣）它們是基於公有鏈的，可以發送、接收或開採，除了充當貨幣之外，不執行任何功能。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;舉例：比特幣（Bitcoin）&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;代幣-token-coin-&quot;&gt;代幣（ Token Coin ）&lt;/h2&gt;
+
+&lt;p&gt;上面也有寫到 Coin 除了當作貨幣進行支付，基本上沒有任何作用，難道說也有可以執行其他功能的貨幣嗎？&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;https://images.unsplash.com/photo-1552057426-4a06192a5592?ixlib=rb-1.2.1&amp;amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;w=1567&amp;amp;q=80&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;That’s Right !&lt;/p&gt;
+
+&lt;p&gt;那就是 Token（代幣），那麼 Token 可以用來支付嗎？當然是可以的！&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;支付型代幣&lt;/strong&gt;：主要拿來進行支付的代幣，像是門羅幣（XMR）。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;功能型代幣&lt;/strong&gt;：這種代幣通常為用戶提供對產品或服務的訪問權。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;資產型代幣&lt;/strong&gt;：初創公司可以通過 ICO 發行自己的代幣，也可以視作公司的資產權益，這對於初創企業來說是一件好事，因為這樣初創公司進入金融市場的門檻將大大降低。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;小結&quot;&gt;小結&lt;/h2&gt;
+
+&lt;p&gt;在 2017-18 年，我們稱那個時代為 ICO 熱潮期，所有的開發者及老闆用盡一切力氣把自己的產品寫成區塊鏈版本的白皮書只為了跟上這波 ICO 熱潮，即是「資產型代幣」的最好應用 XD&lt;/p&gt;
+
+&lt;p&gt;當大家都認知到「ICO 熱潮」其實只是一個炒作、一個假象，大家又再度對虛擬貨幣…等貨幣感到困惑，到底需求是什麼 XD&lt;/p&gt;
+
+&lt;p&gt;今天簡單的跟大家介紹 Token 和 Coin 之差異，當然他內部還有更多更深的故事，有機會再和大家分享介紹吧！&lt;/p&gt;
+
+&lt;p&gt;若文章有任何的問題或要討論的部分，歡迎在底下留言。
+歡迎透過 Email: &lt;code class=&quot;highlighter-rouge&quot;&gt;pandap.d819@gamil.com&lt;/code&gt; 聯絡我。&lt;/p&gt;
+
+&lt;h2 id=&quot;參考資料&quot;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.jianshu.com/p/1e004be44a38&quot;&gt;Utility and Security Token&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.chainnews.com/articles/191650862446.htm&quot;&gt;Coin 和Token 有什麼區別？&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.blocktempo.com/the-difference-btw-token-coin/&quot;&gt;【動區知識｜不再混淆】還沒搞清楚這「Token」是什麼？——Token、Coin大不同！&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wiki.mbalib.com/zh-tw/%E4%BA%A4%E6%98%93%E5%AA%92%E4%BB%8B&quot;&gt;交易媒介&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://goldensun.get.com.tw/m/Journal/detail.aspx?no=408740&quot;&gt;比特幣真的是貨幣嗎？&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Panda</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="blockchain" />
+      
+
+      
+        <summary type="html">我們很常在外面聽到加密貨幣啊、虛擬貨幣、數位貨幣 … 等，這些東西真的不一樣嗎？我們直覺聽到幣，可能會想到我們手中的法幣（台幣、美金..等…</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">區塊鏈打擊假新聞可行嗎</title>
@@ -165,11 +272,11 @@
   
     <entry>
       <title type="html">雜湊加密傻傻分不清楚</title>
-      <link href="/fzth/%E7%A0%B8%E6%B9%8A%E5%8A%A0%E5%AF%86%E5%82%BB%E5%82%BB%E5%88%86%E4%B8%8D%E6%B8%85%E6%A5%9A" rel="alternate" type="text/html" title="雜湊加密傻傻分不清楚" />
+      <link href="/fzth/%E9%9B%9C%E6%B9%8A%E5%8A%A0%E5%AF%86%E5%82%BB%E5%82%BB%E5%88%86%E4%B8%8D%E6%B8%85%E6%A5%9A" rel="alternate" type="text/html" title="雜湊加密傻傻分不清楚" />
       <published>2019-12-09T00:00:00+00:00</published>
       <updated>2019-12-09T00:00:00+00:00</updated>
-      <id>/fzth/%E7%A0%B8%E6%B9%8A%E5%8A%A0%E5%AF%86%E5%82%BB%E5%82%BB%E5%88%86%E4%B8%8D%E6%B8%85%E6%A5%9A</id>
-      <content type="html" xml:base="/fzth/%E7%A0%B8%E6%B9%8A%E5%8A%A0%E5%AF%86%E5%82%BB%E5%82%BB%E5%88%86%E4%B8%8D%E6%B8%85%E6%A5%9A">&lt;blockquote&gt;
+      <id>/fzth/%E9%9B%9C%E6%B9%8A%E5%8A%A0%E5%AF%86%E5%82%BB%E5%82%BB%E5%88%86%E4%B8%8D%E6%B8%85%E6%A5%9A</id>
+      <content type="html" xml:base="/fzth/%E9%9B%9C%E6%B9%8A%E5%8A%A0%E5%AF%86%E5%82%BB%E5%82%BB%E5%88%86%E4%B8%8D%E6%B8%85%E6%A5%9A">&lt;blockquote&gt;
   &lt;p&gt;大家都說加密貨幣？貨幣真的有加密嗎？&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -593,7 +700,7 @@
       <link href="/fzth/%E9%80%B2%E5%85%A5%E5%8D%80%E5%A1%8A%E9%8F%88%E7%9A%84%E8%B5%B7%E6%89%8B%E5%BC%8F-%E9%8C%A2%E5%8C%85%E7%AF%87" rel="alternate" type="text/html" title="進入區塊鏈的起手式-錢包篇" />
       <published>2019-12-06T00:00:00+00:00</published>
       <updated>2019-12-06T00:00:00+00:00</updated>
-      <id>/fzth/%E9%80%B2%E5%85%A5%E5%8D%80%E5%A1%8A%E9%8F%88%E7%9A%84%E8%B5%B7%E6%89%8B%E5%BC%8F%20-%20%E9%8C%A2%E5%8C%85%E7%AF%87</id>
+      <id>/fzth/%E9%80%B2%E5%85%A5%E5%8D%80%E5%A1%8A%E9%8F%88%E7%9A%84%E8%B5%B7%E6%89%8B%E5%BC%8F-%E9%8C%A2%E5%8C%85%E7%AF%87</id>
       <content type="html" xml:base="/fzth/%E9%80%B2%E5%85%A5%E5%8D%80%E5%A1%8A%E9%8F%88%E7%9A%84%E8%B5%B7%E6%89%8B%E5%BC%8F-%E9%8C%A2%E5%8C%85%E7%AF%87">&lt;blockquote&gt;
   &lt;p&gt;當我們了解到區塊鏈的過程後，講了比特幣、以太幣，那大家一定很好奇，這個幣到底歸屬於哪裡，要怎麼用在日常生活中，那就讓我們進入今天的主軸 – 錢包。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -764,11 +871,11 @@
   
     <entry>
       <title type="html">區塊鏈的演進？讓我們一探究竟</title>
-      <link href="/fzth/%E5%8D%80%E5%A1%8A%E9%8F%88%E7%9A%84%E6%BC%94%E9%80%B2%E8%AE%93%E6%88%91%E5%80%91%E4%B8%80%E6%8E%A2%E7%A9%B6%E7%AB%9F-copy" rel="alternate" type="text/html" title="區塊鏈的演進？讓我們一探究竟" />
+      <link href="/fzth/%E5%8D%80%E5%A1%8A%E9%8F%88%E7%9A%84%E6%BC%94%E9%80%B2%E8%AE%93%E6%88%91%E5%80%91%E4%B8%80%E6%8E%A2%E7%A9%B6%E7%AB%9F" rel="alternate" type="text/html" title="區塊鏈的演進？讓我們一探究竟" />
       <published>2019-12-03T00:00:00+00:00</published>
       <updated>2019-12-03T00:00:00+00:00</updated>
-      <id>/fzth/%E5%8D%80%E5%A1%8A%E9%8F%88%E7%9A%84%E6%BC%94%E9%80%B2%E8%AE%93%E6%88%91%E5%80%91%E4%B8%80%E6%8E%A2%E7%A9%B6%E7%AB%9F%20copy</id>
-      <content type="html" xml:base="/fzth/%E5%8D%80%E5%A1%8A%E9%8F%88%E7%9A%84%E6%BC%94%E9%80%B2%E8%AE%93%E6%88%91%E5%80%91%E4%B8%80%E6%8E%A2%E7%A9%B6%E7%AB%9F-copy">&lt;blockquote&gt;
+      <id>/fzth/%E5%8D%80%E5%A1%8A%E9%8F%88%E7%9A%84%E6%BC%94%E9%80%B2%E8%AE%93%E6%88%91%E5%80%91%E4%B8%80%E6%8E%A2%E7%A9%B6%E7%AB%9F</id>
+      <content type="html" xml:base="/fzth/%E5%8D%80%E5%A1%8A%E9%8F%88%E7%9A%84%E6%BC%94%E9%80%B2%E8%AE%93%E6%88%91%E5%80%91%E4%B8%80%E6%8E%A2%E7%A9%B6%E7%AB%9F">&lt;blockquote&gt;
   &lt;p&gt;上一篇聊到了區塊鏈 3.0 是在做應用，那該不會 3.0 之前都在打哈哈吧？ 讓我們一探區塊鏈之全貌吧！
 &lt;a href=&quot;https://fzth-blockchain.github.io/fzth/%E5%8D%80%E5%A1%8A%E9%8F%88-3.0-%E6%87%89%E7%94%A8%E8%B5%B7%E9%A3%9B&quot;&gt;區塊鏈 3.0 應用起飛&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
