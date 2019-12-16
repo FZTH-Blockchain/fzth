@@ -1,4 +1,81 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="/fzth/feed.xml" rel="self" type="application/atom+xml" /><link href="/fzth/" rel="alternate" type="text/html" /><updated>2019-12-14T10:35:29+00:00</updated><id>/fzth/</id><title type="html">FromZeroToHero-Blockchain</title><subtitle>面對於一項不專業的項目，從零開始都是十分的不容易的。&lt;br&gt;From Zero To Hero 將會帶各位「從零開始直到成為英雄」。</subtitle><entry><title type="html">9-幣和代幣真的不一樣嗎？</title><link href="/fzth/%E5%B9%A3%E5%92%8C%E4%BB%A3%E5%B9%A3%E7%9C%9F%E7%9A%84%E4%B8%8D%E4%B8%80%E6%A8%A3%E5%97%8E" rel="alternate" type="text/html" title="9-幣和代幣真的不一樣嗎？" /><published>2019-12-14T00:00:00+00:00</published><updated>2019-12-14T00:00:00+00:00</updated><id>/fzth/%E5%B9%A3%E5%92%8C%E4%BB%A3%E5%B9%A3%E7%9C%9F%E7%9A%84%E4%B8%8D%E4%B8%80%E6%A8%A3%E5%97%8E%3F</id><content type="html" xml:base="/fzth/%E5%B9%A3%E5%92%8C%E4%BB%A3%E5%B9%A3%E7%9C%9F%E7%9A%84%E4%B8%8D%E4%B8%80%E6%A8%A3%E5%97%8E">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="/fzth/feed.xml" rel="self" type="application/atom+xml" /><link href="/fzth/" rel="alternate" type="text/html" /><updated>2019-12-16T11:53:04+00:00</updated><id>/fzth/</id><title type="html">FromZeroToHero-Blockchain</title><subtitle>面對於一項不專業的項目，從零開始都是十分的不容易的。&lt;br&gt;From Zero To Hero 將會帶各位「從零開始直到成為英雄」。</subtitle><entry><title type="html">透過日劇來聊聊區塊鏈</title><link href="/fzth/%E9%80%8F%E9%81%8E%E6%97%A5%E5%8A%87%E4%BE%86%E8%81%8A%E8%81%8A%E5%8D%80%E5%A1%8A%E9%8F%88" rel="alternate" type="text/html" title="透過日劇來聊聊區塊鏈" /><published>2019-12-16T00:00:00+00:00</published><updated>2019-12-16T00:00:00+00:00</updated><id>/fzth/%E9%80%8F%E9%81%8E%E6%97%A5%E5%8A%87%E4%BE%86%E8%81%8A%E8%81%8A%E5%8D%80%E5%A1%8A%E9%8F%88</id><content type="html" xml:base="/fzth/%E9%80%8F%E9%81%8E%E6%97%A5%E5%8A%87%E4%BE%86%E8%81%8A%E8%81%8A%E5%8D%80%E5%A1%8A%E9%8F%88">&lt;blockquote&gt;
+  &lt;p&gt;上次我們聊到了&lt;a href=&quot;https://ithelp.ithome.com.tw/articles/10219290&quot;&gt;假新聞&lt;/a&gt;的議題，基本上我們需要先了解的新聞該如何溯源，我們才有辦法聊後續的應用，不然基本上即為空想。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;同學們: 如果我們把資料全部上鏈，就可以解決假新聞的問題了不是嗎？&lt;/p&gt;
+
+&lt;p&gt;我 : 假新聞的問題基本上跟上不上鏈，沒有任何的關聯。&lt;/p&gt;
+
+&lt;p&gt;同學們 : 如果我們上鏈就能找到是哪個人寫這篇報告，進而對他處置不就好了嗎？&lt;/p&gt;
+
+&lt;p&gt;我 : 假如說他就是個在寫假新聞的記者，那他怎麼可能會用你們的系統來發文呢。&lt;/p&gt;
+
+&lt;p&gt;同學們 : 那就找政府啊，叫政府推！這樣一定行 ..&lt;/p&gt;
+
+&lt;p&gt;我 : 如果政府真的這麼受人信任，基本上這些問題也不會出現這麼多。&lt;/p&gt;
+
+&lt;p&gt;同學們 : 那麼區塊鏈是不是連這麼簡單的事情都解決不了呢？&lt;/p&gt;
+
+&lt;p&gt;我 : 沒錯！在推行上只要跟去中心化扯不上邊，基本上只能為「為了區塊鏈的應用」，而非區塊鏈的應用。&lt;/p&gt;
+
+&lt;h2 id=&quot;透過日劇來聊聊區塊鏈應用&quot;&gt;透過日劇來聊聊區塊鏈應用&lt;/h2&gt;
+
+&lt;p&gt;我想這次跟大家分享一個日劇 - 三年A班&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;https://images.vocus.cc/9bf47d74-604f-44f0-ba6b-e7195bfd4e4f.png&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;center&gt;&lt;strong&gt;圖1 三年A班。&lt;/strong&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;
+《三年A班》碰觸了&lt;strong&gt;校園霸凌、言語暴力、網路謠言、死亡等暗黑題材&lt;/strong&gt;，也試以受害者、加害者、旁觀者等多種角度切入、探討「&lt;strong&gt;正義&lt;/strong&gt;」的存在與否及定義；是一部能深刻牽動觀眾推理與思考的懸疑電視劇。&lt;/p&gt;
+
+&lt;p&gt;我盡量用不暴雷的方式介紹，這部片基本上是在講一個現今社會的人都是重度 SNS（Social Network Services）沈迷者，在劇中每個人都是匿名的，所以每個評論都&lt;strong&gt;不用負責&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;真的不用負責嗎？&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;我們都知道以現今法律來說隨意地罵人，也是會受到法律的制裁。（可以藉由查詢 &lt;code class=&quot;highlighter-rouge&quot;&gt;IP&lt;/code&gt;，等其他紀錄來判別你的真實身份）。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;若區塊鏈也有 SNS 的系統？&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;傳送每個訊息（交易紀錄）的時候，都會去記錄每個帳號的錢包地址更方便追蹤，也能更了解這個使用者的行為模式。
+&lt;code class=&quot;highlighter-rouge&quot;&gt;每個人都要為自己所說的話給負責。&lt;/code&gt; 因為科技的快速發展，聊天就可以更加的隨意且輕鬆，但輕鬆就會隨便。我們在生活中也會遇到很多的事件，可能你隨口說說的「廢物、白痴」等話，其實對自己的同學、家人、朋友，就是一個傷害。倘若每個人都可以&lt;code class=&quot;highlighter-rouge&quot;&gt;為自己的話負責&lt;/code&gt;，那麼也會減少了很多很多的社會事件。&lt;/p&gt;
+
+&lt;h2 id=&quot;小結&quot;&gt;小結&lt;/h2&gt;
+
+&lt;p&gt;語言是一把雙面刃該怎麼運用都是自己人生的功課，沒有人有義務教會你所有的事。
+所以不要因為自己的一時興起，就透過網路、言語、行為去進行霸凌，讓自己有更深的感觸去體諒身邊的每個人。&lt;/p&gt;
+
+&lt;p&gt;當你遇到一件事情，請不要衝動！好好的用自己的方式去理解去思考。
+對於世人，「思考」竟成了最難被執行、也最易被忽略的一件事。更是這世道下的世人們，最欠缺也普遍作的不夠而不好的一件事。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;科技來自人性，但人性到底是善是惡？&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;科技來自人性，這句話在現今的社會中已是琅琅上口的一句話，科技我知道是因為需求，那人性呢？&lt;/p&gt;
+
+&lt;p&gt;就我看來科技的本質強化了人性的矛盾！&lt;code class=&quot;highlighter-rouge&quot;&gt;「科技不會創造愛，但是，人其實是生來能夠愛人的」&lt;/code&gt;–人類學家海倫費雪。&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;https://images.vocus.cc/5cd2fa9d-552f-45ab-b835-43c016982d38.jpg&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;center&gt;&lt;strong&gt;圖2 三年A班-Let's think!。&lt;/strong&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;若文章有任何的問題或要討論的部分，歡迎透過 &lt;code class=&quot;highlighter-rouge&quot;&gt;Email: pandap.d819@gamil.com&lt;/code&gt; 聯絡我。
+若您喜歡我們的文章，請不要吝嗇透過上面的 Share 分享至 twitter 和 Facebook 吧！&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.facebook.com/fzthblockchain&quot;&gt;Facebook&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Email: (pandap.d819@gamil.com)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://join.slack.com/t/fzth/shared_invite/enQtODQxMDQxMjE5MDU4LWJlZGNmZGNmODZiNzE3OWIyYTVjOTZhYjhiMjdlOWY0NGY5OTNjMzA0YTNlMmU2OGZlZTU3NzUzZTdiZTgxNTE&quot;&gt;Slack&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Panda</name></author><category term="blockchain" /><category term="industry" /><summary type="html">上次我們聊到了假新聞的議題，基本上我們需要先了解的新聞該如何溯源，我們才有辦法聊後續的應用，不然基本上即為空想。</summary></entry><entry><title type="html">幣和代幣真的不一樣嗎？</title><link href="/fzth/%E5%B9%A3%E5%92%8C%E4%BB%A3%E5%B9%A3%E7%9C%9F%E7%9A%84%E4%B8%8D%E4%B8%80%E6%A8%A3%E5%97%8E" rel="alternate" type="text/html" title="幣和代幣真的不一樣嗎？" /><published>2019-12-14T00:00:00+00:00</published><updated>2019-12-14T00:00:00+00:00</updated><id>/fzth/%E5%B9%A3%E5%92%8C%E4%BB%A3%E5%B9%A3%E7%9C%9F%E7%9A%84%E4%B8%8D%E4%B8%80%E6%A8%A3%E5%97%8E%3F</id><content type="html" xml:base="/fzth/%E5%B9%A3%E5%92%8C%E4%BB%A3%E5%B9%A3%E7%9C%9F%E7%9A%84%E4%B8%8D%E4%B8%80%E6%A8%A3%E5%97%8E">&lt;blockquote&gt;
   &lt;p&gt;我們很常在外面聽到加密貨幣啊、虛擬貨幣、數位貨幣 … 等，這些東西真的不一樣嗎？我們直覺聽到幣，可能會想到我們手中的法幣（台幣、美金..等…&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -994,122 +1071,4 @@
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://bitcoin.org/bitcoin.pdf&quot;&gt;中本聰論文白皮書&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://satoshinakamoto.me/zh-tw/bitcoin.pdf&quot;&gt;中本聰論文白皮書譯本&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Panda</name></author><category term="blockchain" /><summary type="html">區塊鏈自從 2017 年起，開始被有心人士當作操作的項目或是議題。看到區塊鏈在各個產業不斷受到重視，所以也就萌生了來寫鐵人賽的這個想法，希望可以透過更簡單更白話的方式讓大家了解區塊鏈也能根據了解的程度去防止被更多的不法人士拐騙。</summary></entry><entry><title type="html">第一次加入FZTH就上手</title><link href="/fzth/%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%8A%A0%E5%85%A5fzth%E5%B0%B1%E4%B8%8A%E6%89%8B" rel="alternate" type="text/html" title="第一次加入FZTH就上手" /><published>2019-11-26T00:00:00+00:00</published><updated>2019-11-26T00:00:00+00:00</updated><id>/fzth/%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%8A%A0%E5%85%A5fzth%E5%B0%B1%E4%B8%8A%E6%89%8B</id><content type="html" xml:base="/fzth/%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%8A%A0%E5%85%A5fzth%E5%B0%B1%E4%B8%8A%E6%89%8B">&lt;blockquote&gt;
-  &lt;p&gt;此篇為範例導覽，若有任何問題請至&lt;a href=&quot;https://www.facebook.com/fzthblockchain/&quot;&gt;粉絲專頁&lt;/a&gt;亦或是 &lt;a href=&quot;https://github.com/FZTH-Blockchain/fzth&quot;&gt;Github&lt;/a&gt; 上提 Issue。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;./assets/images/panda-2.png&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;center&gt;&lt;strong&gt;圖1 FZTH Github&lt;/strong&gt;&lt;/center&gt;
-
-&lt;h2 id=&quot;如何和社群互動&quot;&gt;如何和社群互動&lt;/h2&gt;
-
-&lt;p&gt;關於社群互動這部分，FromZeroToHero 將會是一個新人成為英雄的一個過程，而這個過程不僅是你/妳們成長的過程、也是更多人成長的過程，我們希望大家都能為了更多的新人、更多得不到資訊的人，貢獻自己的心力。&lt;/p&gt;
-
-&lt;p&gt;具體來說，我們會在官方網站以及 Facebook 粉絲專頁上發佈&lt;strong&gt;最新的文章&lt;/strong&gt;並給予 &lt;strong&gt;Tags（分類）&lt;/strong&gt;，讓每位互動者/讀者都能更好的找自己想要的分類，也歡迎在 Facebook 給予我們反饋。&lt;/p&gt;
-
-&lt;p&gt;現階段，我們將以 Pull Request(PR) 為目前更新文章之主要方式，那接下來我將手把手帶領各位進入 FZTH !&lt;/p&gt;
-
-&lt;h2 id=&quot;pr-教學&quot;&gt;PR 教學&lt;/h2&gt;
-
-&lt;p&gt;PR 即為 Pull Request，在 Github 上必須先複製（Fork）一份原作的專案到你自己的 GitHub 帳號底下。&lt;/p&gt;
-
-&lt;p&gt;那自己的 Fork 專案想怎麼玩就怎麼玩，之後你就可以推上自己的 Fork 文件上，發個通知給 FZTH，讓團隊人員來審視這次的 PR 是否 ok，若是 ok 則會將您發起的 PR 合併進團隊文章裡，若不 ok 將會在底下描述為何沒通過的理由。&lt;/p&gt;
-
-&lt;h3 id=&quot;step1---點擊-fork-將專案複製至自己的遠端儲存庫&quot;&gt;Step1 - 點擊 Fork 將專案複製至自己的遠端儲存庫&lt;/h3&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;./assets/images/panda-3.png&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;center&gt;&lt;strong&gt;圖2 Fork 專案至自己的遠端儲存庫&lt;/strong&gt;&lt;/center&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;./assets/images/panda-4.png&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;center&gt;&lt;strong&gt;圖3 即可在自己的遠端資源庫中看到 fzth 的專案&lt;/strong&gt;&lt;/center&gt;
-
-&lt;p&gt;&lt;br /&gt;
-以我為例 就會看到 &lt;em&gt;panda850819 forked from fzth&lt;/em&gt; …&lt;/p&gt;
-
-&lt;h3 id=&quot;step2---clone-專案下載專案&quot;&gt;Step2 - Clone 專案/下載專案&lt;/h3&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;./assets/images/panda-5.png&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;center&gt;&lt;strong&gt;圖4 在自己的專案中按下 Clone 到自己的資料夾&lt;/strong&gt;&lt;/center&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;可以透過 Download ZIP 至你想要的位置解壓縮它&lt;/li&gt;
-  &lt;li&gt;可以透過終端機指令，請先開啟終端機並且輸入底下指令&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ cd desktop &amp;amp;&amp;amp; mkdir fzth &amp;amp;&amp;amp; cd fzth
-// 先將位置移動至桌面並且創立 fzth 資料夾
-
-$ git clone https://github.com/{你的github名稱}/fzth.git
-// 將專案下載至 fzth 資料夾
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;h3 id=&quot;step3---同步-fzth-專案&quot;&gt;Step3 - 同步 Fzth 專案&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;同步遠端專案&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ git remote -v
-// origin https://github.com/panda850819/fzth.git (fetch)
-// origin https://github.com/panda850819/fzth.git (push)
-
-$ git remote add upstream https://github.com/FZTH-Blockchain/fzth.git
-// 新增 upstream 做為新的遠端儲存庫 
-
-$ git remote -v 
-// origin	https://github.com/panda850819/fzth.git (fetch)
-// origin	https://github.com/panda850819/fzth.git (push)
-// upstream	https://github.com/FZTH-Blockchain/fzth.git (fetch)
-// upstream	https://github.com/FZTH-Blockchain/fzth.git (push)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;同步遠端 Fork&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ git fetch upstream
-$ git checkout master 
-$ git merge upstream/master
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;step4---提交-pr-至-fzth&quot;&gt;Step4 - 提交 PR 至 FZTH&lt;/h3&gt;
-
-&lt;p&gt;當我們完成修改之後，我們先將修改後的專案推（&lt;code class=&quot;highlighter-rouge&quot;&gt;push&lt;/code&gt;）到自己的專案中，接下來就是將修改的部分告知 Fzth Team，那就要來提交 PR 拉！&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;記得要先將自己 fork 的專案推上去，才能提交 PR 喔！&lt;/code&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;提交 PR&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;./assets/images/panda-6.png&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;center&gt;&lt;strong&gt;圖5 提交 Pull Request&lt;/strong&gt;&lt;/center&gt;
-
-&lt;p&gt;然後可以在上面輸入摘要跟主題，接下來就等著團隊給予回覆囉！&lt;/p&gt;
-
-&lt;h2 id=&quot;小結&quot;&gt;小結&lt;/h2&gt;
-&lt;p&gt;透過幾個小小步驟，我們將了解如何 Fork 專案以及 Clone 專案，並且繳交自己的 Pull Request 給 Fzth Team。&lt;/p&gt;
-
-&lt;p&gt;希望大家能一起為這個社群做貢獻，若有任何想要瞭解的也可以至官方網站、Facebook 觀看我們的文章和我們一起討論，最後 Fzth－Blockchain 從零開始學區塊鏈為區塊鏈之學習新遊樂場，透過整理過往資源、翻譯原文文章 ..等，打算將區塊鏈之學習地圖透過我們的雙手慢慢地畫出。主題圍繞在區塊鏈（Blockchain）、Crypto（加密）.. 等，若大家對我們有興趣也請不吝嗇的提交 PR 給我們和意見給我們!&lt;/p&gt;
-
-&lt;h2 id=&quot;參考文獻&quot;&gt;參考文獻&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://gitbook.tw/chapters/github/pull-request.html&quot;&gt;為你自己學Git&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.itread01.com/content/1544771540.html?fbclid=IwAR2s4ATwibiiKRS3DYBnNsaNVuQeedOovTKZyGY9iaVqUukTDZppXzGu35w&quot;&gt;git如何同步fork專案&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Panda</name></author><category term="blockchain" /><summary type="html">此篇為範例導覽，若有任何問題請至粉絲專頁亦或是 Github 上提 Issue。</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Panda</name></author><category term="blockchain" /><summary type="html">區塊鏈自從 2017 年起，開始被有心人士當作操作的項目或是議題。看到區塊鏈在各個產業不斷受到重視，所以也就萌生了來寫鐵人賽的這個想法，希望可以透過更簡單更白話的方式讓大家了解區塊鏈也能根據了解的程度去防止被更多的不法人士拐騙。</summary></entry></feed>
