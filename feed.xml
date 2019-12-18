@@ -1,4 +1,66 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="/fzth/feed.xml" rel="self" type="application/atom+xml" /><link href="/fzth/" rel="alternate" type="text/html" /><updated>2019-12-16T11:53:04+00:00</updated><id>/fzth/</id><title type="html">FromZeroToHero-Blockchain</title><subtitle>面對於一項不專業的項目，從零開始都是十分的不容易的。&lt;br&gt;From Zero To Hero 將會帶各位「從零開始直到成為英雄」。</subtitle><entry><title type="html">透過日劇來聊聊區塊鏈</title><link href="/fzth/%E9%80%8F%E9%81%8E%E6%97%A5%E5%8A%87%E4%BE%86%E8%81%8A%E8%81%8A%E5%8D%80%E5%A1%8A%E9%8F%88" rel="alternate" type="text/html" title="透過日劇來聊聊區塊鏈" /><published>2019-12-16T00:00:00+00:00</published><updated>2019-12-16T00:00:00+00:00</updated><id>/fzth/%E9%80%8F%E9%81%8E%E6%97%A5%E5%8A%87%E4%BE%86%E8%81%8A%E8%81%8A%E5%8D%80%E5%A1%8A%E9%8F%88</id><content type="html" xml:base="/fzth/%E9%80%8F%E9%81%8E%E6%97%A5%E5%8A%87%E4%BE%86%E8%81%8A%E8%81%8A%E5%8D%80%E5%A1%8A%E9%8F%88">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="/fzth/feed.xml" rel="self" type="application/atom+xml" /><link href="/fzth/" rel="alternate" type="text/html" /><updated>2019-12-18T10:26:14+00:00</updated><id>/fzth/</id><title type="html">FromZeroToHero-Blockchain</title><subtitle>面對於一項不專業的項目，從零開始都是十分的不容易的。&lt;br&gt;From Zero To Hero 將會帶各位「從零開始直到成為英雄」。</subtitle><entry><title type="html">區塊鏈該怎麼學？</title><link href="/fzth/%E5%8D%80%E5%A1%8A%E9%8F%88%E8%A9%B2%E6%80%8E%E9%BA%BC%E5%AD%B8" rel="alternate" type="text/html" title="區塊鏈該怎麼學？" /><published>2019-12-18T00:00:00+00:00</published><updated>2019-12-18T00:00:00+00:00</updated><id>/fzth/%E5%8D%80%E5%A1%8A%E9%8F%88%E8%A9%B2%E6%80%8E%E9%BA%BC%E5%AD%B8</id><content type="html" xml:base="/fzth/%E5%8D%80%E5%A1%8A%E9%8F%88%E8%A9%B2%E6%80%8E%E9%BA%BC%E5%AD%B8">&lt;blockquote&gt;
+  &lt;p&gt;區塊鏈博大精深，我到底該何去何從呢？就讓 Fzth 由淺入深一探區塊鏈圈子吧！&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;學習主要會分幾種面向，也跟我們目前的區分的圈子有關。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;幣圈（一般談論幣的走向、經濟面）&lt;/li&gt;
+  &lt;li&gt;鏈圈（廣泛來說就是討論技術面、跟合約、底層、共識演算法..等）&lt;/li&gt;
+  &lt;li&gt;礦圈（挖礦 .. 對.. 就是挖礦:D ）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;個人經歷&quot;&gt;個人經歷&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;分享一下鏈圈路線淺談&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;我基本上剛踏入區塊鏈這個圈子的時候，跟各位一樣是個完全的小白，基本上就是一個看&lt;a href=&quot;https://cypherpunks-core.github.io/products/BitcoinWhitePaper/&quot;&gt;中本聰論文(中譯本)&lt;/a&gt;看了兩次看不懂最後看了六七次的那種，但真的圈子裡可能還有蠻多人沒看過比特幣白皮書，到現在還是很推薦去看，不管是去看當初的論文有多厲害還是去看他現在有多麽的落後。&lt;/p&gt;
+
+&lt;p&gt;分享一下當初的我是 ICO 風潮快結束的時候，某天有外包業主問我說懂不懂區塊鏈（當時的我剛好在看比特幣白皮書第三還第四遍吧 XD ），所以我是回他說可能還可以，他就說他有個想法想要發幣（建立在以太坊上），當時的我對於這個圈子內部資源可說是完全不了解，更何況南部當時還沒有幾個人願意出來傳授正確觀念（大多都被藏在一些實驗室或公司內部），所以沒法出外交流 …&lt;/p&gt;
+
+&lt;p&gt;然後我大概花了一個月左右的時間，去讀以太坊區塊鏈跟一般網頁之串接（當初 Web3 版本還在 Web@0.2 智能合約也還在 ^0.4.22 ），大概花了點時間學會了如何使用 Metamask 跟 Web3 做互動，這也是我踏入圈子中的第一份外包 XD&lt;/p&gt;
+
+&lt;p&gt;之後我花費更多的時間再研究以太坊之技術底層和合約開發上，就購買了 &lt;a href=&quot;https://hahow.in/courses/5b3cdd6ed03140001eebeadc&quot;&gt;朱西西（魚王）老師的智能合約課程&lt;/a&gt;，這堂課幫助了我很多。&lt;/p&gt;
+
+&lt;p&gt;之後帶著親朋好友去比當時少數的區塊鏈 Hackthon &lt;a href=&quot;https://medium.com/open-coding-style/%E7%B6%B2%E9%A0%81%E5%B7%A5%E7%A8%8B%E5%B8%AB%E8%A7%92%E5%BA%A6%E7%9C%8B%E9%80%99%E6%AC%A1dexon%E9%AB%98%E7%A9%BA%E9%BB%91%E5%AE%A2%E6%9D%BE-3c2c8735d27a&quot;&gt;DEXON Hackthon&lt;/a&gt;，我與我的夥伴們也大概花費半天撰寫智能合約、半天撰寫前端畫面，大概在隔天的早上到 101 都剩下在 Debug，參與 Hackthon 也是對自己的實力有更一步的認識，也在當天看到了許多組的創意發想！在裡面也認識了幾個志同道合的夥伴，也在當時申請了 DEXON 的校園大使，希望可以把區塊鏈知識傳授到各地，但好景不長所以我也在當時向學校申請成立&lt;a href=&quot;https://www.facebook.com/%E9%AB%98%E7%A7%91%E5%A4%A7%E5%8D%80%E5%A1%8A%E9%8F%88%E7%A0%94%E7%A9%B6%E7%A4%BE-597579990749708/?modal=admin_todo_tour&quot;&gt;高科大區塊鏈研究社&lt;/a&gt;，一個人找著志同道合的夥伴去推廣，但南部要找到一個不是想要投機的人真的很難（基本上都是資金盤以及詐騙），好在現今社團成立至此還有 10 多位朋友願意一同來了解區塊鏈知識（十分感動）！&lt;/p&gt;
+
+&lt;h2 id=&quot;幣圈&quot;&gt;幣圈&lt;/h2&gt;
+
+&lt;p&gt;若是一個良好的韭菜，基本上第一步就是要先知道怎樣申請交易所（前幾篇都有寫可以自己去翻），第二步是找到自己熟悉的操作模式。&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;短線（基本上炒作小幣或是開空開多的槓桿為主）&lt;/li&gt;
+  &lt;li&gt;長線（基本上 Hodl BTC 為主）&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;然後學習跟上資訊的演進，基本上除了看線的漲幅再來就是情報差了 .. XD 
+像本小韭大多就選定區間就放著擺網格了 Q_Q&lt;/p&gt;
+
+&lt;h2 id=&quot;鏈圈&quot;&gt;鏈圈&lt;/h2&gt;
+
+&lt;p&gt;若是一個想要學習技術新知的朋友，基本上第一步就是先去看中本聰白皮書以及以太坊運作原理，這會加速你在開發程式以及看待區塊鏈的邏輯思維會更加清晰。&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;區塊鏈底層技術&lt;/li&gt;
+  &lt;li&gt;雜湊、密碼學技術&lt;/li&gt;
+  &lt;li&gt;共識演算法&lt;/li&gt;
+  &lt;li&gt;智能合約及其應用&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;大多會分成這幾類去看，當然還有更多.. 若有興趣討論也可以來私訊我 XD&lt;/p&gt;
+
+&lt;h2 id=&quot;礦圈&quot;&gt;礦圈&lt;/h2&gt;
+
+&lt;p&gt;若是一個想進礦圈的朋友，組一台礦機就是你的第一步，但還是要注意一下投入當時的風氣跟礦量喔 XD&lt;/p&gt;
+
+&lt;h2 id=&quot;小記&quot;&gt;小記&lt;/h2&gt;
+
+&lt;p&gt;今天大概分享了自己這一年來的小小心得，把一些圈子該學的用比較大方向的歸類出來，若有想了解更細節的也歡迎來找我聊聊～&lt;/p&gt;
+
+&lt;p&gt;若文章有任何的問題或要討論的部分，歡迎在底下留言。
+歡迎透過 Email: &lt;code class=&quot;highlighter-rouge&quot;&gt;pandap.d819@gamil.com&lt;/code&gt; 聯絡我。&lt;/p&gt;</content><author><name>Panda</name></author><category term="blockchain" /><summary type="html">區塊鏈博大精深，我到底該何去何從呢？就讓 Fzth 由淺入深一探區塊鏈圈子吧！</summary></entry><entry><title type="html">透過日劇來聊聊區塊鏈</title><link href="/fzth/%E9%80%8F%E9%81%8E%E6%97%A5%E5%8A%87%E4%BE%86%E8%81%8A%E8%81%8A%E5%8D%80%E5%A1%8A%E9%8F%88" rel="alternate" type="text/html" title="透過日劇來聊聊區塊鏈" /><published>2019-12-16T00:00:00+00:00</published><updated>2019-12-16T00:00:00+00:00</updated><id>/fzth/%E9%80%8F%E9%81%8E%E6%97%A5%E5%8A%87%E4%BE%86%E8%81%8A%E8%81%8A%E5%8D%80%E5%A1%8A%E9%8F%88</id><content type="html" xml:base="/fzth/%E9%80%8F%E9%81%8E%E6%97%A5%E5%8A%87%E4%BE%86%E8%81%8A%E8%81%8A%E5%8D%80%E5%A1%8A%E9%8F%88">&lt;blockquote&gt;
   &lt;p&gt;上次我們聊到了&lt;a href=&quot;https://ithelp.ithome.com.tw/articles/10219290&quot;&gt;假新聞&lt;/a&gt;的議題，基本上我們需要先了解的新聞該如何溯源，我們才有辦法聊後續的應用，不然基本上即為空想。&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -944,131 +1006,4 @@
   &lt;li&gt;&lt;a href=&quot;https://turingchain.tech/&quot;&gt;Turing Chain&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://godsunchained.info/&quot;&gt;GodsUnchained&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.facebook.com/asmondtw/&quot;&gt;ASMOND&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Panda</name></author><category term="blockchain" /><category term="industry" /><summary type="html">你們可能會覺得很奇怪，為什麼一開始要講區塊鏈 3.0 呢？ 是不是還有區塊鏈 1.0 和 2.0 呢？經過昨天我們已經知道區塊鏈是怎麼組成的</summary></entry><entry><title type="html">從零開始的區塊鏈</title><link href="/fzth/%E5%BE%9E%E9%9B%B6%E9%96%8B%E5%A7%8B%E7%9A%84%E5%8D%80%E5%A1%8A%E9%8F%88" rel="alternate" type="text/html" title="從零開始的區塊鏈" /><published>2019-11-30T00:00:00+00:00</published><updated>2019-11-30T00:00:00+00:00</updated><id>/fzth/%E5%BE%9E%E9%9B%B6%E9%96%8B%E5%A7%8B%E7%9A%84%E5%8D%80%E5%A1%8A%E9%8F%88</id><content type="html" xml:base="/fzth/%E5%BE%9E%E9%9B%B6%E9%96%8B%E5%A7%8B%E7%9A%84%E5%8D%80%E5%A1%8A%E9%8F%88">&lt;blockquote&gt;
-  &lt;p&gt;區塊鏈自從 2017 年起，開始被有心人士當作操作的項目或是議題。看到區塊鏈在各個產業不斷受到重視，所以也就萌生了來寫鐵人賽的這個想法，希望可以透過更簡單更白話的方式讓大家了解區塊鏈也能根據了解的程度去防止被更多的不法人士拐騙。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;目錄&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;區塊鏈是什麼？&lt;/li&gt;
-    &lt;li&gt;比特幣區塊鏈&lt;/li&gt;
-    &lt;li&gt;小結&lt;/li&gt;
-    &lt;li&gt;參考資料&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;區塊鏈是什麼&quot;&gt;區塊鏈是什麼？&lt;/h2&gt;
-&lt;p&gt;說到區塊鏈，你是不是直覺性的想到了 &lt;em&gt;比特幣&lt;/em&gt; &lt;em&gt;挖礦&lt;/em&gt; &lt;em&gt;ICO&lt;/em&gt; &lt;em&gt;去中心化&lt;/em&gt; …等的詞彙在腦中浮現呢 xD&lt;/p&gt;
-
-&lt;p&gt;那其實目前民眾所知道的區塊鏈分為極端的兩種&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;願意相信下一代科技的信任者&lt;/li&gt;
-  &lt;li&gt;懼怕被新科技欺騙的民眾以及好多好多的&lt;em&gt;韭菜&lt;/em&gt; Q_Q&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;區塊鏈的想法源自於&lt;a href=&quot;http://satoshinakamoto.me/zh-tw/bitcoin.pdf&quot;&gt;中本聰之白皮書 - Bitcoin : A Peer To Peer Electronic Cash System &lt;/a&gt;，那麼這篇白皮書為什麼會影響全世界！
-那就跟著我的腳步來一覽這比特幣區塊鏈的世界吧～&lt;/p&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;./assets/images/panda-7.png&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;center&gt;&lt;strong&gt;圖1 比特幣白皮書&lt;/strong&gt;&lt;/center&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;比特幣區塊鏈&quot;&gt;比特幣區塊鏈&lt;/h2&gt;
-
-&lt;p&gt;區塊鏈的想法源自於區塊以及鏈之結合(廢話) xD 
-但事實就是如此 ，區塊鏈他是一個分散式的大帳本，由每個人民填寫交易內容至帳本中，當帳本填滿一頁將此頁摺成區塊由礦工上到鏈上。&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;我們知道區塊鏈的中心思想是去中心化。&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;去中心化&lt;/strong&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;從比特幣區塊鏈論文中提到，目前的現金交易系統 — 銀行是個中心化的大帳本，那區塊鏈的出現即是要將這個大帳本的工作交由每個人民來做，當錢和資訊都是從每個人手上發出至另一個人(P2P，點對點交易系統)，也可以直接的對區塊鏈系統取得信任。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;讓我們來聊聊一個農村的故事吧！
-這個村莊叫做比特幣村，裡面住著三個職業的人：村民、村長以及礦工。&lt;/p&gt;
-
-&lt;h3 id=&quot;交易&quot;&gt;交易&lt;/h3&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;交易即為每個人消費之活動紀錄。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;./assets/images/panda-8.png&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;center&gt;&lt;strong&gt;圖2 村民之間的交易紀錄會統一記到各自的帳本。&lt;/strong&gt;&lt;/center&gt;
-
-&lt;h3 id=&quot;區塊&quot;&gt;區塊&lt;/h3&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;區塊我們可以想像成一個多筆的交易。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;./assets/images/panda-9.png&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;center&gt;&lt;strong&gt;圖3 帳本的內容即是交易，當帳本填滿後將它撕下折成了一個區塊。&lt;/strong&gt;&lt;/center&gt;
-
-&lt;h3 id=&quot;鏈&quot;&gt;鏈&lt;/h3&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;鏈我們可以想像成透過雜湊串連&lt;em&gt;區塊&lt;/em&gt;來確保資料完整性即我們所說的&lt;em&gt;不可篡改&lt;/em&gt;。
-比特幣區塊鏈會遵循&lt;em&gt;最長鏈原則&lt;/em&gt;為基礎。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;比特幣區塊是依靠礦工們不斷進行數學運算而產生的，每一個區塊都必須鏈接上一個區塊，因此最長的鏈也是最難以推翻和篡改的，所以節點永遠認為最長鏈才是有效的區塊鏈。&lt;/code&gt;&lt;/p&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;./assets/images/panda-10.png&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;center&gt;&lt;strong&gt;圖4 每個人皆可蒐集蒐集多個區塊並且驗證內部的交易是否有衝突，村民們也可以將這些區塊上到各自的鏈上，但都會以最長的鏈為基礎。&lt;/strong&gt;&lt;/center&gt;
-
-&lt;h3 id=&quot;礦工&quot;&gt;礦工&lt;/h3&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;礦工負責的是將交易摺成區塊後部署至鏈上獲取&lt;em&gt;比特幣&lt;/em&gt;獎勵。
-礦工必須確認每一筆交易沒有衝突，並且迅速的將交易封箱(Hash，雜湊)成區塊。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;./assets/images/panda-11.png&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;center&gt;&lt;strong&gt;圖5 礦工負責的是將交易摺成區塊後上到鏈上獲取獎勵。&lt;/strong&gt;&lt;/center&gt;
-
-&lt;h3 id=&quot;廣播&quot;&gt;廣播&lt;/h3&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;村民會廣播各自的交易內容給其他村民們知道，直到所有人都填寫了這項交易內容。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;./assets/images/panda-12.png&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;center&gt;&lt;strong&gt;圖6 廣播示意圖。&lt;/strong&gt;&lt;/center&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;小結&quot;&gt;小結&lt;/h2&gt;
-&lt;p&gt;或許區塊鏈根本不是區塊鏈，而我們也從中本聰論文中找答案，區塊鏈這個名詞並非中本聰所提出，而是後人對這個點對點的分散式系統名詞描述罷了。&lt;/p&gt;
-
-&lt;p&gt;但根據&lt;em&gt;最長鏈原則&lt;/em&gt;，大家都稱他為區塊鏈就變成區塊鏈了 XD
-今天主要將區塊鏈的一些基礎架構和想法透過一個簡單的故事稍微介紹，那下一篇會根據區塊鏈的應用及為什麼要使用區塊鏈來介紹。&lt;/p&gt;
-
-&lt;p&gt;若文章有任何的問題或要討論的部分，歡迎在底下留言。
-歡迎透過 &lt;code class=&quot;highlighter-rouge&quot;&gt;Email: pandap.d819@gamil.com&lt;/code&gt; 聯絡我，歡迎投稿意見或內容至 facebook 給我們！&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;參考資料&quot;&gt;參考資料&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://bitcoin.org/bitcoin.pdf&quot;&gt;中本聰論文白皮書&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://satoshinakamoto.me/zh-tw/bitcoin.pdf&quot;&gt;中本聰論文白皮書譯本&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Panda</name></author><category term="blockchain" /><summary type="html">區塊鏈自從 2017 年起，開始被有心人士當作操作的項目或是議題。看到區塊鏈在各個產業不斷受到重視，所以也就萌生了來寫鐵人賽的這個想法，希望可以透過更簡單更白話的方式讓大家了解區塊鏈也能根據了解的程度去防止被更多的不法人士拐騙。</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Panda</name></author><category term="blockchain" /><category term="industry" /><summary type="html">你們可能會覺得很奇怪，為什麼一開始要講區塊鏈 3.0 呢？ 是不是還有區塊鏈 1.0 和 2.0 呢？經過昨天我們已經知道區塊鏈是怎麼組成的</summary></entry></feed>
