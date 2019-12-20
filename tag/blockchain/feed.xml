@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="/fzth/tag/blockchain/feed.xml" rel="self" type="application/atom+xml" />
   <link href="/fzth/" rel="alternate" type="text/html" />
-  <updated>2019-12-18T10:26:14+00:00</updated>
+  <updated>2019-12-20T03:26:29+00:00</updated>
   <id>/fzth/tag/blockchain/feed.xml</id>
 
   
@@ -30,6 +30,168 @@
   
   
 
+  
+    <entry>
+      <title type="html">如何成為區塊鏈工程師？</title>
+      <link href="/fzth/%E5%A6%82%E4%BD%95%E6%88%90%E7%82%BA%E5%8D%80%E5%A1%8A%E9%8F%88%E5%B7%A5%E7%A8%8B%E5%B8%AB" rel="alternate" type="text/html" title="如何成為區塊鏈工程師？" />
+      <published>2019-12-20T00:00:00+00:00</published>
+      <updated>2019-12-20T00:00:00+00:00</updated>
+      <id>/fzth/%E5%A6%82%E4%BD%95%E6%88%90%E7%82%BA%E5%8D%80%E5%A1%8A%E9%8F%88%E5%B7%A5%E7%A8%8B%E5%B8%AB</id>
+      <content type="html" xml:base="/fzth/%E5%A6%82%E4%BD%95%E6%88%90%E7%82%BA%E5%8D%80%E5%A1%8A%E9%8F%88%E5%B7%A5%E7%A8%8B%E5%B8%AB">&lt;blockquote&gt;
+  &lt;p&gt;聊了該如何學習區塊鏈，接續 &lt;a href=&quot;https://fzth-blockchain.github.io/fzth/區塊鏈該怎麼學&quot;&gt;區塊鏈該怎麼學？&lt;/a&gt;，那我們今天就來介紹當今最紅的&lt;strong&gt;區塊鏈工程師&lt;/strong&gt;該怎麼入門吧！&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;基本上區塊鏈工程師還有分：&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;鏈的工程師&lt;/strong&gt; （需要了解演算法及共識演算法）&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;交易所的工程師&lt;/strong&gt;（需要了解許多的鏈的串接跟使用）&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;應用開發（DApp）的工程師&lt;/strong&gt;（需要了解智能合約以及前端的串接）&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;那我們大多數如果要成為 Dapp 工程師，我們需要了解以太坊和智能合約！&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;分享一下我是怎麼學這些的，上一篇有講過我是購買&lt;a href=&quot;https://hahow.in/courses/5b3cdd6ed03140001eebeadc&quot;&gt;線上課程&lt;/a&gt;搭配網路上的一些網站像是 &lt;a href=&quot;https://blog.fukuball.com/&quot;&gt;Fukuball&lt;/a&gt;、&lt;a href=&quot;https://easonwang01.gitbooks.io/blockchain/content/block.html&quot;&gt;區塊鏈介紹&lt;/a&gt;，也可以看看 &lt;a href=&quot;https://pse.is/EUZ59&quot;&gt;ASMOND&lt;/a&gt;、&lt;a href=&quot;https://fzth-blockchain.github.io/fzth/&quot;&gt;FromZeroToHero&lt;/a&gt;、台灣最大的以太坊社群 - &lt;a href=&quot;https://www.facebook.com/groups/taipei.ethereum.meetup/&quot;&gt;Taipei Ethereum Meetup&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;基本上選定一個主題或主軸，就可以先多找幾個網頁開出來擺著，若有不懂或有疑慮的地方先筆記起來，若不懂的地方十分的關鍵那就利用「搜尋關鍵字」的方式來解決。&lt;/p&gt;
+
+&lt;p&gt;假如說你遇到以太坊智能合約代幣程式碼不懂的時候：&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Ethereum Token SmartContract (以太坊代幣智能合約)&lt;/li&gt;
+  &lt;li&gt;DApp ERC20 Token （區塊鏈應用 ERC20 代幣）&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;基本上下好關鍵字 如果這樣找不到的話 就在最後 + Github XD&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;然後可以先去玩 &lt;a href=&quot;https://cryptozombies.io/zh/&quot;&gt;CryptoZombie&lt;/a&gt;，了解基礎的智能合約撰寫方式！&lt;/p&gt;
+
+&lt;p&gt;順帶一提關於智能合約部分，我也推薦一下自己學弟撰寫鐵人賽 &lt;a href=&quot;https://ithelp.ithome.com.tw/users/20119338/ironman/2150&quot;&gt;智能合約和 DApp 的教學&lt;/a&gt;，寫得十分詳細和簡單也可以多多的捧場！&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;https://i.imgur.com/SvHzBUU.png&quot; style=&quot;width:90%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;center&gt;&lt;strong&gt;圖1 Ithelp - 區塊練起來 &lt;/strong&gt;&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Dapp 工程師也有分鏈？&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;每款 Dapp 開發的核心語言也隨著鏈大不相同，像是以太坊是使用 &lt;strong&gt;Solidity&lt;/strong&gt; 而 EOS 是採用 &lt;strong&gt;C++&lt;/strong&gt; ..等，那我們要怎麼選擇自己該要從哪裡開始學呢？&lt;/p&gt;
+
+&lt;p&gt;基本上，蠻建議新手就是看哪邊資源多就往那邊學！
+目前仍然是建議大家往 ETHEREUM（以太坊）上的開發來學習，目前以太坊上的開發者夠多且資源也大概也有兩三年的累積量相較於其他的主鏈來說已經算是相對豐富了。&lt;/p&gt;
+
+&lt;p&gt;最後來為大家總結一下，要成為一個區塊鏈工程師，要先選擇自己的流派（應用開發(DApp)派、創建鏈派、交易所串接鏈派）。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;若是 DApp 派的&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;就要再度選擇要哪條主鏈（僅以最多用戶的三條鏈來介紹）&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Ethereum （以太坊）
+    &lt;ul&gt;
+      &lt;li&gt;Solidity 智能合約&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;https://images.unsplash.com/photo-1519995451813-39e29e054914?ixlib=rb-1.2.1&amp;amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;w=1650&amp;amp;q=80&quot; style=&quot;width:50%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Tron （波場）
+    &lt;ul&gt;
+      &lt;li&gt;Solidity 智能合約&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;https://icons-for-free.com/iconfiles/png/512/trn+tron+icon-1320162857839278647.png&quot; style=&quot;width:40%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Eos （柚子）
+    &lt;ul&gt;
+      &lt;li&gt;C++ 智能合約&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;https://cdn4.iconfinder.com/data/icons/logos-and-brands-1/512/114_Eos_logo_logos-512.png&quot; style=&quot;width:40%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;若是創建鏈派的&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;後端語言（Golang）&lt;/li&gt;
+  &lt;li&gt;演算法（Consensus 共識演算法）&lt;/li&gt;
+  &lt;li&gt;區塊鏈知識科普&lt;/li&gt;
+  &lt;li&gt;密碼學&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;若是交易所串接派的&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;了解各條鏈的內容&lt;/li&gt;
+  &lt;li&gt;並學會如何串接各條鏈&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;大概是這樣吧.. 若是還想知道更多就 google 搜尋一下區塊鏈工程師看一下外界的薪水跟需求，朝著那些方向做應該就會差不多勒～&lt;/p&gt;
+
+&lt;p&gt;若文章有任何的問題或要討論的部分，歡迎透過以下方式聯繫我。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.facebook.com/fzthblockchain&quot;&gt;Facebook&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Email: (pandap.d819@gamil.com)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://join.slack.com/t/fzth/shared_invite/enQtODQxMDQxMjE5MDU4LWJlZGNmZGNmODZiNzE3OWIyYTVjOTZhYjhiMjdlOWY0NGY5OTNjMzA0YTNlMmU2OGZlZTU3NzUzZTdiZTgxNTE&quot;&gt;Slack&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;參考資料&quot;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.inside.com.tw/article/14093-blockchain-engineer-solidity&quot;&gt;教你如何成為一名區塊鏈工程師&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Panda</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="blockchain" />
+      
+        <category term="industry" />
+      
+
+      
+        <summary type="html">聊了該如何學習區塊鏈，接續 區塊鏈該怎麼學？，那我們今天就來介紹當今最紅的區塊鏈工程師該怎麼入門吧！</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">區塊鏈該怎麼學？</title>
@@ -1179,210 +1341,6 @@
 
       
         <summary type="html">上一篇聊到了區塊鏈 3.0 是在做應用，那該不會 3.0 之前都在打哈哈吧？ 讓我們一探區塊鏈之全貌吧！ 區塊鏈 3.0 應用起飛</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">區塊鏈 3.0 應用起飛</title>
-      <link href="/fzth/%E5%8D%80%E5%A1%8A%E9%8F%88-3.0-%E6%87%89%E7%94%A8%E8%B5%B7%E9%A3%9B" rel="alternate" type="text/html" title="區塊鏈 3.0 應用起飛" />
-      <published>2019-12-02T00:00:00+00:00</published>
-      <updated>2019-12-02T00:00:00+00:00</updated>
-      <id>/fzth/%E5%8D%80%E5%A1%8A%E9%8F%88%203.0%20%E6%87%89%E7%94%A8%E8%B5%B7%E9%A3%9B%3F</id>
-      <content type="html" xml:base="/fzth/%E5%8D%80%E5%A1%8A%E9%8F%88-3.0-%E6%87%89%E7%94%A8%E8%B5%B7%E9%A3%9B">&lt;blockquote&gt;
-  &lt;p&gt;你們可能會覺得很奇怪，為什麼一開始要講區塊鏈 3.0 呢？
-是不是還有區塊鏈 1.0 和 2.0 呢？經過昨天我們已經知道區塊鏈是怎麼組成的&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://fzth-blockchain.github.io/fzth/%E5%BE%9E%E9%9B%B6%E9%96%8B%E5%A7%8B%E7%9A%84%E5%8D%80%E5%A1%8A%E9%8F%88&quot;&gt;從零開始的區塊鏈&lt;/a&gt;&lt;/p&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;./assets/images/panda-14.png&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;center&gt;&lt;strong&gt;圖1 區塊鏈組成。&lt;/strong&gt;&lt;/center&gt;
-
-&lt;h2 id=&quot;那今天就來聊聊大家都想聽的區塊鏈應用&quot;&gt;那今天就來聊聊大家都想聽的區塊鏈應用。&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;目錄&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;區塊鏈 3.0&lt;/li&gt;
-    &lt;li&gt;小結&lt;/li&gt;
-    &lt;li&gt;參考資料&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-&lt;h2 id=&quot;區塊鏈-30&quot;&gt;區塊鏈 3.0&lt;/h2&gt;
-&lt;p&gt;你們可能會覺得很奇怪，為什麼一開始要講區塊鏈 3.0 呢？
-是不是還有區塊鏈 1.0 和 2.0 呢？
-沒錯 XD 那本篇會先講目前既有之應用，區塊鏈的背景故事留在下篇介紹。&lt;/p&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;./assets/images/panda-15.png&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;center&gt;&lt;strong&gt;圖2 區塊鏈應用時代。&lt;/strong&gt;&lt;/center&gt;
-
-&lt;p&gt;在去年 &lt;a href=&quot;https://www.iota.org/&quot;&gt;IOTA&lt;/a&gt; 剛出世的時候，大家都說區塊鏈 3.0 一定是 IOTA，認為IOTA技術可以解決現有區塊鏈的問題 ..&lt;/p&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;./assets/images/panda-16.png&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;center&gt;&lt;strong&gt;圖3 區塊鏈不可能三角。&lt;/strong&gt;&lt;/center&gt;
-
-&lt;p&gt;但這不是我們今天的主軸，我們 3.0 最主要就是要聊能夠深耕世界的應用，我們也稱這種應用叫做 Dapp 。&lt;/p&gt;
-
-&lt;h3 id=&quot;dapp&quot;&gt;Dapp&lt;/h3&gt;
-
-&lt;p&gt;有著智能合約和區塊鏈之應用誕生，區塊鏈的應用發展突然十分的廣泛。
-那我會介紹一些現在的應用，且講一下優缺點。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;食安區塊鏈&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;利用區塊鏈來做紀錄，將產銷履歷之紀錄透明化。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;優點：食品的生產履歷透明化，可以讓消費者更好了解自己購買的食品過程，且不被竄改。&lt;/li&gt;
-  &lt;li&gt;缺點：每一筆記錄之手續費過高;若第一筆紀錄的內容本身就有誤，那此紀錄就是無用紀錄。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;./assets/images/panda-17.png&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;center&gt;&lt;strong&gt;圖4 食安區塊鏈。&lt;/strong&gt;&lt;/center&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;證書上鏈&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.facebook.com/TuringCerts-%E5%9C%96%E9%9D%88%E8%AD%89%E6%9B%B8-101585707884659/&quot;&gt;圖靈證書&lt;/a&gt;由台灣團隊 &lt;a href=&quot;https://turingchain.tech/&quot;&gt;Turing Chain&lt;/a&gt; 開發，將證書上鏈打擊假履歷和學歷。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;優點：公開紀錄履歷、學歷不可被竄改，透過區塊鏈特性可以在特定條件再提供自己的履歷/學歷。&lt;/li&gt;
-  &lt;li&gt;缺點：一樣是源頭問題，當源頭有錯誤所有的內容都會被審視。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;./assets/images/panda-18.png&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;center&gt;&lt;strong&gt;圖5 圖靈鏈證書 0x1&lt;/strong&gt;&lt;/center&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;區塊鏈卡牌遊戲&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;有著區塊鏈爐石戰記之稱的 &lt;a href=&quot;https://godsunchained.info/&quot;&gt;Gods Unchained&lt;/a&gt;，透過將卡牌上鏈且採用 ERC721 標準賦予卡牌全新的價值，且可以交換。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;優點：算是一種區塊鏈和現實遊戲中的虛實整合，讓虛擬中的卡牌有了定位和價值。&lt;/li&gt;
-  &lt;li&gt;缺點：除了卡片為 ERC721 購買卡牌及交易可以用以太幣以外，不清楚哪裡用了區塊鏈。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;./assets/images/panda-19.png&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;center&gt;&lt;strong&gt;圖6 Gods Unchained&lt;/strong&gt;&lt;/center&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;區塊鏈打擊假新聞&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;台灣團隊 &lt;a href=&quot;https://www.facebook.com/profile.php?id=2397871380492872&quot;&gt;ASMOND&lt;/a&gt; 以打擊假新聞為發想之POC - &lt;a href=&quot;https://medium.com/asmond/%E7%B4%90%E7%B4%84%E6%99%82%E5%A0%B1%E6%8E%A1%E7%94%A8%E5%8D%80%E5%A1%8A%E9%8F%88%E6%89%93%E6%93%8A%E5%81%87%E6%96%B0%E8%81%9E-7870ae7a7bad&quot;&gt;White Box&lt;/a&gt;。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;優點：透過人工智能之驗證及判斷結合區塊鏈之不可篡改特性，使得每篇新聞之信效度將會大幅提升。&lt;/li&gt;
-  &lt;li&gt;缺點：仍然有許多人不覺得假新聞是假新聞;區塊鏈之成本過高;人工智能之數據量需要充足且符合預期。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;./assets/images/panda-20.png&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;center&gt;&lt;strong&gt;圖7 WhiteBox&lt;/strong&gt;&lt;/center&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;博弈遊戲
-已博弈遊戲著名的 Dapp 那就是我們風靡一時的 Fomo3d。
-現在 Fomo3d 的函式庫和內容，都有人 Release 出來，有興趣的朋友可以自行前去觀賞。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;優缺點 ：資金盤採用區塊鏈，很潮。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;./assets/images/panda-21.png&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;center&gt;&lt;strong&gt;圖8 fomo3d&lt;/strong&gt;&lt;/center&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;鏈上公益計劃&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;阿里巴巴則希望借著「鏈上公益計劃」打造出最純粹、透明的公益。區塊鏈技術具有去中心化、透明度高、信息不可篡改等特性，可以說是完美滿足了公益領域的需求。&lt;/p&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;./assets/images/panda-22.png&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;center&gt;&lt;strong&gt;圖9 鏈上公益計劃&lt;/strong&gt;&lt;/center&gt;
-
-&lt;hr /&gt;
-&lt;h2 id=&quot;小結&quot;&gt;小結&lt;/h2&gt;
-
-&lt;p&gt;根據上述的許多創意和想法，大多皆採用了區塊鏈的幾大特性（不可篡改性、去中心化、匿名性），而筆者認為區塊鏈最原始之架構即為一個點對點式之分散式資料庫應用，起初比特幣系統即是用來支付若解決了支付上的大多問題。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;做產品的人和信任區塊鏈的人，請不要為了區塊鏈而去做區塊鏈，這樣會導致初心不同，內容很和質量就會變得很差。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;若文章有任何的問題或要討論的部分，歡迎在底下留言。
-歡迎透過 &lt;code class=&quot;highlighter-rouge&quot;&gt;Email: pandap.d819@gamil.com&lt;/code&gt; 聯絡我&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;參考資料&quot;&gt;參考資料&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.samsonhoi.com/629/blockchain-impossible-triangle&quot;&gt;區塊鏈不可能三角&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.iota.org/&quot;&gt;IOTA&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://turingchain.tech/&quot;&gt;Turing Chain&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://godsunchained.info/&quot;&gt;GodsUnchained&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.facebook.com/asmondtw/&quot;&gt;ASMOND&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Panda</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="blockchain" />
-      
-        <category term="industry" />
-      
-
-      
-        <summary type="html">你們可能會覺得很奇怪，為什麼一開始要講區塊鏈 3.0 呢？ 是不是還有區塊鏈 1.0 和 2.0 呢？經過昨天我們已經知道區塊鏈是怎麼組成的</summary>
       
 
       
