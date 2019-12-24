@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Document Settings -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Base Meta -->
+    <!-- dynamically fixing the title for tag/author pages -->
+
+
+
+    <title>Consensus 共識演算法</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Styles'n'Scripts -->
+    <link rel="stylesheet" type="text/css" href="/fzth/assets/built/screen.css" />
+    <link rel="stylesheet" type="text/css" href="/fzth/assets/built/screen.edited.css" />
+    <link rel="stylesheet" type="text/css" href="/fzth/assets/built/syntax.css" />
+    <!-- highlight.js -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+    <style>.hljs { background: none; }</style>
+
+    <!--[if IE]>
+        <style>
+            p, ol, ul{
+                width: 100%;
+            }
+            blockquote{
+                width: 100%;
+            }
+        </style>
+    <![endif]-->
+    
+    <!-- This tag outputs SEO meta+structured data and other important settings -->
+    <meta name="description" content="面對於一項不專業的項目，從零開始都是十分的不容易的。<br>From Zero To Hero 將會帶各位「從零開始直到成為英雄」。" />
+    <link rel="shortcut icon" href="/fzth/assets/images/fzth.png" type="image/png" />
+    <link rel="canonical" href="/fzth/Consensus-%E5%85%B1%E8%AD%98%E6%BC%94%E7%AE%97%E6%B3%95" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+
+     <!--title below is coming from _includes/dynamic_title-->
+    <meta property="og:site_name" content="FromZeroToHero-Blockchain" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Consensus 共識演算法" />
+    <meta property="og:description" content="大家都知道區塊鏈的核心圍繞在「共識」上。那跟我們日常生活有什麼不同呢？基本上，我們生活中無時無刻都是在維持「共識」，該怎麼說呢？那就讓我們看下去吧！ 古時候，雙方取得共識便可以交換商品。 現代，雙方取得共識便可以購買商品。 倘若你不相信對方呢？那就會透過「公正第三方」來當作彼此的橋樑。 區塊鏈中也當然存在著共識，我們用大家最常見的拜占庭將軍簡化版來給大家了解一下。 角色介紹 從前從前有兩位將軍 將軍問題 單一將軍是無法打贏敵人的。 A 將軍必須在敵方營地派遣一個使者，將進攻時間傳給 B 將軍。（ B 將軍將使者送給 A 將軍）。 這個使者有可能在路上發生意外或被敵軍抓走。 使者在回傳訊息時，也有可能發生上述的問題。 拜占庭將軍問題 它描述了相同的場景，在這個場景中，需要兩名以上的將軍商定時間攻擊他們的共同敵人。 這是一個或多個將軍可以成為叛徒，這意味著他們可以為自己的選擇撒謊。 設置簡單命令，攻擊或後退。 區塊鏈使用共識算法選出一個領導者，該領導者將決定下一個區塊的內容。 POW 為了被選為領導者並選擇要添加到區塊鏈的下一個區塊，他們必須找到特定數學問題的解決方案。 為該問題提供解決方案後，很容易驗證它是否正確。 POS 權益證明（Proof-Of-Stake, PoS）是在區塊鏈公鏈中的共識機制，它的出現，主要是希望取代工作量證明，從而減少為了產生新區塊而進行「挖礦」的大量運算。它與工作量證明 Proof-Of-Work 不同的是：在 PoW 中，大家比拼的是「算力」（運算能力），通過大量運算得出符合難度的 Hash 值，從而得到獎勵，亦無法預期是由誰產生下一個區塊；而在 PoS ，大家比拼的是「權益」，「權益」越大的人越大機會負責產生新區塊，也就是說能夠預期是由誰產生下一個區塊，所以 PoW 與 PoS 之間對於產生新區塊的方式存在很大差異，而且由於 PoW 的「挖礦」過程需要消耗龐大電力，造成對環境的破壞。而 PoS 的出現則試圖以另一種不同的機制取代「挖礦」來解決這個問題。 小結 今天聊聊簡易版的共識，讓大家看完上一篇的分岔，就可以來聊聊共識～ 這些東西是十分有趣的，而且以太坊現在也要從 POW" />
+    <meta property="og:url" content="/fzth/Consensus-%E5%85%B1%E8%AD%98%E6%BC%94%E7%AE%97%E6%B3%95" />
+    <meta property="og:image" content="/fzth/assets/images/panda-59.png" />
+    <meta property="article:publisher" content="https://www.facebook.com/" />
+    <meta property="article:author" content="https://www.facebook.com/" />
+    <meta property="article:published_time" content="2019-12-24T00:00:00+00:00" />
+    <meta property="article:modified_time" content="2019-12-24T00:00:00+00:00" />
+    <meta property="article:tag" content="Fzth-post" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Consensus 共識演算法" />
+    <meta name="twitter:description" content="大家都知道區塊鏈的核心圍繞在「共識」上。那跟我們日常生活有什麼不同呢？基本上，我們生活中無時無刻都是在維持「共識」，該怎麼說呢？那就讓我們看下去吧！ 古時候，雙方取得共識便可以交換商品。 現代，雙方取得共識便可以購買商品。 倘若你不相信對方呢？那就會透過「公正第三方」來當作彼此的橋樑。 區塊鏈中也當然存在著共識，我們用大家最常見的拜占庭將軍簡化版來給大家了解一下。 角色介紹 從前從前有兩位將軍 將軍問題 單一將軍是無法打贏敵人的。 A 將軍必須在敵方營地派遣一個使者，將進攻時間傳給 B 將軍。（ B 將軍將使者送給 A 將軍）。 這個使者有可能在路上發生意外或被敵軍抓走。 使者在回傳訊息時，也有可能發生上述的問題。 拜占庭將軍問題 它描述了相同的場景，在這個場景中，需要兩名以上的將軍商定時間攻擊他們的共同敵人。 這是一個或多個將軍可以成為叛徒，這意味著他們可以為自己的選擇撒謊。 設置簡單命令，攻擊或後退。 區塊鏈使用共識算法選出一個領導者，該領導者將決定下一個區塊的內容。 POW 為了被選為領導者並選擇要添加到區塊鏈的下一個區塊，他們必須找到特定數學問題的解決方案。 為該問題提供解決方案後，很容易驗證它是否正確。 POS 權益證明（Proof-Of-Stake, PoS）是在區塊鏈公鏈中的共識機制，它的出現，主要是希望取代工作量證明，從而減少為了產生新區塊而進行「挖礦」的大量運算。它與工作量證明 Proof-Of-Work 不同的是：在 PoW 中，大家比拼的是「算力」（運算能力），通過大量運算得出符合難度的 Hash 值，從而得到獎勵，亦無法預期是由誰產生下一個區塊；而在 PoS ，大家比拼的是「權益」，「權益」越大的人越大機會負責產生新區塊，也就是說能夠預期是由誰產生下一個區塊，所以 PoW 與 PoS 之間對於產生新區塊的方式存在很大差異，而且由於 PoW 的「挖礦」過程需要消耗龐大電力，造成對環境的破壞。而 PoS 的出現則試圖以另一種不同的機制取代「挖礦」來解決這個問題。 小結 今天聊聊簡易版的共識，讓大家看完上一篇的分岔，就可以來聊聊共識～ 這些東西是十分有趣的，而且以太坊現在也要從 POW" />
+    <meta name="twitter:url" content="/fzth/" />
+    <meta name="twitter:image" content="/fzth/assets/images/panda-59.png" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="FromZeroToHero-Blockchain" />
+    <meta name="twitter:label2" content="Filed under" />
+    <meta name="twitter:data2" content="Fzth-post" />
+    <meta name="twitter:site" content="@" />
+    <meta name="twitter:creator" content="@" />
+    <meta property="og:image:width" content="1400" />
+    <meta property="og:image:height" content="933" />
+
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Website",
+    "publisher": {
+        "@type": "Organization",
+        "name": "FromZeroToHero-Blockchain",
+        "logo": "/fzth/assets/images/fzth.png"
+    },
+    "url": "/fzth/Consensus-%E5%85%B1%E8%AD%98%E6%BC%94%E7%AE%97%E6%B3%95",
+    "image": {
+        "@type": "ImageObject",
+        "url": "/fzth/assets/images/panda-59.png",
+        "width": 2000,
+        "height": 666
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "/fzth/Consensus-%E5%85%B1%E8%AD%98%E6%BC%94%E7%AE%97%E6%B3%95"
+    },
+    "description": "大家都知道區塊鏈的核心圍繞在「共識」上。那跟我們日常生活有什麼不同呢？基本上，我們生活中無時無刻都是在維持「共識」，該怎麼說呢？那就讓我們看下去吧！ 古時候，雙方取得共識便可以交換商品。 現代，雙方取得共識便可以購買商品。 倘若你不相信對方呢？那就會透過「公正第三方」來當作彼此的橋樑。 區塊鏈中也當然存在著共識，我們用大家最常見的拜占庭將軍簡化版來給大家了解一下。 角色介紹 從前從前有兩位將軍 將軍問題 單一將軍是無法打贏敵人的。 A 將軍必須在敵方營地派遣一個使者，將進攻時間傳給 B 將軍。（ B 將軍將使者送給 A 將軍）。 這個使者有可能在路上發生意外或被敵軍抓走。 使者在回傳訊息時，也有可能發生上述的問題。 拜占庭將軍問題 它描述了相同的場景，在這個場景中，需要兩名以上的將軍商定時間攻擊他們的共同敵人。 這是一個或多個將軍可以成為叛徒，這意味著他們可以為自己的選擇撒謊。 設置簡單命令，攻擊或後退。 區塊鏈使用共識算法選出一個領導者，該領導者將決定下一個區塊的內容。 POW 為了被選為領導者並選擇要添加到區塊鏈的下一個區塊，他們必須找到特定數學問題的解決方案。 為該問題提供解決方案後，很容易驗證它是否正確。 POS 權益證明（Proof-Of-Stake, PoS）是在區塊鏈公鏈中的共識機制，它的出現，主要是希望取代工作量證明，從而減少為了產生新區塊而進行「挖礦」的大量運算。它與工作量證明 Proof-Of-Work 不同的是：在 PoW 中，大家比拼的是「算力」（運算能力），通過大量運算得出符合難度的 Hash 值，從而得到獎勵，亦無法預期是由誰產生下一個區塊；而在 PoS ，大家比拼的是「權益」，「權益」越大的人越大機會負責產生新區塊，也就是說能夠預期是由誰產生下一個區塊，所以 PoW 與 PoS 之間對於產生新區塊的方式存在很大差異，而且由於 PoW 的「挖礦」過程需要消耗龐大電力，造成對環境的破壞。而 PoS 的出現則試圖以另一種不同的機制取代「挖礦」來解決這個問題。 小結 今天聊聊簡易版的共識，讓大家看完上一篇的分岔，就可以來聊聊共識～ 這些東西是十分有趣的，而且以太坊現在也要從 POW"
+}
+    </script>
+
+    <!-- <script type="text/javascript" src="https://demo.ghost.io/public/ghost-sdk.min.js?v=724281a32e"></script>
+    <script type="text/javascript">
+    ghost.init({
+    	clientId: "ghost-frontend",
+    	clientSecret: "f84a07a72b17"
+    });
+    </script> -->
+
+    <meta name="generator" content="Jekyll 3.6.2" />
+    <link rel="alternate" type="application/rss+xml" title="Consensus 共識演算法" href="/fzth/feed.xml" />
+
+
+</head>
+<body class="post-template">
+
+    <div class="site-wrapper">
+        <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
+        <!-- default -->
+
+<!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template -->
+
+<header class="site-header outer">
+    <div class="inner">
+        <nav class="site-nav">
+    <div class="site-nav-left">
+        
+            
+                <a class="site-nav-logo" href="/fzth/"><img src="/fzth/assets/images/fzth.png" alt="FromZeroToHero-Blockchain" /></a>
+            
+        
+        
+            <ul class="nav" role="menu">
+    <li class="nav-home" role="menuitem"><a href="/fzth/">Home</a></li>
+    <li class="nav-about" role="menuitem"><a href="/fzth/about/">About FZTH</a></li>
+    <li class="nav-blockchain" role="menuitem"><a href="/fzth/tag/blockchain/">blockchain</a></li>
+    <li class="nav-tech" role="menuitem"><a href="/fzth/tag/tech/">tech</a></li>
+    <li class="nav-industry" role="menuitem"><a href="/fzth/tag/industry/">industry</a></li>
+    <li class="nav-post" role="menuitem"><a href="https://pse.is/MSBZ8">分享文章</a></li>
+    <li class="nav-facebook" role="menuitem"><a href="https://www.facebook.com/fzthblockchain">Facebook</a></li>
+    <li class="nav-github" role="menuitem"><a href="https://github.com/FZTH-Blockchain">Github</a></li>
+</ul>
+
+        
+    </div>
+    <div class="site-nav-right">
+        <div class="social-links">
+            
+            
+        </div>
+        
+    </div>
+</nav>
+
+    </div>
+</header>
+
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
+
+<main id="site-main" class="site-main outer" role="main">
+    <div class="inner">
+
+        <article class="post-full post ">
+
+            <header class="post-full-header">
+                <section class="post-full-meta">
+                    <time class="post-full-meta-date" datetime="24 December 2019">24 December 2019</time>
+                    
+                        <span class="date-divider">/</span>
+                        
+                            
+                               <a href='/fzth/tag/fzth-post/'>FZTH-POST</a>
+                            
+                        
+                    
+                </section>
+                <h1 class="post-full-title">Consensus 共識演算法</h1>
+            </header>
+
+            
+            <figure class="post-full-image" style="background-image: url(/fzth/assets/images/panda-59.png)">
+            </figure>
+            
+
+            <section class="post-full-content">
+                <div class="kg-card-markdown">
+                    <blockquote>
+  <p>大家都知道區塊鏈的核心圍繞在「共識」上。那跟我們日常生活有什麼不同呢？基本上，我們生活中無時無刻都是在維持「共識」，該怎麼說呢？那就讓我們看下去吧！</p>
+</blockquote>
+
+<ul>
+  <li>古時候，雙方取得<strong>共識</strong>便可以交換商品。</li>
+  <li>現代，雙方取得<strong>共識</strong>便可以購買商品。</li>
+</ul>
+
+<p>倘若你不相信對方呢？那就會透過「公正第三方」來當作彼此的橋樑。</p>
+
+<blockquote>
+  <p>區塊鏈中也當然存在著共識，我們用大家最常見的拜占庭將軍簡化版來給大家了解一下。</p>
+</blockquote>
+
+<h2 id="角色介紹">角色介紹</h2>
+
+<p>從前從前有兩位將軍</p>
+
+<div align="center">
+    <img src="https://i.imgur.com/pBivxBf.png" />
+</div>
+
+<h3 id="將軍問題">將軍問題</h3>
+
+<ul>
+  <li>單一將軍是無法打贏敵人的。</li>
+  <li>A 將軍必須在敵方營地派遣一個使者，將進攻時間傳給 B 將軍。（ B 將軍將使者送給 A 將軍）。</li>
+  <li>這個使者有可能在路上發生意外或被敵軍抓走。</li>
+  <li>使者在回傳訊息時，也有可能發生上述的問題。</li>
+</ul>
+
+<div align="center">
+    <img src="https://i.imgur.com/lsc2Tsg.png" />
+</div>
+
+<p><br /></p>
+
+<div align="center">
+    <img src="https://i.imgur.com/lxlLPpj.png" />
+</div>
+
+<h3 id="拜占庭將軍問題">拜占庭將軍問題</h3>
+
+<ul>
+  <li>它描述了相同的場景，在這個場景中，需要兩名以上的將軍商定時間攻擊他們的共同敵人。</li>
+  <li>這是一個或多個將軍可以成為叛徒，這意味著他們可以為自己的選擇撒謊。</li>
+  <li>設置簡單命令，攻擊或後退。</li>
+</ul>
+
+<div align="center">
+    <img src="https://i.imgur.com/QMcBvTq.png" />
+</div>
+
+<p><br /></p>
+
+<div align="center">
+    <img src="https://i.imgur.com/LQKjx11.png" />
+</div>
+
+<hr />
+
+<blockquote>
+  <p>區塊鏈使用共識算法選出一個領導者，該領導者將決定下一個區塊的內容。</p>
+</blockquote>
+
+<hr />
+<h2 id="pow">POW</h2>
+
+<p>為了被選為領導者並選擇要添加到區塊鏈的下一個區塊，他們必須找到特定數學問題的解決方案。
+為該問題提供解決方案後，很容易驗證它是否正確。</p>
+
+<p><img src="https://ithelp.ithome.com.tw/upload/images/20191014/201183257dSCt7loGw.png" alt="https://ithelp.ithome.com.tw/upload/images/20191014/201183257dSCt7loGw.png" /></p>
+
+<h2 id="pos">POS</h2>
+
+<p>權益證明（Proof-Of-Stake, PoS）是在區塊鏈公鏈中的共識機制，它的出現，主要是希望取代工作量證明，從而減少為了產生新區塊而進行「挖礦」的大量運算。它與工作量證明 Proof-Of-Work 不同的是：在 PoW 中，大家比拼的是「算力」（運算能力），通過大量運算得出符合難度的 Hash 值，從而得到獎勵，亦無法預期是由誰產生下一個區塊；而在 PoS ，大家比拼的是「權益」，「權益」越大的人越大機會負責產生新區塊，也就是說能夠預期是由誰產生下一個區塊，所以 PoW 與 PoS 之間對於產生新區塊的方式存在很大差異，而且由於 PoW 的「挖礦」過程需要消耗龐大電力，造成對環境的破壞。而 PoS 的出現則試圖以另一種不同的機制取代「挖礦」來解決這個問題。</p>
+
+<p><img src="https://ithelp.ithome.com.tw/upload/images/20191014/20118325S6ba9bKJ0j.png" alt="https://ithelp.ithome.com.tw/upload/images/20191014/20118325S6ba9bKJ0j.png" /></p>
+
+<h2 id="小結">小結</h2>
+
+<p>今天聊聊簡易版的共識，讓大家看完上一篇的分岔，就可以來聊聊共識～
+這些東西是十分有趣的，而且以太坊現在也要從 POW -&gt; POS !</p>
+
+<p>若文章有任何的問題或要討論的部分，歡迎透過以下方式聯繫我。</p>
+
+<ul>
+  <li><a href="https://www.facebook.com/fzthblockchain">Facebook</a></li>
+  <li>Email: (pandap.d819@gamil.com)</li>
+  <li><a href="https://join.slack.com/t/fzth/shared_invite/enQtODQxMDQxMjE5MDU4LWJlZGNmZGNmODZiNzE3OWIyYTVjOTZhYjhiMjdlOWY0NGY5OTNjMzA0YTNlMmU2OGZlZTU3NzUzZTdiZTgxNTE">Slack</a></li>
+</ul>
+
+                </div>
+            </section>
+
+            <!-- Email subscribe form at the bottom of the page -->
+            
+
+            <footer class="post-full-footer">
+                <!-- Everything inside the #author tags pulls data from the author -->
+                <!-- #author-->
+                
+                    
+                        <section class="author-card">
+                            
+                                <img class="author-profile-image" src="/fzth/assets/images/panda.png" alt="panda" />
+                            
+                            <section class="author-card-content">
+                                <h4 class="author-card-name"><a href="/fzth/author/panda">Panda</a></h4>
+                                
+                                    <p>Hi I’m Panda，FromZeroToHero - Founder，台灣區塊鏈大學聯盟擔任教學副執行長且擅長分享區塊鏈知識與網頁相關技術，未來朝向讓不懂相關技術的人又可以簡易入門的文章。</p>
+                                
+                            </section>
+                        </section>
+                        <div class="post-full-footer-right">
+                            <a class="author-card-button" href="/fzth/author/panda">Read More</a>
+                        </div>
+                    
+                
+                <!-- /author  -->
+            </footer>
+
+            <!-- If you use Disqus comments, just uncomment this block.
+            The only thing you need to change is "test-apkdzgmqhj" - which
+            should be replaced with your own Disqus site-id. -->
+            
+
+        </article>
+
+    </div>
+</main>
+
+<!-- Links to Previous/Next posts -->
+<aside class="read-next outer">
+    <div class="inner">
+        <div class="read-next-feed">
+            
+                
+                
+                
+                
+            
+
+            <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
+            
+
+            <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
+            
+                
+
+    <article class="post-card post-template">
+        
+            <a class="post-card-image-link" href="/fzth/%E5%A6%82%E4%BD%95%E6%88%90%E7%82%BA%E5%8D%80%E5%A1%8A%E9%8F%88%E5%B7%A5%E7%A8%8B%E5%B8%AB">
+                <div class="post-card-image" style="background-image: url(/fzth/assets/images/panda-58.png)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/fzth/%E5%A6%82%E4%BD%95%E6%88%90%E7%82%BA%E5%8D%80%E5%A1%8A%E9%8F%88%E5%B7%A5%E7%A8%8B%E5%B8%AB">
+                <header class="post-card-header">
+                    
+                        
+                            
+                               <span class="post-card-tags">Blockchain</span>
+                            
+                        
+                            
+                                <span class="post-card-tags">Industry</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">如何成為區塊鏈工程師？</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p></p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/fzth/assets/images/panda.png" alt="Panda" />
+                        
+                        <span class="post-card-author">
+                            <a href="/fzth/author/panda/">Panda</a>
+                        </span>
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      1 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
+            
+
+        </div>
+    </div>
+</aside>
+
+<!-- Floating header which appears on-scroll, included from includes/floating-header.hbs -->
+<div class="floating-header">
+    <div class="floating-header-logo">
+        <a href="/fzth/">
+            
+                <img src="/fzth/assets/images/fzth.png" alt="FromZeroToHero-Blockchain icon" />
+            
+            <span>FromZeroToHero-Blockchain</span>
+        </a>
+    </div>
+    <span class="floating-header-divider">&mdash;</span>
+    <div class="floating-header-title">Consensus 共識演算法</div>
+    <div class="floating-header-share">
+        <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
+</svg>
+</div>
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=Consensus+%E5%85%B1%E8%AD%98%E6%BC%94%E7%AE%97%E6%B3%95&amp;url=https://fzth-blockchain.github.io/fzth/Consensus-%E5%85%B1%E8%AD%98%E6%BC%94%E7%AE%97%E6%B3%95"
+            onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+
+        </a>
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://fzth-blockchain.github.io/fzth/Consensus-%E5%85%B1%E8%AD%98%E6%BC%94%E7%AE%97%E6%B3%95"
+            onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
+
+        </a>
+    </div>
+    <progress class="progress" value="0">
+        <div class="progress-container">
+            <span class="progress-bar"></span>
+        </div>
+    </progress>
+</div>
+
+
+<!-- /post -->
+
+<!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs -->
+
+
+        <!-- Previous/next page links - displayed on every page -->
+        
+
+        <!-- The footer at the very bottom of the screen -->
+        <footer class="site-footer outer">
+            <div class="site-footer-content inner">
+                <section class="copyright"><a href="/fzth/">FromZeroToHero-Blockchain</a> &copy; 2019</section>
+                <section class="poweredby">Proudly published with <a href="https://fzth-blockchain.github.io/fzth/">FromZeroToHero</a> &
+                    <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> using
+                    <a href="https://github.com/jekyller/jasper2" target="_blank" rel="noopener">Jasper2</a></section>
+                <nav class="site-footer-nav">
+                    <a href="/fzth/">Latest Posts</a>
+                    
+                    
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- The big email subscribe modal content -->
+    
+
+    <!-- highlight.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
+    <script>$(document).ready(function() {
+      $('pre code').each(function(i, block) {
+        hljs.highlightBlock(block);
+      });
+    });</script>
+
+    <!-- jQuery + Fitvids, which makes all video embeds responsive -->
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="/fzth/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="https://demo.ghost.io/assets/js/jquery.fitvids.js?v=724281a32e"></script>
+
+
+    <!-- Paginator increased to "infinit" in _config.yml -->
+    <!-- if paginator.posts  -->
+    <!-- <script>
+        var maxPages = parseInt('');
+    </script>
+    <script src="/fzth/assets/js/infinitescroll.js"></script> -->
+    <!-- /endif -->
+
+    
+
+
+    <!-- Add Google Analytics  -->
+    <!-- Google Analytics Tracking code -->
+<!--  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'G-CPY0VEK0YS', 'auto');
+  ga('send', 'pageview');
+
+ </script> -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CPY0VEK0YS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CPY0VEK0YS');
+</script>
+
+
+    <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
+    
+        <script>
+
+// NOTE: Scroll performance is poor in Safari
+// - this appears to be due to the events firing much more slowly in Safari.
+//   Dropping the scroll event and using only a raf loop results in smoother
+//   scrolling but continuous processing even when not scrolling
+$(document).ready(function () {
+    // Start fitVids
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+    // End fitVids
+
+    var progressBar = document.querySelector('progress');
+    var header = document.querySelector('.floating-header');
+    var title = document.querySelector('.post-full-title');
+
+    var lastScrollY = window.scrollY;
+    var lastWindowHeight = window.innerHeight;
+    var lastDocumentHeight = $(document).height();
+    var ticking = false;
+
+    function onScroll() {
+        lastScrollY = window.scrollY;
+        requestTick();
+    }
+
+    function onResize() {
+        lastWindowHeight = window.innerHeight;
+        lastDocumentHeight = $(document).height();
+        requestTick();
+    }
+
+    function requestTick() {
+        if (!ticking) {
+            requestAnimationFrame(update);
+        }
+        ticking = true;
+    }
+
+    function update() {
+        var trigger = title.getBoundingClientRect().top + window.scrollY;
+        var triggerOffset = title.offsetHeight + 35;
+        var progressMax = lastDocumentHeight - lastWindowHeight;
+
+        // show/hide floating header
+        if (lastScrollY >= trigger + triggerOffset) {
+            header.classList.add('floating-active');
+        } else {
+            header.classList.remove('floating-active');
+        }
+
+        progressBar.setAttribute('max', progressMax);
+        progressBar.setAttribute('value', lastScrollY);
+
+        ticking = false;
+    }
+
+    window.addEventListener('scroll', onScroll, {passive: true});
+    window.addEventListener('resize', onResize, false);
+
+    update();
+});
+</script>
+
+    
+
+    <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
+    <!-- ghost_foot -->
+
+</body>
+</html>

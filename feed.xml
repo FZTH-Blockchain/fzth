@@ -1,4 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="/fzth/feed.xml" rel="self" type="application/atom+xml" /><link href="/fzth/" rel="alternate" type="text/html" /><updated>2019-12-20T03:26:29+00:00</updated><id>/fzth/</id><title type="html">FromZeroToHero-Blockchain</title><subtitle>面對於一項不專業的項目，從零開始都是十分的不容易的。&lt;br&gt;From Zero To Hero 將會帶各位「從零開始直到成為英雄」。</subtitle><entry><title type="html">如何成為區塊鏈工程師？</title><link href="/fzth/%E5%A6%82%E4%BD%95%E6%88%90%E7%82%BA%E5%8D%80%E5%A1%8A%E9%8F%88%E5%B7%A5%E7%A8%8B%E5%B8%AB" rel="alternate" type="text/html" title="如何成為區塊鏈工程師？" /><published>2019-12-20T00:00:00+00:00</published><updated>2019-12-20T00:00:00+00:00</updated><id>/fzth/%E5%A6%82%E4%BD%95%E6%88%90%E7%82%BA%E5%8D%80%E5%A1%8A%E9%8F%88%E5%B7%A5%E7%A8%8B%E5%B8%AB</id><content type="html" xml:base="/fzth/%E5%A6%82%E4%BD%95%E6%88%90%E7%82%BA%E5%8D%80%E5%A1%8A%E9%8F%88%E5%B7%A5%E7%A8%8B%E5%B8%AB">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="/fzth/feed.xml" rel="self" type="application/atom+xml" /><link href="/fzth/" rel="alternate" type="text/html" /><updated>2019-12-24T07:21:42+00:00</updated><id>/fzth/</id><title type="html">FromZeroToHero-Blockchain</title><subtitle>面對於一項不專業的項目，從零開始都是十分的不容易的。&lt;br&gt;From Zero To Hero 將會帶各位「從零開始直到成為英雄」。</subtitle><entry><title type="html">Consensus 共識演算法</title><link href="/fzth/Consensus-%E5%85%B1%E8%AD%98%E6%BC%94%E7%AE%97%E6%B3%95" rel="alternate" type="text/html" title="Consensus 共識演算法" /><published>2019-12-24T00:00:00+00:00</published><updated>2019-12-24T00:00:00+00:00</updated><id>/fzth/Consensus%20%E5%85%B1%E8%AD%98%E6%BC%94%E7%AE%97%E6%B3%95</id><content type="html" xml:base="/fzth/Consensus-%E5%85%B1%E8%AD%98%E6%BC%94%E7%AE%97%E6%B3%95">&lt;blockquote&gt;
+  &lt;p&gt;大家都知道區塊鏈的核心圍繞在「共識」上。那跟我們日常生活有什麼不同呢？基本上，我們生活中無時無刻都是在維持「共識」，該怎麼說呢？那就讓我們看下去吧！&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;古時候，雙方取得&lt;strong&gt;共識&lt;/strong&gt;便可以交換商品。&lt;/li&gt;
+  &lt;li&gt;現代，雙方取得&lt;strong&gt;共識&lt;/strong&gt;便可以購買商品。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;倘若你不相信對方呢？那就會透過「公正第三方」來當作彼此的橋樑。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;區塊鏈中也當然存在著共識，我們用大家最常見的拜占庭將軍簡化版來給大家了解一下。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;角色介紹&quot;&gt;角色介紹&lt;/h2&gt;
+
+&lt;p&gt;從前從前有兩位將軍&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;https://i.imgur.com/pBivxBf.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;將軍問題&quot;&gt;將軍問題&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;單一將軍是無法打贏敵人的。&lt;/li&gt;
+  &lt;li&gt;A 將軍必須在敵方營地派遣一個使者，將進攻時間傳給 B 將軍。（ B 將軍將使者送給 A 將軍）。&lt;/li&gt;
+  &lt;li&gt;這個使者有可能在路上發生意外或被敵軍抓走。&lt;/li&gt;
+  &lt;li&gt;使者在回傳訊息時，也有可能發生上述的問題。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;https://i.imgur.com/lsc2Tsg.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;https://i.imgur.com/lxlLPpj.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;拜占庭將軍問題&quot;&gt;拜占庭將軍問題&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;它描述了相同的場景，在這個場景中，需要兩名以上的將軍商定時間攻擊他們的共同敵人。&lt;/li&gt;
+  &lt;li&gt;這是一個或多個將軍可以成為叛徒，這意味著他們可以為自己的選擇撒謊。&lt;/li&gt;
+  &lt;li&gt;設置簡單命令，攻擊或後退。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;https://i.imgur.com/QMcBvTq.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;https://i.imgur.com/LQKjx11.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;區塊鏈使用共識算法選出一個領導者，該領導者將決定下一個區塊的內容。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;pow&quot;&gt;POW&lt;/h2&gt;
+
+&lt;p&gt;為了被選為領導者並選擇要添加到區塊鏈的下一個區塊，他們必須找到特定數學問題的解決方案。
+為該問題提供解決方案後，很容易驗證它是否正確。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://ithelp.ithome.com.tw/upload/images/20191014/201183257dSCt7loGw.png&quot; alt=&quot;https://ithelp.ithome.com.tw/upload/images/20191014/201183257dSCt7loGw.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;pos&quot;&gt;POS&lt;/h2&gt;
+
+&lt;p&gt;權益證明（Proof-Of-Stake, PoS）是在區塊鏈公鏈中的共識機制，它的出現，主要是希望取代工作量證明，從而減少為了產生新區塊而進行「挖礦」的大量運算。它與工作量證明 Proof-Of-Work 不同的是：在 PoW 中，大家比拼的是「算力」（運算能力），通過大量運算得出符合難度的 Hash 值，從而得到獎勵，亦無法預期是由誰產生下一個區塊；而在 PoS ，大家比拼的是「權益」，「權益」越大的人越大機會負責產生新區塊，也就是說能夠預期是由誰產生下一個區塊，所以 PoW 與 PoS 之間對於產生新區塊的方式存在很大差異，而且由於 PoW 的「挖礦」過程需要消耗龐大電力，造成對環境的破壞。而 PoS 的出現則試圖以另一種不同的機制取代「挖礦」來解決這個問題。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://ithelp.ithome.com.tw/upload/images/20191014/20118325S6ba9bKJ0j.png&quot; alt=&quot;https://ithelp.ithome.com.tw/upload/images/20191014/20118325S6ba9bKJ0j.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;小結&quot;&gt;小結&lt;/h2&gt;
+
+&lt;p&gt;今天聊聊簡易版的共識，讓大家看完上一篇的分岔，就可以來聊聊共識～
+這些東西是十分有趣的，而且以太坊現在也要從 POW -&amp;gt; POS !&lt;/p&gt;
+
+&lt;p&gt;若文章有任何的問題或要討論的部分，歡迎透過以下方式聯繫我。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.facebook.com/fzthblockchain&quot;&gt;Facebook&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Email: (pandap.d819@gamil.com)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://join.slack.com/t/fzth/shared_invite/enQtODQxMDQxMjE5MDU4LWJlZGNmZGNmODZiNzE3OWIyYTVjOTZhYjhiMjdlOWY0NGY5OTNjMzA0YTNlMmU2OGZlZTU3NzUzZTdiZTgxNTE&quot;&gt;Slack&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Panda</name></author><category term="fzth-post" /><summary type="html">大家都知道區塊鏈的核心圍繞在「共識」上。那跟我們日常生活有什麼不同呢？基本上，我們生活中無時無刻都是在維持「共識」，該怎麼說呢？那就讓我們看下去吧！</summary></entry><entry><title type="html">如何成為區塊鏈工程師？</title><link href="/fzth/%E5%A6%82%E4%BD%95%E6%88%90%E7%82%BA%E5%8D%80%E5%A1%8A%E9%8F%88%E5%B7%A5%E7%A8%8B%E5%B8%AB" rel="alternate" type="text/html" title="如何成為區塊鏈工程師？" /><published>2019-12-20T00:00:00+00:00</published><updated>2019-12-20T00:00:00+00:00</updated><id>/fzth/%E5%A6%82%E4%BD%95%E6%88%90%E7%82%BA%E5%8D%80%E5%A1%8A%E9%8F%88%E5%B7%A5%E7%A8%8B%E5%B8%AB</id><content type="html" xml:base="/fzth/%E5%A6%82%E4%BD%95%E6%88%90%E7%82%BA%E5%8D%80%E5%A1%8A%E9%8F%88%E5%B7%A5%E7%A8%8B%E5%B8%AB">&lt;blockquote&gt;
   &lt;p&gt;聊了該如何學習區塊鏈，接續 &lt;a href=&quot;https://fzth-blockchain.github.io/fzth/區塊鏈該怎麼學&quot;&gt;區塊鏈該怎麼學？&lt;/a&gt;，那我們今天就來介紹當今最紅的&lt;strong&gt;區塊鏈工程師&lt;/strong&gt;該怎麼入門吧！&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -891,77 +982,4 @@
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://metamask.io/&quot;&gt;MetaMask&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://read01.com/KBKgNok.html#.XYOStJMza-o&quot;&gt;冷熱錢包&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Panda</name></author><category term="blockchain" /><summary type="html">當我們了解到區塊鏈的過程後，講了比特幣、以太幣，那大家一定很好奇，這個幣到底歸屬於哪裡，要怎麼用在日常生活中，那就讓我們進入今天的主軸 – 錢包。</summary></entry><entry><title type="html">區塊鏈的演進？讓我們一探究竟</title><link href="/fzth/%E5%8D%80%E5%A1%8A%E9%8F%88%E7%9A%84%E6%BC%94%E9%80%B2%E8%AE%93%E6%88%91%E5%80%91%E4%B8%80%E6%8E%A2%E7%A9%B6%E7%AB%9F" rel="alternate" type="text/html" title="區塊鏈的演進？讓我們一探究竟" /><published>2019-12-03T00:00:00+00:00</published><updated>2019-12-03T00:00:00+00:00</updated><id>/fzth/%E5%8D%80%E5%A1%8A%E9%8F%88%E7%9A%84%E6%BC%94%E9%80%B2%E8%AE%93%E6%88%91%E5%80%91%E4%B8%80%E6%8E%A2%E7%A9%B6%E7%AB%9F</id><content type="html" xml:base="/fzth/%E5%8D%80%E5%A1%8A%E9%8F%88%E7%9A%84%E6%BC%94%E9%80%B2%E8%AE%93%E6%88%91%E5%80%91%E4%B8%80%E6%8E%A2%E7%A9%B6%E7%AB%9F">&lt;blockquote&gt;
-  &lt;p&gt;上一篇聊到了區塊鏈 3.0 是在做應用，那該不會 3.0 之前都在打哈哈吧？ 讓我們一探區塊鏈之全貌吧！
-&lt;a href=&quot;https://fzth-blockchain.github.io/fzth/%E5%8D%80%E5%A1%8A%E9%8F%88-3.0-%E6%87%89%E7%94%A8%E8%B5%B7%E9%A3%9B&quot;&gt;區塊鏈 3.0 應用起飛&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;前言&quot;&gt;前言&lt;/h2&gt;
-
-&lt;p&gt;我們主要會將區塊鏈分成區塊鏈 1.0 、 2.0 、 3.0 來介紹，區塊鏈這個概念起初是由中本聰發起之 Bitcoin 白皮書，這也是我們常說的區塊鏈 1.0。之後有了以太坊的誕生我們稱它為區塊鏈 2.0。&lt;/p&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;./assets/images/panda-23.png&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;center&gt;&lt;strong&gt;圖1 區塊鏈演進。&lt;/strong&gt;&lt;/center&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;貼心提醒&quot;&gt;貼心提醒&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;在中本聰論文中，並未提及 &lt;code class=&quot;highlighter-rouge&quot;&gt;blockchain&lt;/code&gt;，只聊到&lt;code class=&quot;highlighter-rouge&quot;&gt;去中心化&lt;/code&gt;及&lt;code class=&quot;highlighter-rouge&quot;&gt;分散式帳本&lt;/code&gt;概念。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;區塊鏈-10&quot;&gt;區塊鏈 1.0&lt;/h2&gt;
-
-&lt;p&gt;我們都知道中本聰當初是為了想要把中心化極權變成去中心化才採用了點對點（P2P）的方式介紹了這個去中心化分散式帳本系統，而在當初大家開始嘗試了挖礦、支付（當時第一筆交易支付是用了 10,000 Bitcoin 兌換了一塊 pizza，換算成美金大約是 1億美金約台幣30億 XD），我們也會說當初最象徵性的比特幣支付為比特幣 1.0 之代稱。&lt;/p&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;./assets/images/panda-24.png&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;center&gt;&lt;strong&gt;圖2 區塊鏈 1.0。&lt;/strong&gt;&lt;/center&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;區塊鏈-20&quot;&gt;區塊鏈 2.0&lt;/h2&gt;
-
-&lt;p&gt;在當時有一個小男孩叫做 Vitalik（後人稱之為 V 神），在大學期間花超過兩年時間研究比特幣，期間也包括共同創辦了密碼貨幣社群廣為人知的比特幣雜誌 Bitcoin Magazine，主要提供任何與比特幣相關的資訊，由於太過熱衷於參與社群，還因此輟學開始全職在該領域工作。&lt;/p&gt;
-
-&lt;p&gt;從那時開始他更了解了區塊鏈技術不應該只是用來支付，而以太坊（Ethereum）也在當時的討論中誕生了。&lt;/p&gt;
-
-&lt;p&gt;以太坊採用了一項新的技術名為智能合約（Smart Contract），讓區塊鏈上的事情都公開透明讓代碼（Code）可以自動去運行，簡化掉許多不必要之過程，並且一切都公開透明。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;智能合約&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;我們可以把智能合約想像成「自動販賣機」，這樣比較容易理解它的功用及運作方式。&lt;/p&gt;
-
-&lt;p&gt;你投入了一枚以太幣，合約去幫你執行購買飲料之合約，並會幫你檢查有沒有不符合合約之條件，若符合即會實現購買飲料此事件。&lt;/p&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;./assets/images/panda-25.png&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;center&gt;&lt;strong&gt;圖3 區塊鏈 2.0。&lt;/strong&gt;&lt;/center&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;小結&quot;&gt;小結&lt;/h2&gt;
-
-&lt;p&gt;今天稍微聊了昨天的區塊鏈 3.0 以及 1.0 和 2.0 之過往經歷，希望這篇可以讓更多的朋友了解到區塊鏈過程中的歷史，雖說是歷史但比特幣和以太坊仍十分活躍（幣價維持第一及第二名 XD）。&lt;/p&gt;
-
-&lt;p&gt;有著比特幣的支付功能，加上以太坊智能合約之透明公開概念，讓許多的應用可以更好地去打造、去實現，我想這是以太坊當初想要達到目的之一 ~&lt;/p&gt;
-
-&lt;p&gt;若文章有任何的問題或要討論的部分，歡迎在底下留言。
-歡迎透過 &lt;code class=&quot;highlighter-rouge&quot;&gt;Email: pandap.d819@gamil.com&lt;/code&gt; 聯絡我。&lt;/p&gt;
-
-&lt;h2 id=&quot;參考資料&quot;&gt;參考資料&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E6%AF%94%E7%89%B9%E5%B8%81&quot;&gt;比特幣&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.ethereum.org/&quot;&gt;以太坊&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://medium.com/taipei-ethereum-meetup/%E5%B7%A5%E7%A8%8B%E5%B8%AB%E8%A6%96%E8%A7%92-%E4%BB%80%E9%BA%BC%E6%98%AF%E5%8D%80%E5%A1%8A%E9%8F%88%E7%9A%84-smart-contract-d488308f461d&quot;&gt;智能合約&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Panda</name></author><category term="blockchain" /><summary type="html">上一篇聊到了區塊鏈 3.0 是在做應用，那該不會 3.0 之前都在打哈哈吧？ 讓我們一探區塊鏈之全貌吧！ 區塊鏈 3.0 應用起飛</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Panda</name></author><category term="blockchain" /><summary type="html">當我們了解到區塊鏈的過程後，講了比特幣、以太幣，那大家一定很好奇，這個幣到底歸屬於哪裡，要怎麼用在日常生活中，那就讓我們進入今天的主軸 – 錢包。</summary></entry></feed>
