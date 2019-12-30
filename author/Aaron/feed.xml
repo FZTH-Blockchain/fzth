@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
+  <link href="/fzth/author/Aaron/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/fzth/" rel="alternate" type="text/html" />
+  <updated>2019-12-30T02:45:10+00:00</updated>
+  <id>/fzth/author/Aaron/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">FromZeroToHero-Blockchain | </title>
+  
+
+  
+    <subtitle>面對於一項不專業的項目，從零開始都是十分的不容易的。&lt;br&gt;From Zero To Hero 將會帶各位「從零開始直到成為英雄」。</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">淺談非替代性代幣 NFT</title>
+      <link href="/fzth/%E6%B7%BA%E8%AB%87%E9%9D%9E%E6%9B%BF%E4%BB%A3%E6%80%A7%E4%BB%A3%E5%B9%A3-NFT" rel="alternate" type="text/html" title="淺談非替代性代幣 NFT" />
+      <published>2019-12-30T00:00:00+00:00</published>
+      <updated>2019-12-30T00:00:00+00:00</updated>
+      <id>/fzth/%E6%B7%BA%E8%AB%87%E9%9D%9E%E6%9B%BF%E4%BB%A3%E6%80%A7%E4%BB%A3%E5%B9%A3%20NFT</id>
+      <content type="html" xml:base="/fzth/%E6%B7%BA%E8%AB%87%E9%9D%9E%E6%9B%BF%E4%BB%A3%E6%80%A7%E4%BB%A3%E5%B9%A3-NFT">&lt;blockquote&gt;
+  &lt;p&gt;NFT（Non-Fungible Token）有人稱作為非替代性代幣，有人稱之為非對等式代幣或是非同質性代幣，但這又是甚麼呢 ?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;一般我們所使用的貨幣類似台幣（TWD）、美金（USD）、人民幣（CNY）、甚至到比特幣（BTC）、以太幣（ETH）等，都是屬於同質性貨幣，意思是甚麼? 意思是每個貨幣與每個貨幣之間相同而且相等，你手中的一塊台幣與我手中的一塊台幣完全相等且相同。&lt;/p&gt;
+
+&lt;p&gt;今天 Jack 跟 Henry 借了一塊錢台幣，過了若干年，Jack 還 Henry 跟他所借的那一塊錢，但是 Jack 還的是他跟 Henry 借的那一塊錢嗎? 恐怕不是，但那不影響他還錢的事實，因為所有的台幣都是相等的.同質性的.可替換性的，所以是否為最原始的那一塊錢並不影響。&lt;/p&gt;
+
+&lt;p&gt;但 NFT 就不同了，NFT 很適合用來代表獨一無二的內容，例如 在怎麼相似的兩個人，畢竟都還是不同的個體，再怎麼相似的房屋還是建立在不同位置，再怎麼相似的樹木還是有不同的年輪，所以可以稱之為相似代表有許多雷同之處但卻不同，這便是 NFT 非替代性代幣可以代表的東西。&lt;/p&gt;
+
+&lt;p&gt;這時候就開始有很多可以應用的位置了，例如：藝術品，當你在藝術品上打上編號植入到 Token 之中，那只要人們對此有共識，便可以代表此物品，而藝術品猶如我上面描述的物品，都是獨一無二不可替代的，就非常適合透過此方法來宣告其擁有者還有獨特性，這也就是非替代性代幣 NFT 的特色及核心了。&lt;/p&gt;
+
+&lt;p&gt;若文章有任何的問題或要討論的部分，歡迎透過以下方式聯繫我。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.facebook.com/fzthblockchain&quot;&gt;Facebook&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Email: (pandap.d819@gamil.com)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://join.slack.com/t/fzth/shared_invite/enQtODQxMDQxMjE5MDU4LWJlZGNmZGNmODZiNzE3OWIyYTVjOTZhYjhiMjdlOWY0NGY5OTNjMzA0YTNlMmU2OGZlZTU3NzUzZTdiZTgxNTE&quot;&gt;Slack&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Aaron</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="blockchain" />
+      
+
+      
+        <summary type="html">NFT（Non-Fungible Token）有人稱作為非替代性代幣，有人稱之為非對等式代幣或是非同質性代幣，但這又是甚麼呢 ?</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
