@@ -8,3 +8,14 @@ panda:
   facebook: 100023924749209
   twitter: pandazeng1
   cover: False
+
+Aaron:
+  username: Aaron
+  name: Aaron
+  url_full: https://fzth-blockchain.github.io/fzth/
+  url: fzth-blockchain.github.io/fzth
+  bio: FromZeroToHero - Coder 
+  picture: assets/images/Aaron.png
+  facebook: 100000515290844
+  # twitter: 
+  cover: False

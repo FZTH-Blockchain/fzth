@@ -5,7 +5,7 @@ cover: assets/images/panda-59.png #封面圖片
 navigation: True #上方導覽列
 title: Consensus 共識演算法 #id-標題名稱
 date: 2019-12-24 #日期 YYYY-MM-DD 
-tags: fzth-post #標籤
+tags: blockchain #標籤
 class: post-template 
 subclass: 'post' 
 author: panda #作者 
