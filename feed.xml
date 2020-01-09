@@ -1,4 +1,79 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="/fzth/feed.xml" rel="self" type="application/atom+xml" /><link href="/fzth/" rel="alternate" type="text/html" /><updated>2020-01-09T17:28:45+00:00</updated><id>/fzth/</id><title type="html">FromZeroToHero-Blockchain</title><subtitle>面對於一項不專業的項目，從零開始都是十分的不容易的。&lt;br&gt;From Zero To Hero 將會帶各位「從零開始直到成為英雄」。</subtitle><entry><title type="html">淺談非替代性代幣 NFT</title><link href="/fzth/%E6%B7%BA%E8%AB%87%E9%9D%9E%E6%9B%BF%E4%BB%A3%E6%80%A7%E4%BB%A3%E5%B9%A3-NFT" rel="alternate" type="text/html" title="淺談非替代性代幣 NFT" /><published>2019-12-30T00:00:00+00:00</published><updated>2019-12-30T00:00:00+00:00</updated><id>/fzth/%E6%B7%BA%E8%AB%87%E9%9D%9E%E6%9B%BF%E4%BB%A3%E6%80%A7%E4%BB%A3%E5%B9%A3%20NFT</id><content type="html" xml:base="/fzth/%E6%B7%BA%E8%AB%87%E9%9D%9E%E6%9B%BF%E4%BB%A3%E6%80%A7%E4%BB%A3%E5%B9%A3-NFT">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="/fzth/feed.xml" rel="self" type="application/atom+xml" /><link href="/fzth/" rel="alternate" type="text/html" /><updated>2020-01-09T17:33:52+00:00</updated><id>/fzth/</id><title type="html">FromZeroToHero-Blockchain</title><subtitle>面對於一項不專業的項目，從零開始都是十分的不容易的。&lt;br&gt;From Zero To Hero 將會帶各位「從零開始直到成為英雄」。</subtitle><entry><title type="html">以太坊實作非替代性代幣NFT</title><link href="/fzth/%E4%BB%A5%E5%A4%AA%E5%9D%8A%E5%AF%A6%E4%BD%9C%E9%9D%9E%E6%9B%BF%E4%BB%A3%E6%80%A7%E4%BB%A3%E5%B9%A3NFT" rel="alternate" type="text/html" title="以太坊實作非替代性代幣NFT" /><published>2020-01-08T00:00:00+00:00</published><updated>2020-01-08T00:00:00+00:00</updated><id>/fzth/%E4%BB%A5%E5%A4%AA%E5%9D%8A%E5%AF%A6%E4%BD%9C%E9%9D%9E%E6%9B%BF%E4%BB%A3%E6%80%A7%E4%BB%A3%E5%B9%A3NFT</id><content type="html" xml:base="/fzth/%E4%BB%A5%E5%A4%AA%E5%9D%8A%E5%AF%A6%E4%BD%9C%E9%9D%9E%E6%9B%BF%E4%BB%A3%E6%80%A7%E4%BB%A3%E5%B9%A3NFT">&lt;blockquote&gt;
+  &lt;p&gt;非替代性代幣NFT應用與實作&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;上一次我們講到了 非替代性代幣NFT 最基礎的概念，也就是可以代表著不對等的兩樣物品的代幣，如果還不了解甚麼事NFT可以進到 » &lt;a href=&quot;https://fzth-blockchain.github.io/fzth/%E6%B7%BA%E8%AB%87%E9%9D%9E%E6%9B%BF%E4%BB%A3%E6%80%A7%E4%BB%A3%E5%B9%A3-NFT&quot;&gt;淺談非替代性代幣NFT&lt;/a&gt; 
+了解一下NFT的概念，而今天我則要簡單地告訴大家如何實作出 NFT 來代表自己想代表的代幣。&lt;/p&gt;
+
+&lt;p&gt;這次實作先簡單的介紹一下使用的區塊鏈技術，我們使用以太坊上(Ethereum)的ERC-721做為建立的準則，ERC是甚麼意思? ERC的全名是Ethereum Request for Comments，是做為以太坊上建立Smart contract的依據，
+也是最多人用來建立NFT的依據，而ERC-721的內容簡單來說是代幣 [擁有] 與 [交易]，現在就來使用Solidity來實作NFT吧!
+&lt;br /&gt;
+&lt;br /&gt;
+這次我打算用NFT來代表農場裡飼主所養的動物，只要透過販賣的時候將Token轉交給購買者就可以使所有權轉移，現在就開始吧!&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;我們這次用三種不同種類的動物來代表NFT的代幣
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;首先先加入ERC-721&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;./assets/images/FZTH-NFT/Aaron-Erc721-1.png&quot; style=&quot;width:90%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;這些便是ERC-721的註譯內容，而然後我們便要開始撰寫代幣的模式，我們先建立一個Contract，就叫做Farm好了&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;./assets/images/FZTH-NFT/Aaron-Erc721-2.png&quot; style=&quot;width:90%&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;建立一個struct，有動物的種類與顏色，再來建立Mapping，使Token可以對應到Address，透過這樣的方式便可以確立Token的擁有者&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;./assets/images/FZTH-NFT/Aaron-Erc721-3.png&quot; style=&quot;width:90%&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;再來是紀錄的部分，將Token動向記錄到鏈上，這裡使用的是emit&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;./assets/images/FZTH-NFT/Aaron-Erc721-4.png&quot; style=&quot;width:90%&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;再來我們就要實作出查詢的部分，總不能誰有幾個代幣，誰擁有哪個代幣都不知道吧?&lt;/strong&gt;&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;./assets/images/FZTH-NFT/Aaron-Erc721-5.png&quot; style=&quot;width:90%&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;在來的這一個階段是實作出交易功能，增加代幣的靈活性，也依照ERC-721給予的準則來驗證擁有者&lt;/strong&gt;&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;./assets/images/FZTH-NFT/Aaron-Erc721-6.png&quot; style=&quot;width:90%&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;我把這支這能合約的重心放在最後一行，也就是Creat，這是這支智能合約的核心，代幣就是由這裡產出的&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;輸入動物名稱以及顏色後，便可以生產出一個代幣囉!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div align=&quot;center&quot;&gt;
+    &lt;img src=&quot;./assets/images/FZTH-NFT/Aaron-Erc721-7.png&quot; style=&quot;width:90%&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+## 
+而以上就是透過ERC-721實作動物農場的全部內容了，可以改看看裡面的參數或是Token結構作為練習，也可以在MetaMask上實際操作一次看看，讓自己更加了解智能合約的運作方式
+這次的實作NFT就到這裡了。
+&lt;br /&gt;
+若文章有任何的問題或要討論的部分，歡迎透過以下方式聯繫我。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.facebook.com/fzthblockchain&quot;&gt;Facebook&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Email: (aaronru19@gamil.com)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://join.slack.com/t/fzth/shared_invite/enQtODQxMDQxMjE5MDU4LWJlZGNmZGNmODZiNzE3OWIyYTVjOTZhYjhiMjdlOWY0NGY5OTNjMzA0YTNlMmU2OGZlZTU3NzUzZTdiZTgxNTE&quot;&gt;Slack&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Aaron</name></author><category term="blockchain" /><category term="industry" /><summary type="html">非替代性代幣NFT應用與實作</summary></entry><entry><title type="html">淺談非替代性代幣 NFT</title><link href="/fzth/%E6%B7%BA%E8%AB%87%E9%9D%9E%E6%9B%BF%E4%BB%A3%E6%80%A7%E4%BB%A3%E5%B9%A3-NFT" rel="alternate" type="text/html" title="淺談非替代性代幣 NFT" /><published>2019-12-30T00:00:00+00:00</published><updated>2019-12-30T00:00:00+00:00</updated><id>/fzth/%E6%B7%BA%E8%AB%87%E9%9D%9E%E6%9B%BF%E4%BB%A3%E6%80%A7%E4%BB%A3%E5%B9%A3%20NFT</id><content type="html" xml:base="/fzth/%E6%B7%BA%E8%AB%87%E9%9D%9E%E6%9B%BF%E4%BB%A3%E6%80%A7%E4%BB%A3%E5%B9%A3-NFT">&lt;blockquote&gt;
   &lt;p&gt;NFT（Non-Fungible Token）有人稱作為非替代性代幣，有人稱之為非對等式代幣或是非同質性代幣，但這又是甚麼呢 ?&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -757,109 +832,4 @@
 基本上都會有一些限制，跟交易費用差異跟交易檢查速度差異！&lt;/p&gt;
 
 &lt;p&gt;若文章有任何的問題或要討論的部分，歡迎在底下留言。
-歡迎透過 Email: pandap.d819@gamil.com 聯絡我。&lt;/p&gt;</content><author><name>Panda</name></author><category term="blockchain" /><category term="industry" /><summary type="html">在上一篇，進入區塊鏈的起手式篇 - 錢包篇，我們知道了區塊鏈錢包的應用，那我們這些錢包的錢該從哪裡來呢？</summary></entry><entry><title type="html">五分鐘創建屬於自己的密碼貨幣</title><link href="/fzth/%E4%BA%94%E5%88%86%E9%90%98%E5%89%B5%E5%BB%BA%E5%B1%AC%E6%96%BC%E8%87%AA%E5%B7%B1%E7%9A%84%E5%AF%86%E7%A2%BC%E8%B2%A8%E5%B9%A3" rel="alternate" type="text/html" title="五分鐘創建屬於自己的密碼貨幣" /><published>2019-12-07T00:00:00+00:00</published><updated>2019-12-07T00:00:00+00:00</updated><id>/fzth/%E4%BA%94%E5%88%86%E9%90%98%E5%89%B5%E5%BB%BA%E5%B1%AC%E6%96%BC%E8%87%AA%E5%B7%B1%E7%9A%84%E5%AF%86%E7%A2%BC%E8%B2%A8%E5%B9%A3</id><content type="html" xml:base="/fzth/%E4%BA%94%E5%88%86%E9%90%98%E5%89%B5%E5%BB%BA%E5%B1%AC%E6%96%BC%E8%87%AA%E5%B7%B1%E7%9A%84%E5%AF%86%E7%A2%BC%E8%B2%A8%E5%B9%A3">&lt;blockquote&gt;
-  &lt;p&gt;2017 年至 2018 年吵得轟轟烈烈的 ICO（Initial Coin Offering），那他們募資的虛擬貨幣是如何創造的呢？很困難嗎？你說昨天教的錢包會用得上?! 
-那就跟著我們的腳步，一起看下去吧！&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;若想要部署自己的虛擬貨幣至&lt;strong&gt;主網&lt;/strong&gt;上，請點選右上角的 Networks — 選擇 Main Ethereum Network !&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;./assets/images/panda-38.png&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;center&gt;&lt;strong&gt;圖1 Ropsten Test Network。&lt;/strong&gt;&lt;/center&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;此篇的教學會採用 Ethereum Ropsten Test Network，若順利測試成功再進行部署至主網（Main Ethereum Network）會比較安全且省錢喔！&lt;/code&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;step-0-必備條件&quot;&gt;Step 0 必備條件&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&quot;language-必備條件&quot;&gt;- MetaMask 錢包 + 足夠的 ETH
-- Chrome 或是 可以安裝錢包的瀏覽器
-
-密碼貨幣規格(Crypto Currency Spec)
-- 名稱(Name): NkustCoin
-- 符號(Symbol): NKC
-- 小數點(Decimal Point): 0
-- 代幣總數(Token Amount): 1000
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&quot;step-1-複製貼上大法&quot;&gt;Step 1 複製貼上大法&lt;/h2&gt;
-&lt;p&gt;請先將 MetaMask 的 NetWork 切換到 Ropsten Test Network，並且到這裡&lt;a href=&quot;https://faucet.metamask.io/&quot;&gt;領取免費ETH&lt;/a&gt;。 
-複製「&lt;a href=&quot;https://gist.github.com/panda850819/4300543031b341b58921aa1b009166ce&quot;&gt;程式碼(Code)&lt;/a&gt;然後將這個貼在「&lt;a href=&quot;https://remix.ethereum.org/&quot;&gt;智能合約編輯器(Smart Contract Online Editor)&lt;/a&gt;」&lt;/p&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;./assets/images/panda-39.gif&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;center&gt;&lt;strong&gt;圖2 將程式碼貼至智能合約編輯器。&lt;/strong&gt;&lt;/center&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;step2-修改參數&quot;&gt;Step2 修改參數&lt;/h2&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;修改三個參數（Modify three parameters）
-姓名（Name） / 符號（Symbol） / 小數點（Decimal）
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;./assets/images/panda-40.gif&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;center&gt;&lt;strong&gt;圖3 修改合約參數。&lt;/strong&gt;&lt;/center&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;step3-部署合約&quot;&gt;Step3 部署合約&lt;/h2&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;設定代幣總數到 1000(設定多少取決於自己喔！）,然後部署合約到 Etheruem 測試網路。 
-注意：
-1000 with decimal of 2 --&amp;gt; 10.00
-每一個單位為 0.01 共有 1000 個 --&amp;gt; 10.00
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;./assets/images/panda-41.gif&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;center&gt;&lt;strong&gt;圖4 部署 ERC-20 智能合約在 Remix IDE。&lt;/strong&gt;&lt;/center&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;step4-加入貨幣&quot;&gt;Step4 加入貨幣&lt;/h2&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. 複製 Remix 合約地址
-2. 打開 Metamask 錢包
-3. 新增代幣（Add tokens）中貼上合約地址
-我們將會看到剛剛創建的貨幣 :)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-    &lt;img src=&quot;./assets/images/panda-42.gif&quot; style=&quot;width:100%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;center&gt;&lt;strong&gt;圖5 將 ERC-20 貨幣加入至錢包中。&lt;/strong&gt;&lt;/center&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;小結&quot;&gt;小結&lt;/h2&gt;
-&lt;p&gt;在短短的五分鐘內，我們就完成發幣的動作，需要歸功於 ERC-20 標準，這個標準為 ERC-20 tokens 定義了一個通用的規則。&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Functions 
-1. 總供應量(totalSupply)
-2. 代幣餘額(balanceOf)
-3. 傳送方(transfer)
-4. 從哪傳送來(transferFrom)
-5. 指定付款方(approve)
-6. 檢查token使用者的代幣數量(allowance)兩個事件
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Events
-1. 傳送(transfer)
-2. 指定付款方並記錄(Approval)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;讓我們可以快速地使用 Remix 在 Etheruem… 等主網發布自己的虛擬貨幣！
-若想從其他地方查看自己的合約或是貨幣狀況，則需要切換網路（Network），請點選下圖紅框來切換網路！&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Ethereum 主網：https://etherscan.io/&lt;/li&gt;
-  &lt;li&gt;Ropsten 測試網：https://ropsten.etherscan.io/&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Panda</name></author><category term="blockchain" /><category term="tech" /><summary type="html">2017 年至 2018 年吵得轟轟烈烈的 ICO（Initial Coin Offering），那他們募資的虛擬貨幣是如何創造的呢？很困難嗎？你說昨天教的錢包會用得上?! 那就跟著我們的腳步，一起看下去吧！</summary></entry></feed>
+歡迎透過 Email: pandap.d819@gamil.com 聯絡我。&lt;/p&gt;</content><author><name>Panda</name></author><category term="blockchain" /><category term="industry" /><summary type="html">在上一篇，進入區塊鏈的起手式篇 - 錢包篇，我們知道了區塊鏈錢包的應用，那我們這些錢包的錢該從哪裡來呢？</summary></entry></feed>
