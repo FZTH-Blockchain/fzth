@@ -19,3 +19,14 @@ Aaron:
   facebook: 100000515290844
   # twitter: 
   cover: False
+
+mingzhe:
+  username: mingzhe
+  name: Mingzhe
+  url_full: https://fzth-blockchain.github.io/fzth/
+  url: fzth-blockchain.github.io/fzth
+  bio: FromZeroToHero - Co-Founder
+  picture: assets/images/mingzhe.png
+  facebook: 100002917298548
+  # twitter:
+  cover: False
