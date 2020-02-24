@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="/fzth/author/Aaron/feed.xml" rel="self" type="application/atom+xml" />
   <link href="/fzth/" rel="alternate" type="text/html" />
-  <updated>2020-01-15T08:01:31+00:00</updated>
+  <updated>2020-02-24T03:33:12+00:00</updated>
   <id>/fzth/author/Aaron/feed.xml</id>
 
   
@@ -34,6 +34,114 @@
   
   
 
+  
+    <entry>
+      <title type="html">FTX? 那是什麼?</title>
+      <link href="/fzth/FTX-%E9%82%A3%E6%98%AF%E4%BB%80%E9%BA%BC" rel="alternate" type="text/html" title="FTX? 那是什麼?" />
+      <published>2020-02-24T00:00:00+00:00</published>
+      <updated>2020-02-24T00:00:00+00:00</updated>
+      <id>/fzth/FTX?%E9%82%A3%E6%98%AF%E4%BB%80%E9%BA%BC?%20</id>
+      <content type="html" xml:base="/fzth/FTX-%E9%82%A3%E6%98%AF%E4%BB%80%E9%BA%BC">&lt;blockquote&gt;
+  &lt;p&gt;單純買賣虛擬貨幣已經無法滿足你對投資的渴望了? 那你可以試試看 FTX! 這是一所 [ &lt;strong&gt;加密貨幣衍生品交易所&lt;/strong&gt; ]，顧名思義，就是一款可以購買虛擬貨幣期貨以及指數的交易所，
+更有超過 100 倍的槓桿可以供選擇，來簡單的了解一下現在最火紅的 &lt;strong&gt;加密期貨交易所&lt;/strong&gt; FTX 吧!
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://ftx.com/&quot;&gt;FTX.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;div aling=&quot;center&quot;&gt;
+    &lt;img src=&quot;assets/images/Aaron-ftx.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;簡介&quot;&gt;簡介&lt;/h3&gt;
+&lt;p&gt;在目前大多的虛擬貨幣(CryptoCurrency)交易所當中，90% 的比率都是現貨市場，而合約交易只佔一小部分， FTX 認為虛擬貨幣對於未來數位金融擁有很大的潛力，因此 FTX 不只有常見的虛擬貨幣現貨同時也設計虛擬貨幣的延伸性產品。
+目前 FTX 合約的部分分成永續合約和季度交割合約兩種，永續合約的特色是沒有交割日期，適合長時間的投資，而季度合約則是有固定的交割日期，以每個季度最後成交價做計算。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;目前 FTX 基礎用戶不必 KYC，只需要入金即可，但是日提領上限不得高於 2000 USD&lt;/strong&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;入金&quot;&gt;入金&lt;/h3&gt;
+&lt;p&gt;FTX 入金方式與傳統證卷交易所或期貨交易所不大相同，FTX 並不是使用證券戶或是轉帳方式入金，而是使用虛擬貨幣入金。
+FTX 推薦使用的入金虛擬貨幣為:USDT、USDC、PAX、BUSD、HUSD。
+皆為穩定幣類型，若是持有虛擬貨幣如 ETH(以太幣)、BTC(比特幣)、XRP(瑞波幣)、BCH(比特現金)等，也可以轉入 FTX 專屬錢包並掛單售出作為入金方式，會較為方便。&lt;/p&gt;
+
+&lt;p&gt;若是新手想要體驗嘗試性質的操作，可以考慮由 Maicoin 購買 USDT，將 USDT 轉入 FTX 的 USDT 帳戶，掛單銷售再進行操作，也是一個選擇。&lt;/p&gt;
+
+&lt;div aling=&quot;center&quot;&gt;
+    &lt;img src=&quot;assets/images/Aaron-ftx2.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://medium.com/@yurenju/usdc-c9b1bf0b9c87&quot;&gt;USDC 入金方式&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;若是想了解 USDC 的入金方式可以點這裡來查看詳細步驟喔!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;平台幣&quot;&gt;平台幣&lt;/h3&gt;
+&lt;p&gt;以目前知名交易所如幣安、火幣、OKEx 都有發行自己平台的平台幣，平台幣在可以說是交易所的兵家必爭之地，因為平台幣的發行不僅可以幫交易所募集到資金，也可以從投資平台幣的用戶拓長展更多的用戶群。&lt;/p&gt;
+
+&lt;p&gt;因此 FTX 也發展了自己專屬的平台幣 FTT，FTT 總量發行 3.5 億個，發行完畢後永不再發行(嘿嘿!這個很難說囉)，而功能是可以做為期貨交易保證金抵押、支付交易手續費，而FTT的獲利也會有 1/3 用於回購 FTT 並且銷毀，作為永續經營的依據，這也類似幣安的 BNB 營運模式。&lt;/p&gt;
+
+&lt;h3 id=&quot;趣味性&quot;&gt;趣味性&lt;/h3&gt;
+&lt;p&gt;說道趣味性，這也是 FTX 十分有意思的點，FTX 開發的很多讓人意想不到的金融延伸性商品，如近期開發的川普合約 [&lt;strong&gt;Trump 2020 Futures&lt;/strong&gt;]，若川普當選則為&lt;strong&gt;1&lt;/strong&gt;塊美金，未當選則為&lt;strong&gt;0&lt;/strong&gt;塊，
+這雖然投資無關痛癢，但卻是一個很有意思的噱頭，吸引各大吃瓜群眾來了解，也十分符合 FTX 標新立異的做法。&lt;/p&gt;
+
+&lt;div aling=&quot;center&quot;&gt;
+    &lt;img src=&quot;assets/images/Aaron-FTX3.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;結語&quot;&gt;結語&lt;/h2&gt;
+
+&lt;p&gt;科技與金融日新月異，也延伸出越來越多種投資的方式，有多樣性的投資的方式固然是好的，但是也有許多讓人散盡家產，因此在這裡告誡大家 :
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;投資一定有風險，期貨投資有賺有賠，購買前應詳閱公開說明書&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;還有就是有一點需要注意的，每種投資方式對於各地區的法規有所限制，例如香港地區等因為法律關係便無法投資 &lt;strong&gt;2020川普合約&lt;/strong&gt;，投資時須注意。&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.facebook.com/fzthblockchain&quot;&gt;Facebook&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Email: (aaronru19@gamil.com)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://join.slack.com/t/fzth/shared_invite/enQtODQxMDQxMjE5MDU4LWJlZGNmZGNmODZiNzE3OWIyYTVjOTZhYjhiMjdlOWY0NGY5OTNjMzA0YTNlMmU2OGZlZTU3NzUzZTdiZTgxNTE&quot;&gt;Slack&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Aaron</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="blockchain" />
+      
+
+      
+        <summary type="html">單純買賣虛擬貨幣已經無法滿足你對投資的渴望了? 那你可以試試看 FTX! 這是一所 [ 加密貨幣衍生品交易所 ]，顧名思義，就是一款可以購買虛擬貨幣期貨以及指數的交易所， 更有超過 100 倍的槓桿可以供選擇，來簡單的了解一下現在最火紅的 加密期貨交易所 FTX 吧!</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">以太坊實作非替代性代幣NFT</title>
